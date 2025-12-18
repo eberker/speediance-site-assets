@@ -1,0 +1,2111 @@
+{
+  "meta": {
+    "version": "1.1",
+    "generatedAt": "2025-12-18T14:59:28Z",
+    "notes": [
+      "Amazon yorumları manuel girilecek (otomatik çekim yok).",
+      "Loox / Global yorumları da aynı şemaya eklenebilir.",
+      "Kartta TR çeviri (textTr) gösterilecek; orijinal metin (textOriginal) popup’ta opsiyonel.",
+      "Loox HTML'den 20 adet review parse edilerek sections.loox_global içine eklendi.",
+      "Loox HTML snippet'i kart metinlerini kısaltılmış (… ile) içeriyor olabilir; full metin gerekiyorsa manuel genişletin veya Loox export/endpoint kullanın.",
+      "textTr alanları boş bırakıldı; kartlarda Türkçe göstermek için çevirileri buraya girin.",
+      "Gruplandırma 3 bölüm: Türkiye, Global (Loox), Amazon (TR/US/DE).",
+      "Türkiye bölümü en başta; 'coming soon' kartı burada tutulur.",
+      "Amazon TR listesinde 'coming soon' kartı çıkarıldı."
+    ]
+  },
+  "sections": {
+    "turkey": [
+      {
+        "id": "tr_coming_soon",
+        "source": {
+          "type": "speedianceturkiye",
+          "market": "TR",
+          "name": "Speediance Türkiye",
+          "url": "https://speedianceturkiye.com/"
+        },
+        "country": {
+          "code": "TR",
+          "name": "Türkiye",
+          "flagEmoji": "🇹🇷"
+        },
+        "customer": {
+          "name": "Türkiye Yorumları",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "Türkiye Yorumları Yakında",
+        "textOriginal": "",
+        "textTr": "🇹🇷 Türkiye kullanıcı yorumları çok yakında burada yer alacak. Şimdilik global deneyimlerle ilham alın.",
+        "media": {
+          "type": "image",
+          "thumb": "https://static.ticimax.cloud/75882/uploads/editoruploads/reviews_tr_coming_soon.png",
+          "url": "https://static.ticimax.cloud/75882/uploads/editoruploads/reviews_tr_coming_soon.png"
+        },
+        "product": {
+          "name": "SPEEDIANCE GYM MONSTER",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/",
+          "image": ""
+        },
+        "tags": [
+          "tr-coming-soon"
+        ],
+        "priority": 999,
+        "isPlaceholder": false
+      }
+    ],
+    "global": [
+      {
+        "id": "loox-global-001",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Benjamin H.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "Pain-free setup and already loving this machine. Plenty of workout options and grateful for a sturdy,...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/12/9/8q-BDzA0s.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/9/8q-BDzA0s.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-002",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Ed D.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "Had my gym monster for a few years, and it’s been fantastic in my fitness journey. Support team is top...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/12/4/Gck2oaP-d.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/4/Gck2oaP-d.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-003",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Niko G.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I bought the Gym Monster two months ago and have been actively using it almost every day since then. I am...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/12/3/tTHl0-o-m.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/3/tTHl0-o-m.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-004",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Patrick D.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I bought the Speediance machine thinking I might use it now and then. I did not expect that it would...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/12/1/9_ow3SHvH.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/1/9_ow3SHvH.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-005",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Doug M.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "My son and I use our GM1 5-6 days per week each and absolutely love it!!! It's been a total game changer...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/11/26/XDKbQaeOZ.jpg",
+          "url": "https://images.loox.io/uploads/2025/11/26/XDKbQaeOZ.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-006",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Pablo Q.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "We’ve had the Speediance Gym Monster for several months now, and it’s been a game changer for our whole...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/10/18/rtAvymy11.jpg",
+          "url": "https://images.loox.io/uploads/2025/10/18/rtAvymy11.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-007",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "David G.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "So far so good.  The resistance variety is a pleasant surprise.  The entire system seems to be built to...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/10/11/OTQjb11ED.jpg",
+          "url": "https://images.loox.io/uploads/2025/10/11/OTQjb11ED.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-008",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Nathan C.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I waited for over 6 months before deciding to purchase the Gym Monster, and man I wish I had done it...",
+        "textTr": "",
+        "media": {
+          "type": "none",
+          "thumb": "",
+          "url": ""
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-009",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Lexsaul U.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "This is an amazing machine and it fits great in my space. Before i got it i was looking at squat racks and...",
+        "textTr": "",
+        "media": {
+          "type": "none",
+          "thumb": "",
+          "url": ""
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-010",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Maryam N.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "It is the best purchase we've made.\nWe can perform almost any exercises that we were doing in the gym, and...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/9/29/qc_a4Q5lr_cC_r7lHlW_orig.jpg",
+          "url": "https://images.loox.io/uploads/2025/9/29/qc_a4Q5lr_cC_r7lHlW_orig.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-011",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Neal C.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I’ve had the gym monster for over a year and I have multiple sclerosis so I use the gym monster for a rehab...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/9/17/lzfg80qsZ.jpg",
+          "url": "https://images.loox.io/uploads/2025/9/17/lzfg80qsZ.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-012",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Mileidys G.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I absolutely love this machine! It’s compact, versatile, and perfect for quick but effective workouts. The...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/9/2/SuRF7siuDh.jpg",
+          "url": "https://images.loox.io/uploads/2025/9/2/SuRF7siuDh.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-013",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "David R.",
+          "isVerifiedBuyer": false,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "This machine has been fantastic. It is incredibly versatile, compact, sturdy and I'm nowhere close to...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/5/24/S3nf_5czV.jpg",
+          "url": "https://images.loox.io/uploads/2025/5/24/S3nf_5czV.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-014",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Brian R.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "New to GM! Loving it so far. It fits neatly in the corner of my bedroom. The 220llbs is more than adequate...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/5/15/otedJF8E9.jpg",
+          "url": "https://images.loox.io/uploads/2025/5/15/otedJF8E9.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-015",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Jessica G.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I have the first Speediance that the company has come out with. This product has been a life changer for...",
+        "textTr": "",
+        "media": {
+          "type": "none",
+          "thumb": "",
+          "url": ""
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-016",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Gary K.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "One of the best purchases I have made in a long time.  Been using the GM1 for about 3 weeks now and have...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/1/22/uN9z6D-zS.jpg",
+          "url": "https://images.loox.io/uploads/2025/1/22/uN9z6D-zS.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-017",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Jason W.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "The Speediance Gym Monster 2 has really helped me get back into resistance training.  The programs are...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/1/21/CJetjcnGch.jpg",
+          "url": "https://images.loox.io/uploads/2025/1/21/CJetjcnGch.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-018",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Farah B.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "One of my favorite additions to my workout routine! I love this machine. It helped me a lot with my...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/1/23/Bho1hLLT2_orig.jpg",
+          "url": "https://images.loox.io/uploads/2025/1/23/Bho1hLLT2_orig.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-019",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Hector Manuel V.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "This has been the best purchase I have made in a long time. I definitely recommend the Gym Monster over the...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2024/12/5/rFtajYcKX_orig.jpg",
+          "url": "https://images.loox.io/uploads/2024/12/5/rFtajYcKX_orig.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-020",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Stephen C.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "headline": "",
+        "textOriginal": "I've had my Speediance Gym Monster for about 6 weeks now, and I love it! It's compact, fits perfectly in my...",
+        "textTr": "",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2024/11/16/cuCAhgA__.jpg",
+          "url": "https://images.loox.io/uploads/2024/11/16/cuCAhgA__.jpg"
+        },
+        "product": {
+          "name": "Speediance Gym Monster",
+          "variant": "",
+          "url": "https://www.speediance.com/",
+          "image": ""
+        },
+        "tags": [],
+        "priority": 0,
+        "isPlaceholder": false,
+        "isTruncated": true
+      }
+    ],
+    "amazon": {
+      "tr": [
+        {
+          "id": "ph_amazon_tr_01",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_02",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_03",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Mehmet Y.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_04",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Mehmet Y.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_05",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Doug M.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_06",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Patrick D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_07",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_08",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_09",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Pablo Q.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_tr_10",
+          "source": {
+            "type": "amazon",
+            "market": "TR",
+            "name": "Amazon.com.tr (TR)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "TR",
+            "name": "Türkiye",
+            "flagEmoji": "🇹🇷"
+          },
+          "customer": {
+            "name": "Pablo Q.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        }
+      ],
+      "us": [
+        {
+          "id": "ph_amazon_us_01",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Pablo Q.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_02",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Ed D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_03",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Doug M.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_04",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Patrick D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_05",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Mehmet Y.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_06",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Mehmet Y.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_07",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Niko G.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_08",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Pablo Q.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_09",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Patrick D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_us_10",
+          "source": {
+            "type": "amazon",
+            "market": "US",
+            "name": "Amazon.com (US)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States",
+            "flagEmoji": "🇺🇸"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        }
+      ],
+      "de": [
+        {
+          "id": "ph_amazon_de_01",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Ed D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_02",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Ed D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_03",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Mehmet Y.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_04",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Pablo Q.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_05",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Patrick D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_06",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Pablo Q.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_07",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_08",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_09",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Patrick D.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        },
+        {
+          "id": "ph_amazon_de_10",
+          "source": {
+            "type": "amazon",
+            "market": "DE",
+            "name": "Amazon.de (DE)",
+            "url": "https://example.com/review-source"
+          },
+          "country": {
+            "code": "DE",
+            "name": "Deutschland",
+            "flagEmoji": "🇩🇪"
+          },
+          "customer": {
+            "name": "Ayşe K.",
+            "isVerifiedBuyer": true,
+            "badgeText": "Verified buyer"
+          },
+          "rating": 5,
+          "date": "2025-01-01",
+          "headline": "",
+          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
+          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "media": {
+            "type": "image",
+            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
+            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+          },
+          "product": {
+            "name": "SPEEDIANCE GYM MONSTER",
+            "variant": "",
+            "url": "https://speedianceturkiye.com/",
+            "image": "https://via.placeholder.com/120x120?text=Product"
+          },
+          "tags": [
+            "strength",
+            "setup",
+            "family"
+          ],
+          "priority": 0,
+          "isPlaceholder": true
+        }
+      ]
+    }
+  }
+}
