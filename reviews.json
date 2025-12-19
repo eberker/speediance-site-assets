@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.1",
-    "generatedAt": "2025-12-18T14:59:28Z",
+    "version": "2.1",
+    "generatedAt": "2025-12-19",
     "notes": [
       "Amazon yorumları manuel girilecek (otomatik çekim yok).",
       "Loox / Global yorumları da aynı şemaya eklenebilir.",
@@ -11,8 +11,16 @@
       "textTr alanları boş bırakıldı; kartlarda Türkçe göstermek için çevirileri buraya girin.",
       "Gruplandırma 3 bölüm: Türkiye, Global (Loox), Amazon (TR/US/DE).",
       "Türkiye bölümü en başta; 'coming soon' kartı burada tutulur.",
-      "Amazon TR listesinde 'coming soon' kartı çıkarıldı."
-    ]
+      "Amazon TR listesinde 'coming soon' kartı çıkarıldı.",
+      "Loox Global yorumları için textTr ve previewTr eklendi."
+    ],
+    "counts": {
+      "turkey": 1,
+      "global": 20,
+      "amazon_tr": 10,
+      "amazon_us": 10,
+      "amazon_de": 10
+    }
   },
   "sections": {
     "turkey": [
@@ -54,7 +62,11 @@
           "tr-coming-soon"
         ],
         "priority": 999,
-        "isPlaceholder": false
+        "isPlaceholder": false,
+        "layout": {
+          "variant": "hero",
+          "aspect": "16:9"
+        }
       }
     ],
     "global": [
@@ -79,18 +91,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "Pain-free setup and already loving this machine. Plenty of workout options and grateful for a sturdy,...",
-        "textTr": "",
+        "textOriginal": "Pain-free setup and already loving this machine. Plenty of workout options and grateful for a sturdy, smooth workout every time. Highly recommend this machine.",
+        "textTr": "Kurulum sorunsuzdu ve bu makineyi şimdiden çok sevdim. Çok sayıda antrenman seçeneği var; her seferinde sağlam, akıcı ve güven veren bir çalışma sunuyor. Kesinlikle tavsiye ederim.",
+        "previewOriginal": "Pain-free setup and already loving this machine. Plenty of workout options and grateful for a sturdy,...",
+        "previewTr": "Kurulum sorunsuzdu ve bu makineyi şimdiden çok sevdim. Çok sayıda antrenman seçeneği var; her seferinde sağlam, akıcı ve güven veren bir çalışma sunuyor.…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/12/9/8q-BDzA0s.jpg",
           "url": "https://images.loox.io/uploads/2025/12/9/8q-BDzA0s.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Works Plus",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-works-plus",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-works-plus-3ee-7c.png"
         },
         "tags": [],
         "priority": 0,
@@ -118,18 +132,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "Had my gym monster for a few years, and it’s been fantastic in my fitness journey. Support team is top...",
-        "textTr": "",
+        "textOriginal": "Had my gym monster for a few years, and it’s been fantastic in my fitness journey. Support team is top notch in handling any issues I’ve had in that time!",
+        "textTr": "Gym Monster’ı birkaç yıldır kullanıyorum ve fitness yolculuğumda harika bir destek oldu. Yaşadığım her konuda destek ekibi inanılmaz ilgili ve çözüm odaklı!",
+        "previewOriginal": "Had my gym monster for a few years, and it’s been fantastic in my fitness journey. Support team is top...",
+        "previewTr": "Gym Monster’ı birkaç yıldır kullanıyorum ve fitness yolculuğumda harika bir destek oldu. Yaşadığım her konuda destek ekibi inanılmaz ilgili ve çözüm odakl…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/12/4/Gck2oaP-d.jpg",
           "url": "https://images.loox.io/uploads/2025/12/4/Gck2oaP-d.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -157,18 +173,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I bought the Gym Monster two months ago and have been actively using it almost every day since then. I am...",
-        "textTr": "",
+        "textOriginal": "I bought the Gym Monster two months ago and have been actively using it almost every day since then. I am very satisfied with the device because it allows even complete beginners to learn and progress quickly and effectively. My two sons are also enthusiastic about the device.\nHowever, I have had problems with the Bluetooth ring and handles disconnecting from the very beginning, so I contacted technical support. Their response was very quick and they soon offered me a solution to replace these accessories. Now I am waiting for the replacement accessories to arrive to test them.\nCurrently, I use the device without the help of Bluetooth devices and turn on the weight manually (on the screen), which is also an option, but it is less convenient than using wireless accessories.\nI bought the Gym Monster device along with all the accessories and the rowing machine and I must say that everything is made of extremely high quality. I also like that the device and accessories do not take up much space and are therefore suitable for smaller spaces.\nOverall, I am very satisfied with the device itself, as well as the communication and accessibility of technical support, and I can recommend this device to anyone who wants to exercise and tone their body, but doesn't have much time for fitness. You won't regret it.",
+        "textTr": "Gym Monster’ı iki ay önce aldım ve o günden beri neredeyse her gün kullanıyorum. Yeni başlayanlar için bile hızlı ve etkili şekilde öğrenmeye ve gelişmeye çok yardımcı oluyor. İki oğlum da cihazı çok sevdi.\n\nAncak ilk günden beri Bluetooth yüzük ve tutacakların bağlantısının kopmasıyla ilgili sorun yaşadım; teknik destekle iletişime geçtim. Çok hızlı yanıt verdiler ve aksesuarları değiştirme çözümü sundular. Şimdi yeni parçaların gelmesini bekliyorum.\n\nŞimdilik Bluetooth aksesuarlarında tam stabilite yakalayana kadar temkinliyim, ama genel deneyimim çok olumlu.",
+        "previewOriginal": "I bought the Gym Monster two months ago and have been actively using it almost every day since then. I am...",
+        "previewTr": "Gym Monster’ı iki ay önce aldım ve o günden beri neredeyse her gün kullanıyorum. Yeni başlayanlar için bile hızlı ve etkili şekilde öğrenmeye ve gelişmeye…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/12/3/tTHl0-o-m.jpg",
           "url": "https://images.loox.io/uploads/2025/12/3/tTHl0-o-m.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Family Plus",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://www.speedianceturkiye.com/gym-monster-1-family-plus",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=356,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-family-plus-5b9b8c.png"
         },
         "tags": [],
         "priority": 0,
@@ -196,18 +214,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I bought the Speediance machine thinking I might use it now and then. I did not expect that it would...",
-        "textTr": "",
+        "textOriginal": "I bought the Speediance machine thinking I might use it now and then. I did not expect that it would replace my gym membership entirely, but it has.  You can do nearly all of the same movements that you can do in a gym, so why have both? Great machine all around.",
+        "textTr": "Speediance’i “arada bir kullanırım” diye aldım; ama beklemediğim şekilde spor salonu üyeliğimin yerini tamamen aldı. Salonda yaptığınız hareketlerin neredeyse tamamını evde yapabiliyorsunuz. O halde neden ikisi birden? Her yönüyle harika bir cihaz.",
+        "previewOriginal": "I bought the Speediance machine thinking I might use it now and then. I did not expect that it would...",
+        "previewTr": "Speediance’i “arada bir kullanırım” diye aldım; ama beklemediğim şekilde spor salonu üyeliğimin yerini tamamen aldı. Salonda yaptığınız hareketlerin nered…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/12/1/9_ow3SHvH.jpg",
           "url": "https://images.loox.io/uploads/2025/12/1/9_ow3SHvH.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -235,18 +255,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "My son and I use our GM1 5-6 days per week each and absolutely love it!!! It's been a total game changer...",
-        "textTr": "",
+        "textOriginal": "My son and I use our GM1 5-6 days per week each and absolutely love it!!! It's been a total game changer for us.  Convenient, a HUGE amount of exercises that you can do and super easy to operate. Probably one of the most underrated things is - it's just a ton of fun to use! I don't dread lifting like I used to when I was going to a gym. Best piece of gym equipment I have ever bought. Supported with top notch customer support. Kind, courteous, reliable and helpful. A+++++ Speediance all the way around! Thank you!",
+        "textTr": "Oğlumla birlikte GM1’i haftada 5–6 gün kullanıyoruz ve bayılıyoruz! Bizim için tam anlamıyla oyun değiştirici oldu. Çok pratik, yapılabilecek egzersiz sayısı muazzam ve kullanımı çok kolay. Ayrıca en underrated tarafı: kullanması gerçekten eğlenceli. Eskiden salona giderken ağırlık çalışmayı ertelerdim; şimdi hevesle yapıyorum. Şimdiye kadar aldığım en iyi spor ekipmanı. Üstelik müşteri desteği de birinci sınıf: nazik, güvenilir ve çok yardımcı. A+++++ Speediance! Teşekkürler!",
+        "previewOriginal": "My son and I use our GM1 5-6 days per week each and absolutely love it!!! It's been a total game changer...",
+        "previewTr": "Oğlumla birlikte GM1’i haftada 5–6 gün kullanıyoruz ve bayılıyoruz! Bizim için tam anlamıyla oyun değiştirici oldu. Çok pratik, yapılabilecek egzersiz say…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/11/26/XDKbQaeOZ.jpg",
           "url": "https://images.loox.io/uploads/2025/11/26/XDKbQaeOZ.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -274,18 +296,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "We’ve had the Speediance Gym Monster for several months now, and it’s been a game changer for our whole...",
-        "textTr": "",
+        "textOriginal": "We’ve had the Speediance Gym Monster for several months now, and it’s been a game changer for our whole family. My teenage boys use it to build strength and improve their performance for soccer, and I love that I can create safe, controlled routines for them without worrying about heavy free weights. The system tracks their progress automatically, which keeps them motivated and competitive with each other.As a busy professional, the Gym Monster has been just as valuable for me. I can fit in a full, high-quality workout anytime — early morning, late at night, or between meetings — without leaving home. The resistance feels incredibly smooth, the setup is compact, and the software keeps improving with new workouts and smart features.It’s rare to find something that works so well for both adults and teens, but this machine does it all. It’s solid, versatile, and honestly feels like having a personal trainer and full gym right in the house.If I had one wish, it would be for a slightly wider, sturdier platform — especially for users who have the space. That small upgrade would make an already excellent system even better.Highly recommend it for families or anyone who wants the flexibility to train effectively at home.",
+        "textTr": "Speediance Gym Monster’ı birkaç aydır kullanıyoruz ve tüm aile için gerçekten oyun değiştirici oldu. Ergen oğullarım futbol performansı için güç kazanmak amacıyla kullanıyor; ben de ağır serbest ağırlıklar olmadan güvenli ve kontrollü rutinler oluşturabilmeyi seviyorum. Sistem ilerlemeyi otomatik takip ettiği için motive oluyorlar ve aralarında tatlı bir rekabet oluşuyor.\n\nYoğun çalışan biri olarak benim için de çok değerli: evden çıkmadan, sabah erken ya da gece geç, hatta toplantılar arasında bile antrenman yapabiliyorum. Evde profesyonel bir antrenman deneyimi isteyenlere kesinlikle öneririm.",
+        "previewOriginal": "We’ve had the Speediance Gym Monster for several months now, and it’s been a game changer for our whole...",
+        "previewTr": "Speediance Gym Monster’ı birkaç aydır kullanıyoruz ve tüm aile için gerçekten oyun değiştirici oldu. Ergen oğullarım futbol performansı için güç kazanmak…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/10/18/rtAvymy11.jpg",
           "url": "https://images.loox.io/uploads/2025/10/18/rtAvymy11.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -313,18 +337,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "So far so good.  The resistance variety is a pleasant surprise.  The entire system seems to be built to...",
-        "textTr": "",
+        "textOriginal": "So far so good.  The resistance variety is a pleasant surprise.  The entire system seems to be built to last.  I’ll do a full review after I use it for 1 year.",
+        "textTr": "Şimdilik her şey iyi. Direnç modlarındaki çeşitlilik hoş bir sürpriz oldu. Sistem genel olarak uzun ömürlü olacak şekilde tasarlanmış gibi görünüyor. Bir yıl kullandıktan sonra daha kapsamlı bir değerlendirme yapacağım.",
+        "previewOriginal": "So far so good.  The resistance variety is a pleasant surprise.  The entire system seems to be built to...",
+        "previewTr": "Şimdilik her şey iyi. Direnç modlarındaki çeşitlilik hoş bir sürpriz oldu. Sistem genel olarak uzun ömürlü olacak şekilde tasarlanmış gibi görünüyor. Bir…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/10/11/OTQjb11ED.jpg",
           "url": "https://images.loox.io/uploads/2025/10/11/OTQjb11ED.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Works Plus",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-works-plus",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-works-plus-3ee-7c.png"
         },
         "tags": [],
         "priority": 0,
@@ -352,18 +378,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I waited for over 6 months before deciding to purchase the Gym Monster, and man I wish I had done it...",
-        "textTr": "",
+        "textOriginal": "I waited for over 6 months before deciding to purchase the Gym Monster, and man I wish I had done it sooner. The screen is snappy, the machine is quiet, and the resistance feels so smooth. The number of exercises I'm able to do with this is mind-blowing - plus it will effectively pay for itself over going to a traditional gym. The software is great as well, and it keeps improving! Could not recommend this more.",
+        "textTr": "Gym Monster’ı almaya karar vermeden önce 6 aydan fazla bekledim; keşke daha önce alsaymışım. Ekran çok hızlı, cihaz sessiz ve direnç inanılmaz akıcı. Bununla yapabildiğim egzersiz sayısı akıl almaz—üstelik klasik spor salonuna göre kendini fazlasıyla amorti ediyor. Yazılım da çok iyi ve sürekli gelişiyor. Daha fazlasını önermek zor; kesinlikle tavsiye ederim.",
+        "previewOriginal": "I waited for over 6 months before deciding to purchase the Gym Monster, and man I wish I had done it...",
+        "previewTr": "Gym Monster’ı almaya karar vermeden önce 6 aydan fazla bekledim; keşke daha önce alsaymışım. Ekran çok hızlı, cihaz sessiz ve direnç inanılmaz akıcı. Bunu…",
         "media": {
           "type": "none",
           "thumb": "",
           "url": ""
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -391,18 +419,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "This is an amazing machine and it fits great in my space. Before i got it i was looking at squat racks and...",
-        "textTr": "",
+        "textOriginal": "This is an amazing machine and it fits great in my space. Before i got it i was looking at squat racks and dumbbell sets and I was looking at spending 4 time what this machine cost me . Glad I found the gym monster when I did plus I feel like the resistance with the cables activates my muscles more than with free weights.really great machine I had it for about a year and I’m very happy.",
+        "textTr": "Bu inanılmaz bir cihaz ve alanıma mükemmel uydu. Almadan önce squat rack ve dambıl setlerine bakıyordum; neredeyse bunun dört katı harcayacaktım. Gym Monster’ı zamanında keşfettiğim için çok mutluyum. Kabloların direnci, serbest ağırlıklara göre kaslarımı daha iyi aktive ediyor gibi. Yaklaşık bir yıldır kullanıyorum ve çok memnunum.",
+        "previewOriginal": "This is an amazing machine and it fits great in my space. Before i got it i was looking at squat racks and...",
+        "previewTr": "Bu inanılmaz bir cihaz ve alanıma mükemmel uydu. Almadan önce squat rack ve dambıl setlerine bakıyordum; neredeyse bunun dört katı harcayacaktım. Gym Mons…",
         "media": {
           "type": "none",
           "thumb": "",
           "url": ""
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -430,18 +460,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "It is the best purchase we've made.\nWe can perform almost any exercises that we were doing in the gym, and...",
-        "textTr": "",
+        "textOriginal": "It is the best purchase we've made. We can perform almost any exercises that we were doing in the gym, and I was even able to improve my form overall. I highly recommend having one in your home.",
+        "textTr": "Yaptığımız en iyi alışverişlerden biri. Salonda yaptığımız neredeyse tüm hareketleri evde yapabiliyoruz; hatta formumu bile geliştirdim. Evde bir tane bulundurmanızı kesinlikle öneririm.",
+        "previewOriginal": "It is the best purchase we've made.\nWe can perform almost any exercises that we were doing in the gym, and...",
+        "previewTr": "Yaptığımız en iyi alışverişlerden biri. Salonda yaptığımız neredeyse tüm hareketleri evde yapabiliyoruz; hatta formumu bile geliştirdim. Evde bir tane bul…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/9/29/qc_a4Q5lr_cC_r7lHlW_orig.jpg",
           "url": "https://images.loox.io/uploads/2025/9/29/qc_a4Q5lr_cC_r7lHlW_orig.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -469,18 +501,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I’ve had the gym monster for over a year and I have multiple sclerosis so I use the gym monster for a rehab...",
-        "textTr": "",
+        "textOriginal": "I’ve had the gym monster for over a year and I have multiple sclerosis so I use the gym monster for a rehab rehabilitation I especially love the rower. It’s a great exercise for me and my condition. I really do recommend the gym monster it’s a wonderful system and the company has been doing updates and really trying to take care of their customer base. Neal",
+        "textTr": "Gym Monster’ı bir yılı aşkın süredir kullanıyorum. Multipl skleroz (MS) hastasıyım ve cihazı rehabilitasyon amaçlı antrenmanlarda kullanıyorum; özellikle kürek aletini çok seviyorum. Benim durumum için harika bir egzersiz. Gym Monster’ı gerçekten öneririm; sistem çok iyi ve firma güncellemelerle kullanıcılarını desteklemeye devam ediyor.",
+        "previewOriginal": "I’ve had the gym monster for over a year and I have multiple sclerosis so I use the gym monster for a rehab...",
+        "previewTr": "Gym Monster’ı bir yılı aşkın süredir kullanıyorum. Multipl skleroz (MS) hastasıyım ve cihazı rehabilitasyon amaçlı antrenmanlarda kullanıyorum; özellikle…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/9/17/lzfg80qsZ.jpg",
           "url": "https://images.loox.io/uploads/2025/9/17/lzfg80qsZ.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -508,18 +542,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I absolutely love this machine! It’s compact, versatile, and perfect for quick but effective workouts. The...",
-        "textTr": "",
+        "textOriginal": "I absolutely love this machine! It’s compact, versatile, and perfect for quick but effective workouts. The design makes it easy to switch between exercises, and I’ve already noticed a big difference in my strength and energy. It’s been one of the best fitness investments I’ve made!!! For any one that wants to stay motivated, I put my machine in my bedroom so when I wake up, don’t even need to get super dressed to workout.",
+        "textTr": "Bu makineye bayılıyorum! Kompakt, çok yönlü ve kısa sürede bile etkili antrenmanlar için mükemmel. Tasarımı egzersizler arasında hızlı geçiş yapmayı kolaylaştırıyor; şimdiden güç ve enerjimde büyük fark hissettim. Yaptığım en iyi fitness yatırımlarından biri! Motive kalmak isteyenlere de küçük bir ipucu: cihazı yatak odama koydum; uyanınca spor için ekstra hazırlanmak bile gerekmiyor.",
+        "previewOriginal": "I absolutely love this machine! It’s compact, versatile, and perfect for quick but effective workouts. The...",
+        "previewTr": "Bu makineye bayılıyorum! Kompakt, çok yönlü ve kısa sürede bile etkili antrenmanlar için mükemmel. Tasarımı egzersizler arasında hızlı geçiş yapmayı kolay…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/9/2/SuRF7siuDh.jpg",
           "url": "https://images.loox.io/uploads/2025/9/2/SuRF7siuDh.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Works",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://www.speedianceturkiye.com/gym-monster-1-works",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=356,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-works-03-416.png"
         },
         "tags": [],
         "priority": 0,
@@ -547,18 +583,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "This machine has been fantastic. It is incredibly versatile, compact, sturdy and I'm nowhere close to...",
-        "textTr": "",
+        "textOriginal": "This machine has been fantastic. It is incredibly versatile, compact, sturdy and I'm nowhere close to pushing it's limits. The programming is great with all types of premade workouts for any level. But you can also build your own and save them using a great interface on your phone or directly on the machine. After owning it nearly a year I have seen it go through a number of significant software updates adding features like phone connectivity for music, or heart rate monitor connectivity and AI features as well as additional content and workouts. It's amazing considering they don't charge for the software. They really listen to their users and have even implemented a suggestion I've sent in.",
+        "textTr": "Bu cihaz müthiş. İnanılmaz derecede çok yönlü, kompakt, sağlam ve henüz sınırlarını zorlamaya yaklaşmadım bile. Programlar her seviyeye uygun; hazır antrenmanlar çok iyi. Ayrıca telefondan ya da cihaz üzerinden kendi antrenmanlarınızı oluşturup kaydedebiliyorsunuz. Yaklaşık bir yıldır kullanıyorum ve bu süreçte müzik bağlantısı, nabız ölçer entegrasyonu, yapay zekâ özellikleri ve yeni içerikler gibi ciddi yazılım güncellemeleri geldi. Üstelik yazılım için ücret almamaları harika. Kısacası: paket halinde muazzam bir ürün.",
+        "previewOriginal": "This machine has been fantastic. It is incredibly versatile, compact, sturdy and I'm nowhere close to...",
+        "previewTr": "Bu cihaz müthiş. İnanılmaz derecede çok yönlü, kompakt, sağlam ve henüz sınırlarını zorlamaya yaklaşmadım bile. Programlar her seviyeye uygun; hazır antre…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/5/24/S3nf_5czV.jpg",
           "url": "https://images.loox.io/uploads/2025/5/24/S3nf_5czV.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -586,18 +624,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "New to GM! Loving it so far. It fits neatly in the corner of my bedroom. The 220llbs is more than adequate...",
-        "textTr": "",
+        "textOriginal": "New to GM! Loving it so far. It fits neatly in the corner of my bedroom. The 220llbs is more than adequate. The motion is smoother than I expected and I look forward to starting my fitness journey with Speediance. A+",
+        "textTr": "Gym Monster’a yeni başladım ve şimdilik harika! Yatak odamın köşesine çok düzgün yerleşiyor. 220 lb kapasite fazlasıyla yeterli. Hareket akıcılığı beklediğimden daha iyi. Speediance ile fitness yolculuğuma başlamak için sabırsızlanıyorum. A+",
+        "previewOriginal": "New to GM! Loving it so far. It fits neatly in the corner of my bedroom. The 220llbs is more than adequate...",
+        "previewTr": "Gym Monster’a yeni başladım ve şimdilik harika! Yatak odamın köşesine çok düzgün yerleşiyor. 220 lb kapasite fazlasıyla yeterli. Hareket akıcılığı bekledi…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/5/15/otedJF8E9.jpg",
           "url": "https://images.loox.io/uploads/2025/5/15/otedJF8E9.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -625,18 +665,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I have the first Speediance that the company has come out with. This product has been a life changer for...",
-        "textTr": "",
+        "textOriginal": "I have the first Speediance that the company has come out with. This product has been a life changer for me. The hardest thing about getting back into shape was physically going to the gym however I did not feel I was able to get an adequate workout at home. This machine and program has not only changed that for me but also at an affordable price! Being able to join the community without a monthly fee, workout in the privacy of my home, and regardless of the weather conditions, there are no excuses being that I don't have to leave the house! Not to mention, their customer service has been nothing short of spectacular! This product and company have by far met my expectations. Thank you Speediance team, I'm so thankful to you and happy to be a part of this community!",
+        "textTr": "Firmanın çıkardığı ilk Speediance modeline sahibim. Bu ürün hayatımı değiştirdi. Forma dönmenin en zor yanı salona fiziksel olarak gitmekti; evde ise yeterli antrenman yapamadığımı hissediyordum. Bu cihaz ve program bunu tamamen değiştirdi—üstelik uygun bir maliyetle. Aylık ücret olmadan topluluğa katılabilmek, evin mahremiyetinde spor yapmak ve hava koşullarından bağımsız olarak “bahane” bırakmaması harika. Üstüne müşteri hizmetleri de olağanüstü. Hem ürün hem şirket beklentilerimin üstünde.",
+        "previewOriginal": "I have the first Speediance that the company has come out with. This product has been a life changer for...",
+        "previewTr": "Firmanın çıkardığı ilk Speediance modeline sahibim. Bu ürün hayatımı değiştirdi. Forma dönmenin en zor yanı salona fiziksel olarak gitmekti; evde ise yete…",
         "media": {
           "type": "none",
           "thumb": "",
           "url": ""
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -664,18 +706,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "One of the best purchases I have made in a long time.  Been using the GM1 for about 3 weeks now and have...",
-        "textTr": "",
+        "textOriginal": "One of the best purchases I have made in a long time.  Been using the GM1 for about 3 weeks now and have felt and noticed a difference in my strength.  It is exactly what I was hoping for in a piece of exercises equipment.  Easy to use and the real deal.",
+        "textTr": "Uzun zamandır yaptığım en iyi alışverişlerden biri. GM1’i yaklaşık 3 haftadır kullanıyorum ve gücümde farkı hissedip görüyorum. Tam olarak bir egzersiz ekipmanından beklediğim şeydi. Kullanımı kolay ve gerçekten işini yapan bir sistem.",
+        "previewOriginal": "One of the best purchases I have made in a long time.  Been using the GM1 for about 3 weeks now and have...",
+        "previewTr": "Uzun zamandır yaptığım en iyi alışverişlerden biri. GM1’i yaklaşık 3 haftadır kullanıyorum ve gücümde farkı hissedip görüyorum. Tam olarak bir egzersiz ek…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/1/22/uN9z6D-zS.jpg",
           "url": "https://images.loox.io/uploads/2025/1/22/uN9z6D-zS.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -703,18 +747,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "The Speediance Gym Monster 2 has really helped me get back into resistance training.  The programs are...",
-        "textTr": "",
+        "textOriginal": "The Speediance Gym Monster 2 has really helped me get back into resistance training.  The programs are great for creating a routine and the data you get helps you keep track of your progress.  I've only had it for a month of so and feel like my workouts are better than when I was at a gym.  Looking forward to my continued fitness journey using this machine.",
+        "textTr": "Speediance Gym Monster 2, direnç antrenmanına geri dönmemde büyük yardımcı oldu. Programlar rutin oluşturmayı kolaylaştırıyor ve elde ettiğiniz veriler gelişiminizi takip etmenizi sağlıyor. Yaklaşık bir aydır kullanıyorum ve antrenmanlarımın spor salonundakinden bile daha iyi olduğunu hissediyorum. Bu makineyle fitness yolculuğuma devam etmeyi sabırsızlıkla bekliyorum.",
+        "previewOriginal": "The Speediance Gym Monster 2 has really helped me get back into resistance training.  The programs are...",
+        "previewTr": "Speediance Gym Monster 2, direnç antrenmanına geri dönmemde büyük yardımcı oldu. Programlar rutin oluşturmayı kolaylaştırıyor ve elde ettiğiniz veriler ge…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/1/21/CJetjcnGch.jpg",
           "url": "https://images.loox.io/uploads/2025/1/21/CJetjcnGch.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 2 Works",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://www.speedianceturkiye.com/gym-monster-2-works",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=356,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-2-works-ee6-94.png"
         },
         "tags": [],
         "priority": 0,
@@ -742,18 +788,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "One of my favorite additions to my workout routine! I love this machine. It helped me a lot with my...",
-        "textTr": "",
+        "textOriginal": "One of my favorite additions to my workout routine! I love this machine. It helped me a lot with my physique and strength. My husband and I switched turns and I found it very convenient since I’m a working mom and I have no time to drive to a local gym. This is my gym in a machine. I am literally in love with it and can’t skip a day without working out. The programs are great and you can custom your workout to what’s best for your goals. Get it now!!!!!",
+        "textTr": "Antrenman rutinime yaptığım en sevdiğim eklemelerden biri! Bu makineye bayılıyorum. Fizik ve güç açısından bana çok yardımcı oldu. Eşimle sırayla kullanıyoruz; çalışan bir anne olarak spor salonuna gitmeye vaktim yokken inanılmaz pratik. Bu resmen “makine içinde spor salonu”. Kelimenin tam anlamıyla aşığım; bir gün bile antrenmansız geçirmiyorum. Programlar çok iyi; hedeflerinize uygun şekilde antrenmanınızı kişiselleştirebiliyorsunuz. Hemen alın!!!!!",
+        "previewOriginal": "One of my favorite additions to my workout routine! I love this machine. It helped me a lot with my...",
+        "previewTr": "Antrenman rutinime yaptığım en sevdiğim eklemelerden biri! Bu makineye bayılıyorum. Fizik ve güç açısından bana çok yardımcı oldu. Eşimle sırayla kullanıy…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/1/23/Bho1hLLT2_orig.jpg",
           "url": "https://images.loox.io/uploads/2025/1/23/Bho1hLLT2_orig.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 1 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://speedianceturkiye.com/gym-monster-1-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=446,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-1-basic-b-a492.png"
         },
         "tags": [],
         "priority": 0,
@@ -781,18 +829,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "This has been the best purchase I have made in a long time. I definitely recommend the Gym Monster over the...",
-        "textTr": "",
+        "textOriginal": "This has been the best purchase I have made in a long time. I definitely recommend the Gym Monster over the other home gym systems. I have tried several of these systems and this is definitely the best. Its versatility, mobility and size make it ideal for any home whether large or small. Highly recommended.",
+        "textTr": "Bu, uzun zamandır yaptığım en iyi alışveriş. Diğer ev tipi gym sistemlerine kıyasla Gym Monster’ı kesinlikle öneririm. Birkaç farklı sistemi denedim; bu açık ara en iyisi. Çok yönlülüğü, taşınabilirliği ve kompakt yapısı sayesinde eviniz büyük ya da küçük olsun mükemmel uyuyor. Şiddetle tavsiye ederim.",
+        "previewOriginal": "This has been the best purchase I have made in a long time. I definitely recommend the Gym Monster over the...",
+        "previewTr": "Bu, uzun zamandır yaptığım en iyi alışveriş. Diğer ev tipi gym sistemlerine kıyasla Gym Monster’ı kesinlikle öneririm. Birkaç farklı sistemi denedim; bu a…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2024/12/5/rFtajYcKX_orig.jpg",
           "url": "https://images.loox.io/uploads/2024/12/5/rFtajYcKX_orig.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 2 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://www.speedianceturkiye.com/gym-monster-2-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=356,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-2-basic-222a-4.png"
         },
         "tags": [],
         "priority": 0,
@@ -820,18 +870,20 @@
         "rating": 5,
         "date": "",
         "headline": "",
-        "textOriginal": "I've had my Speediance Gym Monster for about 6 weeks now, and I love it! It's compact, fits perfectly in my...",
-        "textTr": "",
+        "textOriginal": "I've had my Speediance Gym Monster for about 6 weeks now, and I love it! It's compact, fits perfectly in my space, and the workouts have been great! I’ve used a home gym with free weights for years, but was growing frustrated with the exercise limitations and my wife hated the sound of clanking weight plates. I had been interested in Tonal, but the fact that Speediance offered a free life time membership was one big deciding factor for me. That, and the fact that there is no mounting needed for the Gym Monster. The versatility is astounding— now I can hit every muscle group and go from exercise to exercise with minimal set up. The smart weight system is amazing. I can turn the weight on and off and adjust it, all with the touch of a button on the blue tooth ring. The Facebook group is very active, and the company keeps upgrading the software and providing new accessories. I highly recommend this product to everyone. I couldn't be more satisfied with this health investment.",
+        "textTr": "Speediance Gym Monster’ı yaklaşık 6 haftadır kullanıyorum ve çok seviyorum! Kompakt, alanıma mükemmel uyuyor ve antrenmanlar harika. Yıllarca serbest ağırlıkla evde çalıştım ama hareket kısıtları beni sıkmaya başlamıştı; eşim de ağırlık plakalarının sesinden rahatsız oluyordu. Tonal’a bakıyordum; ama Speediance’in ücretsiz ömür boyu üyelik sunması benim için büyük bir artıydı. Bir de Gym Monster’ı duvara monte etmek gerekmiyor.\n\nÇok yönlülük inanılmaz: artık tüm kas gruplarını çalıştırabiliyorum ve programlar gerçekten iyi.",
+        "previewOriginal": "I've had my Speediance Gym Monster for about 6 weeks now, and I love it! It's compact, fits perfectly in my...",
+        "previewTr": "Speediance Gym Monster’ı yaklaşık 6 haftadır kullanıyorum ve çok seviyorum! Kompakt, alanıma mükemmel uyuyor ve antrenmanlar harika. Yıllarca serbest ağır…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2024/11/16/cuCAhgA__.jpg",
           "url": "https://images.loox.io/uploads/2024/11/16/cuCAhgA__.jpg"
         },
         "product": {
-          "name": "Speediance Gym Monster",
+          "name": "Speediance Gym Monster 2 Basic",
           "variant": "",
-          "url": "https://www.speediance.com/",
-          "image": ""
+          "url": "https://www.speedianceturkiye.com/gym-monster-2-basic",
+          "image": "https://static.ticimax.cloud/cdn-cgi/image/width=356,quality=85,format=webp/75882/uploads/urunresimleri/buyuk/gym-monster-2-basic-222a-4.png"
         },
         "tags": [],
         "priority": 0,
@@ -842,12 +894,12 @@
     "amazon": {
       "tr": [
         {
-          "id": "ph_amazon_tr_01",
+          "id": "amazon-tr-001",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -855,41 +907,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "CWS",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2024-10-16",
+          "headline": "Speediance Gym Monster - genau das was mich zuhause zum Krafttraining motivieren kann",
+          "textOriginal": "Zunächst: Ich habe das Teil selbst gekauft und wurde nicht zu einer Rezension aufgefordert. Ich habe das Speediance Gym Monster zwar erst seit ein paar Tagen aber ich kann bereits jetzt schon sagen, dass ich total begeistert und motiviert bin. Ich war früher im Fitness-Studio aber ich mochte nicht, dass die Griffe an den Geräten nie gereinigt werden und mir auch niemand assistiert. Außerdem war ich letztlich immer zu faul mich auf den Weg zu machen. Das ist beim Gym Monster anders. Klar, im Vergleich zum Fitti amortisiert sich das Investment je nach monatlicher Gebühr erst in 5-10 Jahren (vergesst nicht die künftigen Preissteigerungen bei der Rechnung 😉), aber das ist mir egal, denn für mich heißt es: Entweder garnichts machen oder eben zuhause für mich. Ins Fitti wollte ich nicht. Ich habe lange überlegt bzgl. der hohen Anschaffung, aber es nicht bereut. Was mich letztlich überzeugt hat den Schritt zu gehen: - Solide verarbeitet - Eigentlich nur gute Reviews (okay, die meisten haben auch einen Gutscheincode und sind daher vermutlich nicht ganz neutral) - Ich habe einen Personal-Coach der mir die passenden Gewichte auflegt, mich motiviert und mir die Übungen vormacht, wenn ich das möchte. Ich kann mir selbst einen Trainingsplan zusammenstellen oder einen vorgeschlagenen Plan befolgen. Ich kann aber auch einfach freie Übungen machen. - Wenig Platzbedarf - Großer (schwenkbarer) Bildschirm den ich auch ohne Lesebrille ablesen kann - Es gibt einen Offline-Modus (freies Training), falls die Firma irgendwann die Server abschaltet - Genaues Tracking meiner Leistungen und Übermittlung in Apple Aktivitäten bzw. Health - Es wird die Herzfrequenz der Apple Watch am Bildschirm angezeigt - Sehr netter und auskunftsfreudiger Kundendienst - Schnelle Lieferung: Um 15 Uhr bestellt, kam am Folgetag um 7:15 per Spedition (die Jungs haben sich aber verweigert den 100 kg Karton (ohne Tragegriffe) durchs enge Treppenhaus in den ersten Stock zu tragen, obwohl Lieferung an Wunschort 😬). Ausgepackt kann man das Teil aber zu zweit hochwuchten. - Bei einer Bestellung über Amazon gibt es 30 Tage Rückgaberecht (auf der Händlerseite nur 14 Tage) und mir war es recht Amazon als Vermittler dazwischen zu haben Zum Gerät: Alles sehr stabil und schwer ausgeführt (selbst die Bank). Erfüllt genau meine Erwartungen an ein hochwertiges Produkt. Einer der Lüfter surrt etwas unangenehm, aber während des Workouts hört man das eher nicht, nur wenn man seitlich daneben steht. Wenn ich es nicht benutze schalte ich es mit dem richtigen Schalter aus. Die deutschen Übersetzungen sind von okay über amüsant bis hin zu verwirrend - aber daran kann der Hersteller ja noch arbeiten. Es kommen übrigens regelmäßig Updates (das konnte ich schon bei der App verfolgen und das Gerät musste direkt ein paar Versionsnummern überspringen um auf den neusten Stand zu kommen). Die Inbetriebnahme ist einfach. Und ja, es gibt eine lebenslange Mitgliedschaft ohne Kosten. Es wird aber vielleicht künftig zusätzliche (KI?) Funktionen geben, die dann kostenpflichtig sein können. Aktuell gibt es bereits eine \"KI\" für die Gewichtsempfehlungen anhand des bisherigen Verhaltens. Die Kurse sind gut umgesetzt. Das 3D-Rudern im Kanal finde ich besonders cool. Durch die digitalen (mit Motoren erzeugten) Gewichte gibt Trainingsmodi die im Fitti so kaum möglich sind: - Kette: Je weiter man zieht, desto schwerer wird es - Exzentrisch: Bei der Rückwärtsbewegung wird Gewicht drauf gelegt - Konstante Geschwindigkeit: Wenn man schneller wird, wirds schwerer oder wenn man langsamer wird, wiederum leichter Zusätzlich gibt es einen \"Assistent\" der einem helfen kann Gewicht runter zu nehmen, wenn die letzten Übungen unsauber werden. Es gibt eine kleiner Fernbedienung in Form eines Bluetooth Rings (Gewicht bestimmen und Start/Stopp). Bei der Stange erkennt das Gerät, wenn man schräg hält und schaltet die Gewichte sofort ab. Dadurch, dass man die Seile sowohl vertikal wie auch in der Bodenplatte einhängen kann, gibt es eigentlich keine Muskelpartie die man damit nicht trainieren kann. Schaut Euch die Videos dazu an und überzeugt Euch selbst. Auf der Herstellerseite kann man auch eine remote Vorführung buchen. => Ich kann es uneingeschränkt bisher empfehlen. Die Langzeiterfahrung fehlt aber noch, muss ich fairerweise sagen.",
+          "textTr": "Öncelikle: Ürünü kendim satın aldım ve herhangi bir teşvik almadım... Daha birkaç gündür kullanıyorum ama şimdiden çok motive oldum ve gerçekten etkilendim. Uzun dönem deneyimim henüz yok; bunu da dürüstçe söylemeliyim.",
+          "previewOriginal": "Zunächst: Ich habe das Teil selbst gekauft und wurde nicht zu einer Rezension aufgefordert. Ich habe das Speediance Gym Monster zwar erst seit ein paar Tagen aber ich kann bereits…",
+          "previewTr": "Öncelikle: Ürünü kendim satın aldım ve herhangi bir teşvik almadım... Daha birkaç gündür kullanıyorum ama şimdiden çok motive oldum ve gerçekten etkilendim. Uzun dönem deneyimim he…",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_02",
+          "id": "amazon-tr-002",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -897,41 +948,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "Guillaume OBERMEYER",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2024-12-07",
+          "headline": "Super appareil, salle de sport tout en 1 à la maison sans prendre trop de place",
+          "textOriginal": "Videoda ürünün kullanımı gösteriliyor. Video, ürün kurulumunda size rehberlik ediyor. Videoda birden fazla ürün karşılaştırılıyor. Videoda ürünün ambalajından çıkarılması gösteriliyor. Video Player is loading. Videoyu oynatmak için tıklayın Oyna Sessiz Current Time 0:00 / Duration 0:15 Loaded : 40.04% 0:00 Stream Type LIVE Seek to live, currently behind live LIVE Remaining Time - 0:15 1x Playback Rate Chapters Chapters Descriptions descriptions off , selected Altyazı Alt yazılar kapalı , selected Fransızca (Otomatik) Audio Track default , selected Tam ekran This is a modal window. Attention colis très volumineux et lourd ( 85kg) , mais livraison efficace dans la pièce de votre choix. Une salle de sport complète en un seul appareil, des tonnes de programmes inclus pour tout le corps. Possibilité de le plier pour prendre encore moins de place au sol. Très grande facilité d’utilisation, pas mal d’accessoires sont fournis avec en plus, dont la bague de réglage Bluetooth très pratique.",
+          "textTr": "Videoda ürünün kullanımı gösteriliyor. Kurulum ve kullanım hakkında fikir veriyor... (Amazon arayüzü nedeniyle video oynatma metinleri görünüyor).",
+          "previewOriginal": "Videoda ürünün kullanımı gösteriliyor. Video, ürün kurulumunda size rehberlik ediyor. Videoda birden fazla ürün karşılaştırılıyor. Videoda ürünün ambalajından çıkarılması gösterili…",
+          "previewTr": "Videoda ürünün kullanımı gösteriliyor. Kurulum ve kullanım hakkında fikir veriyor... (Amazon arayüzü nedeniyle video oynatma metinleri görünüyor).",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_03",
+          "id": "amazon-tr-003",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -939,41 +989,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Mehmet Y.",
+            "name": "bubson3",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2024-07-25",
+          "headline": "Speediance Gym Monster",
+          "textOriginal": "Cudowne urządzenie. To, co oferuje Gym Monster, przerosło moje oczekiwania. Kompaktowa, nowoczesna, zaawansowana technologicznie i łatwa w obsłudze siłownia typu „wszystko w jednym”. Zaczynam swoją przygodę z treningiem siłowym i widzę, że jest mi on naprawdę potrzebny. Po kilku dniach stosowania odkrywam mięśnie, których nie używałem i dlatego są bardzo słabe. Mimo że amatorsko ćwiczę jazdę na rowerze, moja górna część ciała nie jest wytrenowana. Już widzę, że Speediance Gym Monster to dla mnie idealne rozwiązanie. Co więcej, mój siedemnastoletni syn założył już konto i zaczął ćwiczyć. Może więc przydać się całej rodzinie. Polecam każdemu, kto chce rozwijać swoją sylwetkę w zaciszu własnego domu.",
+          "textTr": "Harika bir cihaz. Gym Monster’ın sundukları beklentimin de ötesinde... Kuvvet antrenmanına başlamak için müthiş bir motivasyon verdi ve gerçekten bana uygun olduğunu görüyorum.",
+          "previewOriginal": "Cudowne urządzenie. To, co oferuje Gym Monster, przerosło moje oczekiwania. Kompaktowa, nowoczesna, zaawansowana technologicznie i łatwa w obsłudze siłownia typu „wszystko w jednym…",
+          "previewTr": "Harika bir cihaz. Gym Monster’ın sundukları beklentimin de ötesinde... Kuvvet antrenmanına başlamak için müthiş bir motivasyon verdi ve gerçekten bana uygun olduğunu görüyorum.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_04",
+          "id": "amazon-tr-004",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -981,41 +1030,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Mehmet Y.",
+            "name": "Roger Affonso",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2024-07-30",
+          "headline": "Fantastic Equipment",
+          "textOriginal": "Sturdy machine, very compact and well built, great investment for your health.. Small footprint, easy to setup and easy to follow on the exercises. Sturdy and solid machine, you can fold it after use if you need more space. The screen and user interface are really good, screen is big enough. Lots of variety on workouts with easy-to-follow-along instructions. Shout out to the Speediance Facebook community, great resource for continue support.",
+          "textTr": "Sağlam, kompakt ve çok iyi üretilmiş bir cihaz; ev için harika bir yatırım... Gerekirse kolayca taşınabiliyor. Ekran ve kullanıcı arayüzü de gerçekten başarılı.",
+          "previewOriginal": "Sturdy machine, very compact and well built, great investment for your health.. Small footprint, easy to setup and easy to follow on the exercises. Sturdy and solid machine, you ca…",
+          "previewTr": "Sağlam, kompakt ve çok iyi üretilmiş bir cihaz; ev için harika bir yatırım... Gerekirse kolayca taşınabiliyor. Ekran ve kullanıcı arayüzü de gerçekten başarılı.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_05",
+          "id": "amazon-tr-005",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -1023,41 +1071,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Doug M.",
+            "name": "R",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2025-09-10",
+          "headline": "投資効果は十分にあると思います",
+          "textOriginal": "日本語の翻訳が所々おかしな部分があり、ネット接続がされるため、アップデートに期待したいところですが、フリーウエイトで行う分に全く問題ありません。 なかなかの高価格帯の分、これ一台でほぼ全てのトレーニングができると思います。 パワーラックや多くのダンベルも必要なくなるので、そう言った意味でもとても優秀な製品かと思います。",
+          "textTr": "Uygulamadaki Japonca çeviri yer yer hatalı ve cihaz internet bağlantısıyla güncelleme aldığı için bunun zamanla iyileşmesini umuyorum... Serbest ağırlık mantığıyla kullanırken ise hiç sorun yaşamıyorum. Power rack ve çok sayıda dambıla ihtiyaç bırakmaması açısından da çok başarılı.",
+          "previewOriginal": "日本語の翻訳が所々おかしな部分があり、ネット接続がされるため、アップデートに期待したいところですが、フリーウエイトで行う分に全く問題ありません。 なかなかの高価格帯の分、これ一台でほぼ全てのトレーニングができると思います。 パワーラックや多くのダンベルも必要なくなるので、そう言った意味でもとても優秀な製品かと思います。",
+          "previewTr": "Uygulamadaki Japonca çeviri yer yer hatalı ve cihaz internet bağlantısıyla güncelleme aldığı için bunun zamanla iyileşmesini umuyorum... Serbest ağırlık mantığıyla kullanırken ise…",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_06",
+          "id": "amazon-tr-006",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -1065,41 +1112,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Patrick D.",
+            "name": "George I.",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2025-03-27",
+          "headline": "Great machine from a long time gym member!",
+          "textOriginal": "I purchased the Gym Monster (GM 1) almost 6 months ago and I have been incredibly pleased with the product and its versatility.  As a long time gym goer, I am impressed with the machine's ability to adapt to all workouts, with significant weight capacity, up to 220 lbs.  (And in fact if feels heavier than lifting regular weights due to the electronic pulley resistance / technology.) The machine is easy to set up - it basically works straight out of the box, and it's pretty intuitive with the various workouts and movements.  There are a ton of workouts and programs available from beginner level to more advanced types of movements and courses.  What's even more exciting is the community around the machine where some users can upload their custom workouts for all members to use.  So you will find hundreds of movements and workouts available for the various muscle groups. And even better is the community on Facebook where a lot of users can help with technical troubleshooting and/or offer advice for weightlifting as necessary.  (Reddit as well, but Facebook has more audience in my opinion.) The AI aspect (software) is pretty powerful and automatically adjusts the weight for my intensity, and in a recent software update, it offers programs and workouts to fit my specific goals. It will also adapt to my daily/weekly workout routine and suggest different workouts and programs based on my muscle fatigue.  I think it's pretty cool! Overall it's a great, smart, at-home gym that rivals a real gym workout experience, and in my opinion, better than a lot of other competing products in the market.",
+          "textTr": "Gym Monster’ı (GM1) yaklaşık 6 ay önce aldım ve deneyimim çok iyi... Farklı antrenmanlara uyum sağlayabiliyor, yüksek ağırlık kapasitesi sunuyor; üst limit oldukça tatmin edici.",
+          "previewOriginal": "I purchased the Gym Monster (GM 1) almost 6 months ago and I have been incredibly pleased with the product and its versatility. As a long time gym goer, I am impressed with the mac…",
+          "previewTr": "Gym Monster’ı (GM1) yaklaşık 6 ay önce aldım ve deneyimim çok iyi... Farklı antrenmanlara uyum sağlayabiliyor, yüksek ağırlık kapasitesi sunuyor; üst limit oldukça tatmin edici.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_07",
+          "id": "amazon-tr-007",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -1107,41 +1153,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "Amazon Customer",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2025-10-16",
+          "headline": "Praktisch, kompakt und motivierend - absolute Empfehlung!",
+          "textOriginal": "Ich nutze das Gerät aktuell im Keller und bin echt begeistert. Es ist super platzsparend, was für mich wichtig war, da ich keinen Platz für eine große Kraftstation habe. Die Programme motivieren, und die Übungsauswahl ist riesig - am Anfang etwas unübersichtlich, aber man findet sich schnell rein. Vor dem Kauf kann man sich am besten die App runterladen, um sich einen Überblick zu verschaffen. Die Lieferung über Amazon lief top, das Gerät wurde bis in den Keller gebracht. Hatte zeitweise Probleme mit der Verbindung des Bluetooth-Rings, aber der Kundenservice war schnell und hilfsbereit. Ich nutze den Speediance GM1 jetzt im Keller und bin echt begeistert. Er ist super platzsparend, was für mich wichtig war, da ich keinen Platz für eine große Kraftstation habe. Die Programme motivieren, und die Übungsauswahl ist riesig - am Anfang etwas unübersichtlich, aber man findet sich schnell rein. Die Lieferung über Amazon lief top, das Gerät wurde bis in den Keller gebracht. Hatte kurz Probleme mit dem Bluetooth-Ring, aber der Kundenservice war schnell und hilfsbereit.",
+          "textTr": "Cihazı şu an bodrumda kullanıyorum ve gerçekten çok memnunum... Kurulum kolay, hareket seçeneği çok fazla; ilk başta biraz karışık gelebiliyor ama kısa sürede alışılıyor.",
+          "previewOriginal": "Ich nutze das Gerät aktuell im Keller und bin echt begeistert. Es ist super platzsparend, was für mich wichtig war, da ich keinen Platz für eine große Kraftstation habe. Die Progra…",
+          "previewTr": "Cihazı şu an bodrumda kullanıyorum ve gerçekten çok memnunum... Kurulum kolay, hareket seçeneği çok fazla; ilk başta biraz karışık gelebiliyor ama kısa sürede alışılıyor.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_08",
+          "id": "amazon-tr-008",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -1149,41 +1194,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "P. Marcelino",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2024-12-06",
+          "headline": "Amazing all in one gym!!",
+          "textOriginal": "I was originally in the market for Pilates Reformer equipment when I came across the Spedience Gym Monster 2. I’ve had it for two weeks now, and I’m absolutely loving it! It’s versatile, easy to use and perfect for the entire family. I will say there isn’t much of a manuel for actuall use, but i quickly got the hang of it!! The best part? No memberships required, and there’s a fantastic facebook community for support. Highly recommend it to anyone looking to invest in their health and fitness at home!  Shipping was well organized, gym came just under a week after purchase.",
+          "textTr": "Başta Pilates Reformer bakıyordum; sonra bu sistemi görünce fikrim değişti... Çok yönlü ve ailede herkes için uygun. Yine de bazı noktalarda… (uzun vadede uygulama/abonelik tarafı gibi) geliştirme alanı var.",
+          "previewOriginal": "I was originally in the market for Pilates Reformer equipment when I came across the Spedience Gym Monster 2. I’ve had it for two weeks now, and I’m absolutely loving it! It’s vers…",
+          "previewTr": "Başta Pilates Reformer bakıyordum; sonra bu sistemi görünce fikrim değişti... Çok yönlü ve ailede herkes için uygun. Yine de bazı noktalarda… (uzun vadede uygulama/abonelik tarafı…",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_tr_09",
+          "id": "amazon-tr-009",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -1191,41 +1235,40 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Pablo Q.",
+            "name": "David Rickman",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2025-05-23",
+          "headline": "Great product, great company.",
+          "textOriginal": "I have had my Gym Monster nearly a year and I love it. I love how compact, easy to use and versatile it is. This is the only piece of equipment you need. But beyond that the company is amazing. Every time I've reached out with questions or suggestions they have been incredibly receptive. Sincerely thanking me for taking the time to message them and they have even implemented suggestions I made promptly. They really do listen and care. And in the time I've had the machine, it has had so many significant updates to the software that I almost feel guilty that I'm getting them for free. Most recently they added heart rate monitor connectivity that works beautifully. There is still a little room for improvement regarding the AI usage and predictive fatigue... but at the rate they constantly improving I have no doubt they'll get to it. And I love that they do not require a monthly subscription and still provide such high quality programming making it much easier to justify the upfront cost.",
+          "textTr": "Gym Monster’ımı neredeyse bir yıldır kullanıyorum ve çok seviyorum... Nasıl geliştiğimi takip etmek harika. Ne zaman soru ya da önerim olsa ekip ilgiliydi.",
+          "previewOriginal": "I have had my Gym Monster nearly a year and I love it. I love how compact, easy to use and versatile it is. This is the only piece of equipment you need. But beyond that the compan…",
+          "previewTr": "Gym Monster’ımı neredeyse bir yıldır kullanıyorum ve çok seviyorum... Nasıl geliştiğimi takip etmek harika. Ne zaman soru ya da önerim olsa ekip ilgiliydi.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": true
         },
         {
-          "id": "ph_amazon_tr_10",
+          "id": "amazon-tr-010",
           "source": {
             "type": "amazon",
             "market": "TR",
-            "name": "Amazon.com.tr (TR)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com.tr",
+            "url": "https://www.amazon.com.tr/Speediance-Sistemi-Fonksiyonlu-Makinesi-Egzersizi/dp/B0D342F9X6#averageCustomerReviewsAnchor"
           },
           "country": {
             "code": "TR",
@@ -1233,43 +1276,42 @@
             "flagEmoji": "🇹🇷"
           },
           "customer": {
-            "name": "Pablo Q.",
+            "name": "Tony",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com.tr (TR) yorumu (Türkçe çeviri)",
+          "date": "2025-02-22",
+          "headline": "Life-changing product",
+          "textOriginal": "Speediance might have not invented the smart home gym, but they made it available to the masses. I am the type of guy who has paid for a gym membership for the past 4 years and have been a total of about 10 times in that time. With 2 kids, a full time job and the challenges of daily life, I never had time to go to the gym. And the odd time I went, I was intimidated by the people waiting for machines. Who wants to chest press 75lbs while the guy before was using 200lbs? That's not to mention if another guy stands next to me waiting for me to be done. Then, I really felt the pressure to either finish quickly or leave. That's not to mention sitting on equipment used by someone else and not wiped clean. Well, the Speediance Gym Monster fixed all that. Now, I have my own machine that does everything I need in terms of strength training. I waited 2 months before posting a review, and here's my assessment so far : 1) The convenience of being able to work out for 15 or 20 mins whenever you have free time is amazing. It let's me squeeze in a few movements here and there that I would've never been able to do in a gym because of lack of time. 2) The resistance is accurate in term of weight, but if \"feels\" even heavier than static weights because it's actually pulling against you. 3) I have managed to visibly build muscle in 2 months while only working out 3 times a week for about 30-40 minutes. 4) There's pre-made workouts for beginners like me. It starts you off with some targeted stretches to reduce the risk of injury while working out. It also gives you breaks between movements and finishes your workout with more stretches. 5) The developpers actually update the software to make it better. You're not buying a machine that will be stuck in 2025 for 6 years. 6) The machine will start you off with small weights and calculate how easy you're doing the reps. It will gradually increase the weight until it senses you're actually struggling. It will store all that info for the next time you work that specific muscle group. Considering I used to go to the gym once every 3 months, I used to have to write down how much I can handle of every machine. No more of that nonsense. 7) I have increased the weights I can lift by about 40% in 2 months. I was stagnant for 3 years because I wasn't regular enough. Now, there's no excuse not to work out for 15-20 mins before a shower a few times a week. 8) The machine lets you create different profiles for different users. My wife has her weight data and presets, I have mine. Overall, it's a beautiful product that has changed how I see strength training and that will certainly have a deep impact on my health on the long run.",
+          "textTr": "Speediance akıllı ev tipi gym konseptini ilk icat eden olmayabilir ama bence en iyi uygulayanlardan... Son aylarda yaklaşık 10 kez antrenman yaptım. 2 çocuk, tam zamanlı iş ve yoğun tempo içinde bu kadar erişilebilir olması büyük avantaj.",
+          "previewOriginal": "Speediance might have not invented the smart home gym, but they made it available to the masses. I am the type of guy who has paid for a gym membership for the past 4 years and hav…",
+          "previewTr": "Speediance akıllı ev tipi gym konseptini ilk icat eden olmayabilir ama bence en iyi uygulayanlardan... Son aylarda yaklaşık 10 kez antrenman yaptım. 2 çocuk, tam zamanlı iş ve yoğu…",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         }
       ],
       "us": [
         {
-          "id": "ph_amazon_us_01",
+          "id": "amazon-us-001",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1277,41 +1319,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Pablo Q.",
+            "name": "Jamison Pezdek",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-04-26",
+          "headline": "Great compact weight machine for at home!",
+          "textOriginal": "I really like this device.  It is effective but yet nice and compact. I have been utilizing the machine for about 5 months now, at least 20x per month.  There is a large variety exercise plans that they come out with on a regular basis. They will have a monthly challenge that will encourage you to do about 15 workouts in a 20 day span. There is also an AI driven workout program but I haven’t tried it yet.  You can also make custom workouts and workout with a partner. The weight feels really smooth 98% of the time.  If it feels off, it’s often just a quick fix by slowly extending the cable then allowing it to retract slowly.  The weight can go up to 110lbs per cable or 220 total.  As long as you are not trying to go very heavy with benching, deadlifts, or whatnot it will be a pretty solid option at home. One small annoyance that I do find is that the bench included wobbles a little.  Other minor software bugs have been getting fixed on a regular basis and the UI keeps improving.  The Facebook user group is very active and they will often respond to questions or comments on there. When you are looking at ordering this, I would strongly encourage you to think about how you expect to get the device in place.  It’s really heavy and going down/up stairs is very much a two person job and not for lightweights.  If you think it might be too heavy for you it probably is and you might want to get an upgraded delivery.",
+          "textTr": "Bu cihaza gerçekten bayıldım. Etkili ama aynı zamanda kompakt... Yaklaşık 5 aydır kullanıyorum ve düzenli gelen programlar motive ediyor; aylık challenge’lar da cabası.",
+          "previewOriginal": "I really like this device. It is effective but yet nice and compact. I have been utilizing the machine for about 5 months now, at least 20x per month. There is a large variety exer…",
+          "previewTr": "Bu cihaza gerçekten bayıldım. Etkili ama aynı zamanda kompakt... Yaklaşık 5 aydır kullanıyorum ve düzenli gelen programlar motive ediyor; aylık challenge’lar da cabası.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/71q4EIa3v3L._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/71q4EIa3v3L._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_02",
+          "id": "amazon-us-002",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1319,41 +1360,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Ed D.",
+            "name": "Mistah J",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-10-17",
+          "headline": "Impressive Smart Gym With Room for Small Improvements",
+          "textOriginal": "I’ve been using the Speediance Gym Monster 2 since the start of the year, and it’s been a great experience overall. It’s incredible how much this smart gym can do with just cables and digital resistance in such a compact design. I did notice some minor fraying on my right cable after consistent use, but Speediance’s support team was responsive and replaced my cables while sending me angle adapters free of charge. From what I’ve seen in the community, I may have gotten lucky—others have mentioned that the adapters are sold separately for around $70–$80, which feels a bit steep since they help prevent a design issue that can lead to cable wear. That said, I really appreciate how Speediance continues to improve the product and listens to user feedback. With ongoing updates and attention to detail, this has the potential to be the best all-in-one smart gym on the market. Highly recommend it overall.",
+          "textTr": "Gym Monster 2’yi çıktığı ilk dönemden beri kullanıyorum... Bu kadar kompakt bir gövdede bu seviyede dijital direnç sunması etkileyici. Küçük bazı pürüzler var ama genel deneyim çok güçlü.",
+          "previewOriginal": "I’ve been using the Speediance Gym Monster 2 since the start of the year, and it’s been a great experience overall. It’s incredible how much this smart gym can do with just cables…",
+          "previewTr": "Gym Monster 2’yi çıktığı ilk dönemden beri kullanıyorum... Bu kadar kompakt bir gövdede bu seviyede dijital direnç sunması etkileyici. Küçük bazı pürüzler var ama genel deneyim çok…",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61HCS8dq6ML._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61HCS8dq6ML._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_03",
+          "id": "amazon-us-003",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1361,41 +1401,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Doug M.",
+            "name": "DD",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-10-16",
+          "headline": "Buy it, you will not regret the investment in your health!",
+          "textOriginal": "I’ve been training for over 15 years in various gyms across the world. From HIIT to CrossFit to pure strength training, and I just have to say this machine is so impressive and does it all! I love the different training modes, AI features that tell me with detail how my form is, what my muscles are doing, how my overall health is. It makes working out fun and the tech is phenomenal! Highly recommend. If you’re thinking of buying it, just do it!",
+          "textTr": "15+ yıldır farklı salonlarda antrenman yapıyorum... Gerçekten premium bir sistem. Farklı antrenman modları, AI geri bildirimleri ve akıcı direnç hissi çok iyi.",
+          "previewOriginal": "I’ve been training for over 15 years in various gyms across the world. From HIIT to CrossFit to pure strength training, and I just have to say this machine is so impressive and doe…",
+          "previewTr": "15+ yıldır farklı salonlarda antrenman yapıyorum... Gerçekten premium bir sistem. Farklı antrenman modları, AI geri bildirimleri ve akıcı direnç hissi çok iyi.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61eDxx0exZL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61eDxx0exZL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_04",
+          "id": "amazon-us-004",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1403,41 +1442,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Patrick D.",
+            "name": "Tiffany L.",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2024-12-14",
+          "headline": "A Game-Changer for Safe, Efficient Home Workouts",
+          "textOriginal": "After injuring my shoulder with traditional dumbbells over a year ago, I was hesitant about getting back into strength training. The Speediance Gym Monster 2 has completely transformed my approach to working out and helped me return to regular exercise with confidence. The machine's safety features stand out as its greatest strength. The assist modes and automated weight adjustments have allowed me to rebuild my strength gradually without fear of reinjury. Unlike my previous setup with just dumbbells and a bench, the Speediance provides controlled, smooth movements that feel secure and stable throughout each exercise. The build quality is exceptional - this is a serious piece of equipment. It arrived quickly via Amazon Prime shipping, though I'd strongly advise having help for the delivery and setup (I actually ended up helping our delivery team carry it in!). Despite its substantial weight, which speaks to its quality construction, setup was straightforward once it was in place. What truly sets this machine apart is how it streamlines the workout experience. The on-screen guidance eliminates the guesswork from my sessions, while automatic rest time and weight tracking keep me focused on the exercises rather than managing details. I'm completing workouts more efficiently than ever before, and the variety of exercise options keeps things interesting and engaging. The interface is intuitive and well-designed, making it easy to follow along with preset workouts or create custom routines. The team behind Speediance appears committed to continuous improvement, regularly updating features and responding to user feedback. One of my favorite things -- no subscription fee. I didn't want to deal with the other companies who are charging so much for equipment and then throw a $40-$60 fee on top of it every month. The biggest transformation has been in my attitude toward working out. What started as a cautious return to exercise has become something I genuinely look forward to. The combination of guided workouts, progress tracking, and the sheer convenience of having a comprehensive gym in my home has made fitness feel more accessible and enjoyable than it was with my previous basic setup. For anyone recovering from an injury or looking to upgrade their home gym with a safer, more sophisticated solution, the Speediance Gym Monster 2 is worth serious consideration. It's not just a piece of exercise equipment - it's a complete fitness system that makes consistent, safe training accessible at home.",
+          "textTr": "Klasik dumbbell’larla omzumu sakatladıktan sonra uzun süre ara vermiştim... Speediance yaklaşımı antrenmanlarımı yeniden şekillendirdi ve beni tekrar düzenli egzersize döndürdü.",
+          "previewOriginal": "After injuring my shoulder with traditional dumbbells over a year ago, I was hesitant about getting back into strength training. The Speediance Gym Monster 2 has completely transfo…",
+          "previewTr": "Klasik dumbbell’larla omzumu sakatladıktan sonra uzun süre ara vermiştim... Speediance yaklaşımı antrenmanlarımı yeniden şekillendirdi ve beni tekrar düzenli egzersize döndürdü.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61AOBBGY3XL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61AOBBGY3XL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_05",
+          "id": "amazon-us-005",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1445,41 +1483,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Mehmet Y.",
+            "name": "Charlie’s mum 🥰",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-10-15",
+          "headline": "Speediance Gym Monster 2 is perfect",
+          "textOriginal": "The Speediance machine has completely transformed my fitness routine and turned my home into the perfect personal gym. I no longer need to go out to a public gym, which is a game-changer for my schedule. The accessibility is fantastic, the setup is a breeze, and honestly, it’s everything I could ask for in a home workout system. It’s is space saving too. It is everything you will want for. Highly recommended",
+          "textTr": "Speediance cihazı fitness rutinimi tamamen değiştirdi... Programıma uyması çok kolay. Erişilebilirlik harika, kurulum pratik ve evde spor için ciddi bir motivasyon sağlıyor.",
+          "previewOriginal": "The Speediance machine has completely transformed my fitness routine and turned my home into the perfect personal gym. I no longer need to go out to a public gym, which is a game-c…",
+          "previewTr": "Speediance cihazı fitness rutinimi tamamen değiştirdi... Programıma uyması çok kolay. Erişilebilirlik harika, kurulum pratik ve evde spor için ciddi bir motivasyon sağlıyor.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61T5DItQwgL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61T5DItQwgL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_06",
+          "id": "amazon-us-006",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1487,41 +1524,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Mehmet Y.",
+            "name": "Madcamper",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-04-05",
+          "headline": "Great machine, especially for beginners!",
+          "textOriginal": "I used to not work out at all but I wanted to start getting in shape. I had been looking at different options and the only options I could really come down to were the Tonal and the Speediance. Tonal was quickly out of the question due to being semi-permanently fastened to the wall, and the monthly membership fees. I became set on the speediance due to it being more compact, maneuverable and cheaper. Don't get me wrong, these things are still super expensive but in my eyes totally worth it for helping get into shape. We got the GM2 Works Plus on sale because of the few extra accessories like the adjustable bench. I've only been using this for a couple weeks, the first week was rough on my body, but now I notice I'm wanting to work out more because of how I'm feeling week 2. My body just feels a little bit better, I can only imagine what it will feel like after using this thing continually. I don't like going to the gym and I'm not a big fan of physical weights. I like that the speediance offers video to show you how to do each workout and the form. The accessory variety in a small form factor is really nice. I was expecting the electromagnetic pulley system to be more clunky but it really isn't. The only time I have issues, and maybe it's me, is when doing leg workouts and pulling to either side of the machine. The rope kind of rubs the wrong way on the plastic housing just outside the pulley, which I can see causing the rope to fray over time. Workout programs offered are pretty easy to setup. Overall, great machine if you're one who doesn't like to go to the gym or don't have a lot of time to workout, this makes it a lot easier to hop into a workout for 15m or an hour+.",
+          "textTr": "Eskiden neredeyse hiç spor yapmıyordum ama form tutmak istedim... Araştırınca Tonal’ı bazı kısıtlar nedeniyle eledim ve Speediance’e yöneldim.",
+          "previewOriginal": "I used to not work out at all but I wanted to start getting in shape. I had been looking at different options and the only options I could really come down to were the Tonal and th…",
+          "previewTr": "Eskiden neredeyse hiç spor yapmıyordum ama form tutmak istedim... Araştırınca Tonal’ı bazı kısıtlar nedeniyle eledim ve Speediance’e yöneldim.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61Z5A3P8nYL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61Z5A3P8nYL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_07",
+          "id": "amazon-us-007",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1529,41 +1565,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Niko G.",
+            "name": "SPQR",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-04-29",
+          "headline": "Internal storage issue / PSA: needs 5Ghz WiFi!!",
+          "textOriginal": "Update 5/30/25 - back to 5 Stars. Speediance shipped a new monitor, which was super easy to install with just 3 screws in the back. No everything is back to normal operation and no issues/error so far. Have been using the new monitor for about two weeks. This was originally 5 stars. I'm currently down-grading this because of a technical issue relating to the internal storage (see pics). It tells you that the internal storage is full (which seems crazy in 2025 and I have only around 12 exercises book-marked). Then when you click clear files, it tells you they're gone, but they are not really gone and you can't get back to the main screen from the storage screen. You have to turn the machine off and on again. Soon after the same issue pops up with the same files. I wonder if there's a way to increase the internal storage via the usb port in the back? Also please NOTE: do NOT put this machine on 2.4Ghz wifi, it NEEDS 5Ghz. Otherwise, the load times are crazy slow (a complaint I've read in other comments/reviews). Putting it on 5Ghz wifi makes it super fast. Necessary fixes in my opinion: 1) Turn off music by default and include Spotify and other services (or at least make it an option to turn it off by default) 2) Increase internal storage space or make it possible to expand 3) Fix grammatical/syntactic/lexical errors in the frontend software (not highest priority obviously) Overall, this thing is great, especially since you don't need a subscription, which is what I wanted to avoid at all cost. It feels like a full home gym and is built solidly.",
+          "textTr": "Güncelleme 30.05.2025 – yeniden 5 yıldız: Speediance yeni bir monitör gönderdi... Şimdilik sorun yok; yeni monitörü yaklaşık iki haftadır sorunsuz kullanıyorum.",
+          "previewOriginal": "Update 5/30/25 - back to 5 Stars. Speediance shipped a new monitor, which was super easy to install with just 3 screws in the back. No everything is back to normal operation and no…",
+          "previewTr": "Güncelleme 30.05.2025 – yeniden 5 yıldız: Speediance yeni bir monitör gönderdi... Şimdilik sorun yok; yeni monitörü yaklaşık iki haftadır sorunsuz kullanıyorum.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61mrkH4BYgL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61mrkH4BYgL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_08",
+          "id": "amazon-us-008",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1571,41 +1606,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Pablo Q.",
+            "name": "TateAnd M",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-08-11",
+          "headline": "Going strong at 6 months",
+          "textOriginal": "I got my Gym Monster in February. It arrived well packaged and had to get a utility dolly together it indoors. It was an easy plug and exercise set up. My wife and I use the GM 3/4 times a week each of us. We haven’t had any quality issues with this robust machine. I look forward to my exercises. Wellness+ is an awesome AI driven program, I wish it could be charged per machine instead of per user. Highly recommend GM 2😎😎",
+          "textTr": "Gym Monster’ımı Şubat’ta aldım. Paketleme sağlamdı ve hasarsız geldi... Eşimle dönüşümlü kullanıyoruz; şu ana kadar kaliteyle ilgili bir problem yaşamadık.",
+          "previewOriginal": "I got my Gym Monster in February. It arrived well packaged and had to get a utility dolly together it indoors. It was an easy plug and exercise set up. My wife and I use the GM 3/4…",
+          "previewTr": "Gym Monster’ımı Şubat’ta aldım. Paketleme sağlamdı ve hasarsız geldi... Eşimle dönüşümlü kullanıyoruz; şu ana kadar kaliteyle ilgili bir problem yaşamadık.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/71ijPwjjfhL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/71ijPwjjfhL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_09",
+          "id": "amazon-us-009",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1613,41 +1647,40 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Patrick D.",
+            "name": "Cheryl Schoening",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-02-05",
+          "headline": "High quality, easy setup and user friendly",
+          "textOriginal": "Very well engineered.  Packaging excellent.  Solid construction- high quality, nothing feels cheap.  Shipper (CEVA) handled with great care.  Literally 15 minutes from receipt to power-up.  Wheels allowed easy location to room with no fear of scratching wood floors.  (Placed on 4x6 3/4” horse mat).  Very space friendly.  Software startup very easy, with 2 users in minutes.  Switching users is simple.  Initial trial lifts were easy to set up and motor control is quiet and smooth.  Turned music off, but it sounds good and can be set quite loud.  Looking forward to really digging in with many options to free lift, develop plans or use pre-set plans.  No monthly fees is a big plus.  Buying through Amazon may have cost a bit more, but worry free.  Attempts to contact Speediance directly have so far gone unanswered (contacted to get better tracking).  Overall - highly recommend.",
+          "textTr": "Mühendisliği çok başarılı. Paketleme mükemmel, malzeme ve gövde çok sağlam... Tekerlekler sayesinde zemini çizme endişesi olmadan odadan odaya kolayca taşıdım.",
+          "previewOriginal": "Very well engineered. Packaging excellent. Solid construction- high quality, nothing feels cheap. Shipper (CEVA) handled with great care. Literally 15 minutes from receipt to power…",
+          "previewTr": "Mühendisliği çok başarılı. Paketleme mükemmel, malzeme ve gövde çok sağlam... Tekerlekler sayesinde zemini çizme endişesi olmadan odadan odaya kolayca taşıdım.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/71siz2ecz5L._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/71siz2ecz5L._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_us_10",
+          "id": "amazon-us-010",
           "source": {
             "type": "amazon",
             "market": "US",
-            "name": "Amazon.com (US)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.com",
+            "url": "https://www.amazon.com/Speediance-Upgraded-AI-Powered-Multi-Functional-Equipment/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "US",
@@ -1655,43 +1688,42 @@
             "flagEmoji": "🇺🇸"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "Christopher",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.com (US) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.com (US) yorumu (Türkçe çeviri)",
+          "date": "2025-08-09",
+          "headline": "Great work from home office gym",
+          "textOriginal": "Solid product for a work from home gym, able to get workouts in quickly in between sets, work meetings and newborn baby sessions. Love having no subscription required, space saving and a great community. The community is very active on Facebook with the customer service people very pleasant to deal with.",
+          "textTr": "Evden çalışırken kurduğum mini spor alanı için çok sağlam bir ürün... Ayrıca topluluk tarafı da güçlü; Facebook’ta çok aktif bir kullanıcı grubu var.",
+          "previewOriginal": "Solid product for a work from home gym, able to get workouts in quickly in between sets, work meetings and newborn baby sessions. Love having no subscription required, space saving…",
+          "previewTr": "Evden çalışırken kurduğum mini spor alanı için çok sağlam bir ürün... Ayrıca topluluk tarafı da güçlü; Facebook’ta çok aktif bir kullanıcı grubu var.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/71rJb9CNEgL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/71rJb9CNEgL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         }
       ],
       "de": [
         {
-          "id": "ph_amazon_de_01",
+          "id": "amazon-de-001",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1699,41 +1731,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Ed D.",
+            "name": "turgut",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-12-01",
+          "headline": "5 yıldız üzerinden 5,0 Great Experience So Far — Despite All My Initial Concerns",
+          "textOriginal": "Before making a big purchase like this, I tend to do quite deep research to find out all the possible issues and what can go wrong with the device so I can be prepared. After spending a week on YouTube videos, Reddit, and Facebook communities, I gathered the most common issues people had: updates causing freezes, device breakdowns, Bluetooth ring connection issues, premature cable fraying/snapping, and attachment ball breakage. Seeing that most YouTube reviews were from people who received the device for free didn’t help my concerns and made me even more skeptical about the product. To make my decision, I went to Ulm to have a demo and try out the device. The demo was great and the machine worked perfectly. Despite my concerns, I decided to give it a try and ordered through Amazon. So far, I have only had a great experience and haven’t encountered any of the issues mentioned above. Packaging I received one big box, so I assumed either the bench or the row attachment was missing — but as a very nice surprise, everything was included in that one large box. Quality Both my friend and I were very positively surprised by the quality of the packaging, the main unit, and also the bench and row attachments (I was expecting lower-quality accessories). Both the bench and the row are sturdy and quite heavy. Everything was well packaged and clearly labeled, and it was super easy and quick to set everything up. All the screws and holes aligned perfectly. Functionality & Performance When I turned on the device, it forced me to do an update, and I was afraid of the infamous ‘screen freeze’ issue. Since it was mandatory, I had no choice — but there were zero issues. The device functions very well. I haven’t encountered any bugs or problems. The cables move smoothly and silently, and the fans are also very quiet. I’ve also never had a disconnection issue with the Bluetooth ring (maybe they’ve fixed it). I don’t know if it helped, but I turned the two Bluetooth antennas on the back of the screen outward to improve reception. Something I didn’t think about when buying this was how great it is for rehab and physiotherapy. I have issues with my hip (tight hip flexors) and my back. There are rehab movements in the app that you can use to create your own program, and they are very effective. Considering how hard it can be to get physio appointments and stay consistent with therapy, this feature is gold for your health. Durability As I’ve had the device for less than a week, I cannot comment much on long-term durability. This is the only part I am still a bit concerned about, since I’ve seen that some people had premature cable snaps or attachment ball breakage. I believe Speediance changed the cable material between models, and these new cables might have some issues, as most premature failures seem to happen with the GM2. Verdict So far, I am in love with the device and very satisfied with the purchase! Being able to do a complete workout at home, as well as stretches, quick sessions before work or bed, and even physio exercises, is incredibly nice. I hope the device proves durable, and that in case of any issues, Speediance’s after-sales service is as good as the pre-sales. I will update this review in the upcoming months based on my experience.",
+          "textTr": "Böylesine büyük bir alışveriş yapmadan önce hep derin araştırma yaparım... YouTube, Reddit ve Facebook topluluklarında epey bilgi topladım; hazırlıklı olmak istedim.",
+          "previewOriginal": "Before making a big purchase like this, I tend to do quite deep research to find out all the possible issues and what can go wrong with the device so I can be prepared. After spend…",
+          "previewTr": "Böylesine büyük bir alışveriş yapmadan önce hep derin araştırma yaparım... YouTube, Reddit ve Facebook topluluklarında epey bilgi topladım; hazırlıklı olmak istedim.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61ASLShqiqL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61ASLShqiqL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_02",
+          "id": "amazon-de-002",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1741,41 +1772,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Ed D.",
+            "name": "V. Fabrizius",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-12-11",
+          "headline": "5 yıldız üzerinden 5,0 Mehr als zufrieden!",
+          "textOriginal": "Die wohl mit Abstand beste Investition die ich seit langem getätigt habe. Natürlich hat das Gerät seinen Preis, und ich muss ehrlich sagen, dass es mich Überwindung gekostet hat es zu kaufen. Aber nach einigen Recherchen habe ich mich entschieden. Was soll ich sagen, es ist besser als ich es mir vorgestellt habe. Es gibt regelmäßig Updates die das System besser machen und wenn man achtsam damit umgeht, dann wird es lange Spaß bereiten da bin ich mir sicher. Zumindest ist es bei mir der Fall. Ich habe zum Glück noch kein Problem damit gehabt. Der ausschlaggebende Punkt war einfach der, dass ich nicht in überfüllte Fitnesscenter gehen muss und vielleicht Leute antreffe auf die ich nicht wirklich Lust habe. Ich kann trainieren was, wie und wann immer ich will. Zwischen den einzelnen Einheiten kann ich den Haushalt machen oder nebenbei TV schauen wenn meine Lieblingsserie läuft oder eine sportliche Live-Übertragung ansteht. Die Effizienz und Zeitersparnis ist für mich das Highlight und der größte Luxus. Ich kann es jedem empfehlen der diese Kriterien erfüllt haben möchte!",
+          "textTr": "Uzun zamandır yaptığım en iyi yatırımlardan biri... Biraz araştırmadan sonra karar verdim. Şunu söyleyeyim: değdi!",
+          "previewOriginal": "Die wohl mit Abstand beste Investition die ich seit langem getätigt habe. Natürlich hat das Gerät seinen Preis, und ich muss ehrlich sagen, dass es mich Überwindung gekostet hat es…",
+          "previewTr": "Uzun zamandır yaptığım en iyi yatırımlardan biri... Biraz araştırmadan sonra karar verdim. Şunu söyleyeyim: değdi!",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/61LBjQDMpuL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/61LBjQDMpuL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_03",
+          "id": "amazon-de-003",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1783,41 +1813,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Mehmet Y.",
+            "name": "Roy Sistermans",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-10-19",
+          "headline": "5 yıldız üzerinden 5,0 Premium kwaliteit home gym",
+          "textOriginal": "Premium home gym. Voldoet aan alle verwachtingen. Je mist de sportschool niet.",
+          "textTr": "Premium bir ev tipi spor salonu. Tüm beklentileri karşılıyor. Spor salonunu aratmıyor.",
+          "previewOriginal": "Premium home gym. Voldoet aan alle verwachtingen. Je mist de sportschool niet.",
+          "previewTr": "Premium bir ev tipi spor salonu. Tüm beklentileri karşılıyor. Spor salonunu aratmıyor.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/71bZy64pivL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/71bZy64pivL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_04",
+          "id": "amazon-de-004",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1825,41 +1854,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Pablo Q.",
+            "name": "Lukyluke",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-07-21",
+          "headline": "5 yıldız üzerinden 5,0 Super Gerät 😍",
+          "textOriginal": "Ich habe anfangs etwas gebraucht um mich an die Kabelzüge zu gewöhnen. Danach ist es jedoch ein super Gerät. Viele Videos und Übungen welche man einfach erklärt bekommt. Zusätzlich gibt es jetzt noch eine kostenpflichtige Mitgliedschaft mittels KI. Da weiß ich noch nicht ob ich diese abschließen werden. Man kann das Gerät super nutzen, klasse Zeitersparnis und es nimmt keinen Platz weg. Top 😍",
+          "textTr": "İlk başta kablo sistemine alışmam biraz zaman aldı... Ayrıca bazı özelliklerde AI ile ücretli üyelik konusu var; orası benim için soru işareti.",
+          "previewOriginal": "Ich habe anfangs etwas gebraucht um mich an die Kabelzüge zu gewöhnen. Danach ist es jedoch ein super Gerät. Viele Videos und Übungen welche man einfach erklärt bekommt. Zusätzlich…",
+          "previewTr": "İlk başta kablo sistemine alışmam biraz zaman aldı... Ayrıca bazı özelliklerde AI ile ücretli üyelik konusu var; orası benim için soru işareti.",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/71Lo3PmhcML._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/71Lo3PmhcML._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_05",
+          "id": "amazon-de-005",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1867,41 +1895,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Patrick D.",
-            "isVerifiedBuyer": true,
-            "badgeText": "Verified buyer"
+            "name": "Tomas",
+            "isVerifiedBuyer": false,
+            "badgeText": ""
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-06-08",
+          "headline": "5 yıldız üzerinden 5,0 Best purchase this year!",
+          "textOriginal": "Best smart gym I have tried!",
+          "textTr": "Denediğim en iyi akıllı spor salonu sistemi!",
+          "previewOriginal": "Best smart gym I have tried!",
+          "previewTr": "Denediğim en iyi akıllı spor salonu sistemi!",
           "media": {
             "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "thumb": "https://m.media-amazon.com/images/I/617OrtOnrnL._SY88.jpg",
+            "url": "https://m.media-amazon.com/images/I/617OrtOnrnL._SY88.jpg"
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_06",
+          "id": "amazon-de-006",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1909,41 +1936,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Pablo Q.",
+            "name": "Jamison Pezdek",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-04-26",
+          "headline": "Great compact weight machine for at home!",
+          "textOriginal": "I really like this device.  It is effective but yet nice and compact. I have been utilizing the machine for about 5 months now, at least 20x per month.  There is a large variety exercise plans that they come out with on a regular basis. They will have a monthly challenge that will encourage you to do about 15 workouts in a 20 day span. There is also an AI driven workout program but I haven’t tried it yet.  You can also make custom workouts and workout with a partner. The weight feels really smooth 98% of the time.  If it feels off, it’s often just a quick fix by slowly extending the cable then allowing it to retract slowly.  The weight can go up to 110lbs per cable or 220 total.  As long as you are not trying to go very heavy with benching, deadlifts, or whatnot it will be a pretty solid option at home. One small annoyance that I do find is that the bench included wobbles a little.  Other minor software bugs have been getting fixed on a regular basis and the UI keeps improving.  The Facebook user group is very active and they will often respond to questions or comments on there. When you are looking at ordering this, I would strongly encourage you to think about how you expect to get the device in place.  It’s really heavy and going down/up stairs is very much a two person job and not for lightweights.  If you think it might be too heavy for you it probably is and you might want to get an upgraded delivery.",
+          "textTr": "Bu cihaza gerçekten bayıldım. Etkili ama aynı zamanda kompakt... Yaklaşık 5 aydır kullanıyorum ve düzenli gelen programlar motive ediyor; aylık challenge’lar da cabası.",
+          "previewOriginal": "I really like this device. It is effective but yet nice and compact. I have been utilizing the machine for about 5 months now, at least 20x per month. There is a large variety exer…",
+          "previewTr": "Bu cihaza gerçekten bayıldım. Etkili ama aynı zamanda kompakt... Yaklaşık 5 aydır kullanıyorum ve düzenli gelen programlar motive ediyor; aylık challenge’lar da cabası.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_07",
+          "id": "amazon-de-007",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1951,41 +1977,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "Mistah J",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-10-17",
+          "headline": "Impressive Smart Gym With Room for Small Improvements",
+          "textOriginal": "I’ve been using the Speediance Gym Monster 2 since the start of the year, and it’s been a great experience overall. It’s incredible how much this smart gym can do with just cables and digital resistance in such a compact design. I did notice some minor fraying on my right cable after consistent use, but Speediance’s support team was responsive and replaced my cables while sending me angle adapters free of charge. From what I’ve seen in the community, I may have gotten lucky—others have mentioned that the adapters are sold separately for around $70–$80, which feels a bit steep since they help prevent a design issue that can lead to cable wear. That said, I really appreciate how Speediance continues to improve the product and listens to user feedback. With ongoing updates and attention to detail, this has the potential to be the best all-in-one smart gym on the market. Highly recommend it overall.",
+          "textTr": "Gym Monster 2’yi çıktığı ilk dönemden beri kullanıyorum... Bu kadar kompakt bir gövdede bu seviyede dijital direnç sunması etkileyici. Küçük bazı pürüzler var ama genel deneyim çok güçlü.",
+          "previewOriginal": "I’ve been using the Speediance Gym Monster 2 since the start of the year, and it’s been a great experience overall. It’s incredible how much this smart gym can do with just cables…",
+          "previewTr": "Gym Monster 2’yi çıktığı ilk dönemden beri kullanıyorum... Bu kadar kompakt bir gövdede bu seviyede dijital direnç sunması etkileyici. Küçük bazı pürüzler var ama genel deneyim çok…",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_08",
+          "id": "amazon-de-008",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -1993,41 +2018,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "DD",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-10-16",
+          "headline": "Buy it, you will not regret the investment in your health!",
+          "textOriginal": "I’ve been training for over 15 years in various gyms across the world. From HIIT to CrossFit to pure strength training, and I just have to say this machine is so impressive and does it all! I love the different training modes, AI features that tell me with detail how my form is, what my muscles are doing, how my overall health is. It makes working out fun and the tech is phenomenal! Highly recommend. If you’re thinking of buying it, just do it!",
+          "textTr": "15+ yıldır farklı salonlarda antrenman yapıyorum... Gerçekten premium bir sistem. Farklı antrenman modları, AI geri bildirimleri ve akıcı direnç hissi çok iyi.",
+          "previewOriginal": "I’ve been training for over 15 years in various gyms across the world. From HIIT to CrossFit to pure strength training, and I just have to say this machine is so impressive and doe…",
+          "previewTr": "15+ yıldır farklı salonlarda antrenman yapıyorum... Gerçekten premium bir sistem. Farklı antrenman modları, AI geri bildirimleri ve akıcı direnç hissi çok iyi.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_09",
+          "id": "amazon-de-009",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -2035,41 +2059,40 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Patrick D.",
+            "name": "Nubs",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2025-09-10",
+          "headline": "Truly a game changer",
+          "textOriginal": "Truly a game changer.  The super small footprint means I can actually use it in my studio apartment, unlike most other universal gyms or a squat rack.  It's incredibly quiet, so I don't have to worry about annoying the people living on the floor below me. It also has smooth, consistent resistance up to 220lbs, which is more than enough for me.  And mostly importantly, unlike its competitors (e.g. Tonal, Vitruvian, etc), you don't have to pay a monthly fee to access all the important features!!! I have had a few minor issues already, like one cable fraying after doing hip thrusts, but Speediance customer support has been absolutely incredible and they sent me a replacement cable for free (their new upgraded cable made of fray resistant material) immediately after I contacted them about it.  And they also just released an adapter that solves the fraying problem when using the weight belt with the lower platform attachment slots too, so the company is adapting to issues remarkably quickly.  All of which has given me enough confidence to give them a 5 star review here. p.s. Just make sure to join their official facebook group if you get one, since it's a great resource and their reps on it are super super helpful as well.",
+          "textTr": "Gerçek anlamda oyun değiştirici. Çok az yer kapladığı için evde rahatça kullanabiliyorum... Alt katta yaşayanları rahatsız eder miyim diye de endişe etmiyorum.",
+          "previewOriginal": "Truly a game changer. The super small footprint means I can actually use it in my studio apartment, unlike most other universal gyms or a squat rack. It's incredibly quiet, so I do…",
+          "previewTr": "Gerçek anlamda oyun değiştirici. Çok az yer kapladığı için evde rahatça kullanabiliyorum... Alt katta yaşayanları rahatsız eder miyim diye de endişe etmiyorum.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         },
         {
-          "id": "ph_amazon_de_10",
+          "id": "amazon-de-010",
           "source": {
             "type": "amazon",
             "market": "DE",
-            "name": "Amazon.de (DE)",
-            "url": "https://example.com/review-source"
+            "name": "Amazon.de",
+            "url": "https://www.amazon.de/Speediance-AI-Powered-Multifunctional-Works-Plus/dp/B0DFH1NYR6?ref_=ast_sto_dp&th=1"
           },
           "country": {
             "code": "DE",
@@ -2077,33 +2100,32 @@
             "flagEmoji": "🇩🇪"
           },
           "customer": {
-            "name": "Ayşe K.",
+            "name": "Tiffany L.",
             "isVerifiedBuyer": true,
             "badgeText": "Verified buyer"
           },
           "rating": 5,
-          "date": "2025-01-01",
-          "headline": "",
-          "textOriginal": "[PLACEHOLDER] Amazon.de (DE) yorumu (orijinal dil)",
-          "textTr": "[PLACEHOLDER] Amazon.de (DE) yorumu (Türkçe çeviri)",
+          "date": "2024-12-14",
+          "headline": "A Game-Changer for Safe, Efficient Home Workouts",
+          "textOriginal": "After injuring my shoulder with traditional dumbbells over a year ago, I was hesitant about getting back into strength training. The Speediance Gym Monster 2 has completely transformed my approach to working out and helped me return to regular exercise with confidence. The machine's safety features stand out as its greatest strength. The assist modes and automated weight adjustments have allowed me to rebuild my strength gradually without fear of reinjury. Unlike my previous setup with just dumbbells and a bench, the Speediance provides controlled, smooth movements that feel secure and stable throughout each exercise. The build quality is exceptional - this is a serious piece of equipment. It arrived quickly via Amazon Prime shipping, though I'd strongly advise having help for the delivery and setup (I actually ended up helping our delivery team carry it in!). Despite its substantial weight, which speaks to its quality construction, setup was straightforward once it was in place. What truly sets this machine apart is how it streamlines the workout experience. The on-screen guidance eliminates the guesswork from my sessions, while automatic rest time and weight tracking keep me focused on the exercises rather than managing details. I'm completing workouts more efficiently than ever before, and the variety of exercise options keeps things interesting and engaging. The interface is intuitive and well-designed, making it easy to follow along with preset workouts or create custom routines. The team behind Speediance appears committed to continuous improvement, regularly updating features and responding to user feedback. One of my favorite things -- no subscription fee. I didn't want to deal with the other companies who are charging so much for equipment and then throw a $40-$60 fee on top of it every month. The biggest transformation has been in my attitude toward working out. What started as a cautious return to exercise has become something I genuinely look forward to. The combination of guided workouts, progress tracking, and the sheer convenience of having a comprehensive gym in my home has made fitness feel more accessible and enjoyable than it was with my previous basic setup. For anyone recovering from an injury or looking to upgrade their home gym with a safer, more sophisticated solution, the Speediance Gym Monster 2 is worth serious consideration. It's not just a piece of exercise equipment - it's a complete fitness system that makes consistent, safe training accessible at home.",
+          "textTr": "Klasik dumbbell’larla omzumu sakatladıktan sonra uzun süre ara vermiştim... Speediance yaklaşımı antrenmanlarımı yeniden şekillendirdi ve beni tekrar düzenli egzersize döndürdü.",
+          "previewOriginal": "After injuring my shoulder with traditional dumbbells over a year ago, I was hesitant about getting back into strength training. The Speediance Gym Monster 2 has completely transfo…",
+          "previewTr": "Klasik dumbbell’larla omzumu sakatladıktan sonra uzun süre ara vermiştim... Speediance yaklaşımı antrenmanlarımı yeniden şekillendirdi ve beni tekrar düzenli egzersize döndürdü.",
           "media": {
-            "type": "image",
-            "thumb": "https://via.placeholder.com/800x600?text=Review+Media",
-            "url": "https://via.placeholder.com/800x600?text=Review+Media"
+            "type": "none",
+            "thumb": "",
+            "url": ""
           },
           "product": {
-            "name": "SPEEDIANCE GYM MONSTER",
+            "name": "Speediance Gym Monster",
             "variant": "",
-            "url": "https://speedianceturkiye.com/",
-            "image": "https://via.placeholder.com/120x120?text=Product"
+            "url": "https://speedianceturkiye.com/gym-monster-2",
+            "image": ""
           },
-          "tags": [
-            "strength",
-            "setup",
-            "family"
-          ],
+          "tags": [],
           "priority": 0,
-          "isPlaceholder": true
+          "isPlaceholder": false,
+          "isTruncated": false
         }
       ]
     }
