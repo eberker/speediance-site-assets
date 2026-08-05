@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "3.5-global-loox-updated",
+    "version": "3.6-loox-dates-mid-images",
     "generatedAt": "2026-08-05",
     "notes": [
       "Amazon bölümünde yalnızca fotoğraf veya video içeren yorumlar bulunur.",
@@ -14,7 +14,11 @@
       "Yeni Loox kaynağı yalnızca kısaltılmış carousel metinlerini içerdiği için bu kayıtların textOriginal ve previewOriginal alanları kaynakta görünen kısaltılmış metindir.",
       "Yeni Loox metinlerinin Türkçe karşılıkları da aynı kısaltılmış kapsam korunarak textTr ve previewTr alanlarına eklendi.",
       "Loox görsel URL'leri kaynakta sunulan orijinal images.loox.io bağlantılarıyla kaydedildi.",
-      "Christopher L. kaydı video yorumu olarak işaretlenmiş olsa da kaynak HTML gerçek video URL'sini içermediğinden kırık oynatıcı oluşturmamak için video kapağı image olarak tutuldu ve reviewMediaKind=video olarak işaretlendi."
+      "Christopher L. kaydı video yorumu olarak işaretlenmiş olsa da kaynak HTML gerçek video URL'sini içermediğinden kırık oynatıcı oluşturmamak için video kapağı image olarak tutuldu ve reviewMediaKind=video olarak işaretlendi.",
+      "Global Loox yorumlarının tarih alanları, Loox medya URL'sindeki /uploads/YYYY/M/D/ yolundan üretildi.",
+      "Global Loox görsel URL'lerinde dosya uzantısından hemen önce _mid eklendi; zaten _mid içeren URL'ler değiştirilmedi.",
+      "HTML, tarih alanı boş olsa bile mediaUploadedAt veya Loox medya URL'sinden tarihi bulacak şekilde güncellendi.",
+      "HTML, ileride JSON'a düşük çözünürlüklü bir Loox görseli eklense bile _mid varyantını otomatik kullanacak şekilde güncellendi."
     ],
     "counts": {
       "turkey": 1,
@@ -40,7 +44,10 @@
       "totalGlobalReviews": 41,
       "newImageReviews": 19,
       "newVideoThumbnails": 1,
-      "sourceTextCoverage": "carousel-preview-only"
+      "sourceTextCoverage": "carousel-preview-only",
+      "reviewsWithDate": 41,
+      "imageVariant": "_mid",
+      "dateSource": "Loox media URL path (/uploads/YYYY/M/D/)"
     }
   },
   "sections": {
@@ -111,7 +118,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-07-17",
         "mediaUploadedAt": "2026-07-17",
         "headline": "",
         "textOriginal": "It’s compact yet extremely versatile and...",
@@ -120,8 +127,8 @@
         "previewTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7.jpg",
-          "url": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -138,7 +145,8 @@
         ],
         "priority": 19999,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-jDCBUet03",
@@ -160,7 +168,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-05-22",
         "mediaUploadedAt": "2026-05-22",
         "headline": "",
         "textOriginal": "I hope I can type a lot here. I’ll try...",
@@ -169,8 +177,8 @@
         "previewTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6.jpg",
-          "url": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -187,7 +195,8 @@
         ],
         "priority": 19998,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-FgIWESKDX",
@@ -209,7 +218,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-04-30",
         "mediaUploadedAt": "2026-04-30",
         "headline": "",
         "textOriginal": "This Gym Monster 2 is amazing! Exactly...",
@@ -218,8 +227,8 @@
         "previewTr": "Bu Gym Monster 2 harika! Tam olarak...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z.jpg",
-          "url": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -236,7 +245,8 @@
         ],
         "priority": 19997,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-ZHH3G_dIQ",
@@ -258,7 +268,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-04-19",
         "mediaUploadedAt": "2026-04-19",
         "headline": "",
         "textOriginal": "I really like my Speediance gym. It was...",
@@ -267,8 +277,8 @@
         "previewTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc.jpg",
-          "url": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -285,7 +295,8 @@
         ],
         "priority": 19996,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-uB1eGvcR6",
@@ -307,7 +318,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-04-15",
         "mediaUploadedAt": "2026-04-15",
         "headline": "",
         "textOriginal": "Absolutely love this gym. Its made my...",
@@ -316,8 +327,8 @@
         "previewTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/4/15/F1jcffydK.jpg",
-          "url": "https://images.loox.io/uploads/2026/4/15/F1jcffydK.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/4/15/F1jcffydK_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/15/F1jcffydK_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -334,7 +345,8 @@
         ],
         "priority": 19995,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-UvhnzTS2e",
@@ -356,7 +368,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-04-16",
         "mediaUploadedAt": "2026-04-16",
         "headline": "",
         "textOriginal": "Shipping took longer than expected, but...",
@@ -365,8 +377,8 @@
         "previewTr": "Kargo beklediğimden uzun sürdü, ancak...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM.jpg",
-          "url": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -383,7 +395,8 @@
         ],
         "priority": 19994,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-RVwEQNQrp",
@@ -405,7 +418,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-04-10",
         "mediaUploadedAt": "2026-04-10",
         "headline": "",
         "textOriginal": "I’ve had the Speediance Gym Monster 2...",
@@ -414,8 +427,8 @@
         "previewTr": "Speediance Gym Monster 2’yi...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI.jpg",
-          "url": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -432,7 +445,8 @@
         ],
         "priority": 19993,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-KEyJA9lOX",
@@ -454,7 +468,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-04-02",
         "mediaUploadedAt": "2026-04-02",
         "headline": "",
         "textOriginal": "Haven't had the chance to fully dive...",
@@ -463,8 +477,8 @@
         "previewTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL.jpg",
-          "url": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -481,7 +495,8 @@
         ],
         "priority": 19992,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-JLzOqJLGL",
@@ -503,7 +518,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-03-28",
         "mediaUploadedAt": "2026-03-28",
         "headline": "",
         "textOriginal": "As someone who has always hated going to...",
@@ -512,8 +527,8 @@
         "previewTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H.jpg",
-          "url": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -530,7 +545,8 @@
         ],
         "priority": 19991,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-E3p2VTc8i",
@@ -552,7 +568,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-03-28",
         "mediaUploadedAt": "2026-03-28",
         "headline": "",
         "textOriginal": "This is great, from custom workouts, to...",
@@ -561,8 +577,8 @@
         "previewTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig.jpg",
-          "url": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig_mid.jpg"
         },
         "reviewMediaKind": "video",
         "product": {
@@ -579,7 +595,8 @@
         ],
         "priority": 19990,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-04Atu_m0o",
@@ -601,7 +618,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-03-15",
         "mediaUploadedAt": "2026-03-15",
         "headline": "",
         "textOriginal": "I was only able to test it out for two...",
@@ -610,8 +627,8 @@
         "previewTr": "Yalnızca iki...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM.jpg",
-          "url": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -628,7 +645,8 @@
         ],
         "priority": 19989,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-fWcchD8J3",
@@ -650,7 +668,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-03-06",
         "mediaUploadedAt": "2026-03-06",
         "headline": "",
         "textOriginal": "This was a great purchase!  Prior to the...",
@@ -659,8 +677,8 @@
         "previewTr": "Harika bir satın alma oldu! Öncesinde...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ.jpg",
-          "url": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -677,7 +695,8 @@
         ],
         "priority": 19988,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-xPDanpndR",
@@ -699,7 +718,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-03-04",
         "mediaUploadedAt": "2026-03-04",
         "headline": "",
         "textOriginal": "This machine is a game changer. It has...",
@@ -708,8 +727,8 @@
         "previewTr": "Bu cihaz ezber bozuyor. ...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR.jpg",
-          "url": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -726,7 +745,8 @@
         ],
         "priority": 19987,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-lSrXEr7qS",
@@ -748,7 +768,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-02-24",
         "mediaUploadedAt": "2026-02-24",
         "headline": "",
         "textOriginal": "Awesome",
@@ -757,8 +777,8 @@
         "previewTr": "Harika",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/2/24/LRw11AKC4X.jpg",
-          "url": "https://images.loox.io/uploads/2026/2/24/LRw11AKC4X.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/2/24/LRw11AKC4X_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/2/24/LRw11AKC4X_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -775,7 +795,8 @@
         ],
         "priority": 19986,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-peWtvhaW1",
@@ -797,7 +818,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-01-16",
         "mediaUploadedAt": "2026-01-16",
         "headline": "",
         "textOriginal": "I cannot say enough good things about my...",
@@ -806,8 +827,8 @@
         "previewTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc.jpg",
-          "url": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -824,7 +845,8 @@
         ],
         "priority": 19985,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-r5i1Gq6Nd",
@@ -846,7 +868,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-01-13",
         "mediaUploadedAt": "2026-01-13",
         "headline": "",
         "textOriginal": "I got my machine last week and I'm...",
@@ -855,8 +877,8 @@
         "previewTr": "Cihazım geçen hafta geldi ve...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3.jpg",
-          "url": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -873,7 +895,8 @@
         ],
         "priority": 19984,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-k-EeAlQix",
@@ -895,7 +918,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-01-07",
         "mediaUploadedAt": "2026-01-07",
         "headline": "",
         "textOriginal": "I’ve really enjoyed the Speediance Gym...",
@@ -904,8 +927,8 @@
         "previewTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p.jpg",
-          "url": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -922,7 +945,8 @@
         ],
         "priority": 19983,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-CW-hjvfc6",
@@ -944,7 +968,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2026-01-03",
         "mediaUploadedAt": "2026-01-03",
         "headline": "",
         "textOriginal": "So far so good!  Still learning...",
@@ -953,8 +977,8 @@
         "previewTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb.jpg",
-          "url": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb.jpg"
+          "thumb": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb_mid.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -971,7 +995,8 @@
         ],
         "priority": 19982,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-eF-957fM7",
@@ -993,7 +1018,7 @@
           "badgeText": ""
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-29",
         "mediaUploadedAt": "2025-12-29",
         "headline": "",
         "textOriginal": "I'd never thought gym could be so...",
@@ -1002,8 +1027,8 @@
         "previewTr": "Spor salonunun bu kadar...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl.jpg",
-          "url": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl.jpg"
+          "thumb": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl_mid.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -1020,7 +1045,8 @@
         ],
         "priority": 19981,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-OTItQw5xw",
@@ -1042,7 +1068,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-24",
         "mediaUploadedAt": "2025-12-24",
         "headline": "",
         "textOriginal": "The Gym Monster 2 is a complete game...",
@@ -1051,8 +1077,8 @@
         "previewTr": "Gym Monster 2 tam anlamıyla...",
         "media": {
           "type": "image",
-          "thumb": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv.jpg",
-          "url": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv.jpg"
+          "thumb": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv_mid.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv_mid.jpg"
         },
         "reviewMediaKind": "image",
         "product": {
@@ -1069,7 +1095,8 @@
         ],
         "priority": 19980,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-000",
@@ -1090,7 +1117,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-20",
         "headline": "",
         "textOriginal": "Easy to set up!  Can’t wait to start using it!",
         "textTr": "Kurulumu çok kolay! Kullanmaya başlamak için sabırsızlanıyorum!",
@@ -1110,7 +1137,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-12-20",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-001",
@@ -1131,7 +1160,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-09",
         "headline": "",
         "textOriginal": "Pain-free setup and already loving this machine. Plenty of workout options and grateful for a sturdy, smooth workout every time. Highly recommend this machine.",
         "textTr": "Kurulum sorunsuzdu ve bu makineyi şimdiden çok sevdim. Çok sayıda antrenman seçeneği var; her seferinde sağlam, akıcı ve güven veren bir çalışma sunuyor. Kesinlikle tavsiye ederim.",
@@ -1151,7 +1180,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-12-09",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-002",
@@ -1172,7 +1203,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-04",
         "headline": "",
         "textOriginal": "Had my gym monster for a few years, and it’s been fantastic in my fitness journey. Support team is top notch in handling any issues I’ve had in that time!",
         "textTr": "Gym Monster’ı birkaç yıldır kullanıyorum ve fitness yolculuğumda harika bir destek oldu. Yaşadığım her konuda destek ekibi inanılmaz ilgili ve çözüm odaklı!",
@@ -1192,7 +1223,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-12-04",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-003",
@@ -1213,7 +1246,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-03",
         "headline": "",
         "textOriginal": "I bought the Gym Monster two months ago and have been actively using it almost every day since then. I am very satisfied with the device because it allows even complete beginners to learn and progress quickly and effectively. My two sons are also enthusiastic about the device.\nHowever, I have had problems with the Bluetooth ring and handles disconnecting from the very beginning, so I contacted technical support. Their response was very quick and they soon offered me a solution to replace these accessories. Now I am waiting for the replacement accessories to arrive to test them.\nCurrently, I use the device without the help of Bluetooth devices and turn on the weight manually (on the screen), which is also an option, but it is less convenient than using wireless accessories.\nI bought the Gym Monster device along with all the accessories and the rowing machine and I must say that everything is made of extremely high quality. I also like that the device and accessories do not take up much space and are therefore suitable for smaller spaces.\nOverall, I am very satisfied with the device itself, as well as the communication and accessibility of technical support, and I can recommend this device to anyone who wants to exercise and tone their body, but doesn't have much time for fitness. You won't regret it.",
         "textTr": "Gym Monster’ı iki ay önce aldım ve o günden beri neredeyse her gün kullanıyorum. Yeni başlayanlar için bile hızlı ve etkili şekilde öğrenmeye ve gelişmeye çok yardımcı oluyor. İki oğlum da cihazı çok sevdi.\n\nAncak ilk günden beri Bluetooth yüzük ve tutacakların bağlantısının kopmasıyla ilgili sorun yaşadım; teknik destekle iletişime geçtim. Çok hızlı yanıt verdiler ve aksesuarları değiştirme çözümü sundular. Şimdi yeni parçaların gelmesini bekliyorum.\n\nŞimdilik Bluetooth aksesuarlarında tam stabilite yakalayana kadar temkinliyim, ama genel deneyimim çok olumlu.",
@@ -1233,7 +1266,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-12-03",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-004",
@@ -1254,7 +1289,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-12-01",
         "headline": "",
         "textOriginal": "I bought the Speediance machine thinking I might use it now and then. I did not expect that it would replace my gym membership entirely, but it has.  You can do nearly all of the same movements that you can do in a gym, so why have both? Great machine all around.",
         "textTr": "Speediance’i “arada bir kullanırım” diye aldım; ama beklemediğim şekilde spor salonu üyeliğimin yerini tamamen aldı. Salonda yaptığınız hareketlerin neredeyse tamamını evde yapabiliyorsunuz. O halde neden ikisi birden? Her yönüyle harika bir cihaz.",
@@ -1274,7 +1309,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-12-01",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-005",
@@ -1295,7 +1332,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-11-26",
         "headline": "",
         "textOriginal": "My son and I use our GM1 5-6 days per week each and absolutely love it!!! It's been a total game changer for us.  Convenient, a HUGE amount of exercises that you can do and super easy to operate. Probably one of the most underrated things is - it's just a ton of fun to use! I don't dread lifting like I used to when I was going to a gym. Best piece of gym equipment I have ever bought. Supported with top notch customer support. Kind, courteous, reliable and helpful. A+++++ Speediance all the way around! Thank you!",
         "textTr": "Oğlumla birlikte GM1’i haftada 5–6 gün kullanıyoruz ve bayılıyoruz! Bizim için tam anlamıyla oyun değiştirici oldu. Çok pratik, yapılabilecek egzersiz sayısı muazzam ve kullanımı çok kolay. Ayrıca en underrated tarafı: kullanması gerçekten eğlenceli. Eskiden salona giderken ağırlık çalışmayı ertelerdim; şimdi hevesle yapıyorum. Şimdiye kadar aldığım en iyi spor ekipmanı. Üstelik müşteri desteği de birinci sınıf: nazik, güvenilir ve çok yardımcı. A+++++ Speediance! Teşekkürler!",
@@ -1315,7 +1352,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-11-26",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-006",
@@ -1336,7 +1375,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-10-18",
         "headline": "",
         "textOriginal": "We’ve had the Speediance Gym Monster for several months now, and it’s been a game changer for our whole family. My teenage boys use it to build strength and improve their performance for soccer, and I love that I can create safe, controlled routines for them without worrying about heavy free weights. The system tracks their progress automatically, which keeps them motivated and competitive with each other.As a busy professional, the Gym Monster has been just as valuable for me. I can fit in a full, high-quality workout anytime — early morning, late at night, or between meetings — without leaving home. The resistance feels incredibly smooth, the setup is compact, and the software keeps improving with new workouts and smart features.It’s rare to find something that works so well for both adults and teens, but this machine does it all. It’s solid, versatile, and honestly feels like having a personal trainer and full gym right in the house.If I had one wish, it would be for a slightly wider, sturdier platform — especially for users who have the space. That small upgrade would make an already excellent system even better.Highly recommend it for families or anyone who wants the flexibility to train effectively at home.",
         "textTr": "Speediance Gym Monster’ı birkaç aydır kullanıyoruz ve tüm aile için gerçekten oyun değiştirici oldu. Ergen oğullarım futbol performansı için güç kazanmak amacıyla kullanıyor; ben de ağır serbest ağırlıklar olmadan güvenli ve kontrollü rutinler oluşturabilmeyi seviyorum. Sistem ilerlemeyi otomatik takip ettiği için motive oluyorlar ve aralarında tatlı bir rekabet oluşuyor.\n\nYoğun çalışan biri olarak benim için de çok değerli: evden çıkmadan, sabah erken ya da gece geç, hatta toplantılar arasında bile antrenman yapabiliyorum. Evde profesyonel bir antrenman deneyimi isteyenlere kesinlikle öneririm.",
@@ -1356,7 +1395,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-10-18",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-007",
@@ -1377,7 +1418,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-10-11",
         "headline": "",
         "textOriginal": "So far so good.  The resistance variety is a pleasant surprise.  The entire system seems to be built to last.  I’ll do a full review after I use it for 1 year.",
         "textTr": "Şimdilik her şey iyi. Direnç modlarındaki çeşitlilik hoş bir sürpriz oldu. Sistem genel olarak uzun ömürlü olacak şekilde tasarlanmış gibi görünüyor. Bir yıl kullandıktan sonra daha kapsamlı bir değerlendirme yapacağım.",
@@ -1397,7 +1438,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-10-11",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-008",
@@ -1418,7 +1461,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-10-08",
         "headline": "",
         "textOriginal": "I waited for over 6 months before deciding to purchase the Gym Monster, and man I wish I had done it sooner. The screen is snappy, the machine is quiet, and the resistance feels so smooth. The number of exercises I'm able to do with this is mind-blowing - plus it will effectively pay for itself over going to a traditional gym. The software is great as well, and it keeps improving! Could not recommend this more.",
         "textTr": "Gym Monster’ı almaya karar vermeden önce 6 aydan fazla bekledim; keşke daha önce alsaymışım. Ekran çok hızlı, cihaz sessiz ve direnç inanılmaz akıcı. Bununla yapabildiğim egzersiz sayısı akıl almaz—üstelik klasik spor salonuna göre kendini fazlasıyla amorti ediyor. Yazılım da çok iyi ve sürekli gelişiyor. Daha fazlasını önermek zor; kesinlikle tavsiye ederim.",
@@ -1438,7 +1481,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-10-08",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-009",
@@ -1459,7 +1504,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-09-27",
         "headline": "",
         "textOriginal": "This is an amazing machine and it fits great in my space. Before i got it i was looking at squat racks and dumbbell sets and I was looking at spending 4 time what this machine cost me . Glad I found the gym monster when I did plus I feel like the resistance with the cables activates my muscles more than with free weights.really great machine I had it for about a year and I’m very happy.",
         "textTr": "Bu inanılmaz bir cihaz ve alanıma mükemmel uydu. Almadan önce squat rack ve dambıl setlerine bakıyordum; neredeyse bunun dört katı harcayacaktım. Gym Monster’ı zamanında keşfettiğim için çok mutluyum. Kabloların direnci, serbest ağırlıklara göre kaslarımı daha iyi aktive ediyor gibi. Yaklaşık bir yıldır kullanıyorum ve çok memnunum.",
@@ -1479,7 +1524,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-09-27",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-010",
@@ -1500,7 +1547,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-09-29",
         "headline": "",
         "textOriginal": "It is the best purchase we've made. We can perform almost any exercises that we were doing in the gym, and I was even able to improve my form overall. I highly recommend having one in your home.",
         "textTr": "Yaptığımız en iyi alışverişlerden biri. Salonda yaptığımız neredeyse tüm hareketleri evde yapabiliyoruz; hatta formumu bile geliştirdim. Evde bir tane bulundurmanızı kesinlikle öneririm.",
@@ -1520,7 +1567,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-09-29",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-011",
@@ -1541,7 +1590,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-09-17",
         "headline": "",
         "textOriginal": "I’ve had the gym monster for over a year and I have multiple sclerosis so I use the gym monster for a rehab rehabilitation I especially love the rower. It’s a great exercise for me and my condition. I really do recommend the gym monster it’s a wonderful system and the company has been doing updates and really trying to take care of their customer base. Neal",
         "textTr": "Gym Monster’ı bir yılı aşkın süredir kullanıyorum. Multipl skleroz (MS) hastasıyım ve cihazı rehabilitasyon amaçlı antrenmanlarda kullanıyorum; özellikle kürek aletini çok seviyorum. Benim durumum için harika bir egzersiz. Gym Monster’ı gerçekten öneririm; sistem çok iyi ve firma güncellemelerle kullanıcılarını desteklemeye devam ediyor.",
@@ -1561,7 +1610,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-09-17",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-012",
@@ -1582,7 +1633,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-09-02",
         "headline": "",
         "textOriginal": "I absolutely love this machine! It’s compact, versatile, and perfect for quick but effective workouts. The design makes it easy to switch between exercises, and I’ve already noticed a big difference in my strength and energy. It’s been one of the best fitness investments I’ve made!!! For any one that wants to stay motivated, I put my machine in my bedroom so when I wake up, don’t even need to get super dressed to workout.",
         "textTr": "Bu makineye bayılıyorum! Kompakt, çok yönlü ve kısa sürede bile etkili antrenmanlar için mükemmel. Tasarımı egzersizler arasında hızlı geçiş yapmayı kolaylaştırıyor; şimdiden güç ve enerjimde büyük fark hissettim. Yaptığım en iyi fitness yatırımlarından biri! Motive kalmak isteyenlere de küçük bir ipucu: cihazı yatak odama koydum; uyanınca spor için ekstra hazırlanmak bile gerekmiyor.",
@@ -1602,7 +1653,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-09-02",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-013",
@@ -1623,7 +1676,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-05-24",
         "headline": "",
         "textOriginal": "This machine has been fantastic. It is incredibly versatile, compact, sturdy and I'm nowhere close to pushing it's limits. The programming is great with all types of premade workouts for any level. But you can also build your own and save them using a great interface on your phone or directly on the machine. After owning it nearly a year I have seen it go through a number of significant software updates adding features like phone connectivity for music, or heart rate monitor connectivity and AI features as well as additional content and workouts. It's amazing considering they don't charge for the software. They really listen to their users and have even implemented a suggestion I've sent in.",
         "textTr": "Bu cihaz müthiş. İnanılmaz derecede çok yönlü, kompakt, sağlam ve henüz sınırlarını zorlamaya yaklaşmadım bile. Programlar her seviyeye uygun; hazır antrenmanlar çok iyi. Ayrıca telefondan ya da cihaz üzerinden kendi antrenmanlarınızı oluşturup kaydedebiliyorsunuz. Yaklaşık bir yıldır kullanıyorum ve bu süreçte müzik bağlantısı, nabız ölçer entegrasyonu, yapay zekâ özellikleri ve yeni içerikler gibi ciddi yazılım güncellemeleri geldi. Üstelik yazılım için ücret almamaları harika. Kısacası: paket halinde muazzam bir ürün.",
@@ -1643,7 +1696,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-05-24",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-014",
@@ -1664,7 +1719,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-05-15",
         "headline": "",
         "textOriginal": "New to GM! Loving it so far. It fits neatly in the corner of my bedroom. The 220llbs is more than adequate. The motion is smoother than I expected and I look forward to starting my fitness journey with Speediance. A+",
         "textTr": "Gym Monster’a yeni başladım ve şimdilik harika! Yatak odamın köşesine çok düzgün yerleşiyor. 220 lb kapasite fazlasıyla yeterli. Hareket akıcılığı beklediğimden daha iyi. Speediance ile fitness yolculuğuma başlamak için sabırsızlanıyorum. A+",
@@ -1684,7 +1739,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-05-15",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-015",
@@ -1705,7 +1762,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-01-22",
         "headline": "",
         "textOriginal": "I have the first Speediance that the company has come out with. This product has been a life changer for me. The hardest thing about getting back into shape was physically going to the gym however I did not feel I was able to get an adequate workout at home. This machine and program has not only changed that for me but also at an affordable price! Being able to join the community without a monthly fee, workout in the privacy of my home, and regardless of the weather conditions, there are no excuses being that I don't have to leave the house! Not to mention, their customer service has been nothing short of spectacular! This product and company have by far met my expectations. Thank you Speediance team, I'm so thankful to you and happy to be a part of this community!",
         "textTr": "Firmanın çıkardığı ilk Speediance modeline sahibim. Bu ürün hayatımı değiştirdi. Forma dönmenin en zor yanı salona fiziksel olarak gitmekti; evde ise yeterli antrenman yapamadığımı hissediyordum. Bu cihaz ve program bunu tamamen değiştirdi—üstelik uygun bir maliyetle. Aylık ücret olmadan topluluğa katılabilmek, evin mahremiyetinde spor yapmak ve hava koşullarından bağımsız olarak “bahane” bırakmaması harika. Üstüne müşteri hizmetleri de olağanüstü. Hem ürün hem şirket beklentilerimin üstünde.",
@@ -1725,7 +1782,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-01-22",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-016",
@@ -1746,7 +1805,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-01-22",
         "headline": "",
         "textOriginal": "One of the best purchases I have made in a long time.  Been using the GM1 for about 3 weeks now and have felt and noticed a difference in my strength.  It is exactly what I was hoping for in a piece of exercises equipment.  Easy to use and the real deal.",
         "textTr": "Uzun zamandır yaptığım en iyi alışverişlerden biri. GM1’i yaklaşık 3 haftadır kullanıyorum ve gücümde farkı hissedip görüyorum. Tam olarak bir egzersiz ekipmanından beklediğim şeydi. Kullanımı kolay ve gerçekten işini yapan bir sistem.",
@@ -1766,7 +1825,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-01-22",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-017",
@@ -1787,7 +1848,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-01-21",
         "headline": "",
         "textOriginal": "The Speediance Gym Monster 2 has really helped me get back into resistance training.  The programs are great for creating a routine and the data you get helps you keep track of your progress.  I've only had it for a month of so and feel like my workouts are better than when I was at a gym.  Looking forward to my continued fitness journey using this machine.",
         "textTr": "Speediance Gym Monster 2, direnç antrenmanına geri dönmemde büyük yardımcı oldu. Programlar rutin oluşturmayı kolaylaştırıyor ve elde ettiğiniz veriler gelişiminizi takip etmenizi sağlıyor. Yaklaşık bir aydır kullanıyorum ve antrenmanlarımın spor salonundakinden bile daha iyi olduğunu hissediyorum. Bu makineyle fitness yolculuğuma devam etmeyi sabırsızlıkla bekliyorum.",
@@ -1807,7 +1868,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-01-21",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-018",
@@ -1828,7 +1891,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2025-01-23",
         "headline": "",
         "textOriginal": "One of my favorite additions to my workout routine! I love this machine. It helped me a lot with my physique and strength. My husband and I switched turns and I found it very convenient since I’m a working mom and I have no time to drive to a local gym. This is my gym in a machine. I am literally in love with it and can’t skip a day without working out. The programs are great and you can custom your workout to what’s best for your goals. Get it now!!!!!",
         "textTr": "Antrenman rutinime yaptığım en sevdiğim eklemelerden biri! Bu makineye bayılıyorum. Fizik ve güç açısından bana çok yardımcı oldu. Eşimle sırayla kullanıyoruz; çalışan bir anne olarak spor salonuna gitmeye vaktim yokken inanılmaz pratik. Bu resmen “makine içinde spor salonu”. Kelimenin tam anlamıyla aşığım; bir gün bile antrenmansız geçirmiyorum. Programlar çok iyi; hedeflerinize uygun şekilde antrenmanınızı kişiselleştirebiliyorsunuz. Hemen alın!!!!!",
@@ -1848,7 +1911,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2025-01-23",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-019",
@@ -1869,7 +1934,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2024-12-05",
         "headline": "",
         "textOriginal": "This has been the best purchase I have made in a long time. I definitely recommend the Gym Monster over the other home gym systems. I have tried several of these systems and this is definitely the best. Its versatility, mobility and size make it ideal for any home whether large or small. Highly recommended.",
         "textTr": "Bu, uzun zamandır yaptığım en iyi alışveriş. Diğer ev tipi gym sistemlerine kıyasla Gym Monster’ı kesinlikle öneririm. Birkaç farklı sistemi denedim; bu açık ara en iyisi. Çok yönlülüğü, taşınabilirliği ve kompakt yapısı sayesinde eviniz büyük ya da küçük olsun mükemmel uyuyor. Şiddetle tavsiye ederim.",
@@ -1889,7 +1954,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2024-12-05",
+        "dateSource": "loox-media-url"
       },
       {
         "id": "loox-global-020",
@@ -1910,7 +1977,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "",
+        "date": "2024-11-16",
         "headline": "",
         "textOriginal": "I've had my Speediance Gym Monster for about 6 weeks now, and I love it! It's compact, fits perfectly in my space, and the workouts have been great! I’ve used a home gym with free weights for years, but was growing frustrated with the exercise limitations and my wife hated the sound of clanking weight plates. I had been interested in Tonal, but the fact that Speediance offered a free life time membership was one big deciding factor for me. That, and the fact that there is no mounting needed for the Gym Monster. The versatility is astounding— now I can hit every muscle group and go from exercise to exercise with minimal set up. The smart weight system is amazing. I can turn the weight on and off and adjust it, all with the touch of a button on the blue tooth ring. The Facebook group is very active, and the company keeps upgrading the software and providing new accessories. I highly recommend this product to everyone. I couldn't be more satisfied with this health investment.",
         "textTr": "Speediance Gym Monster’ı yaklaşık 6 haftadır kullanıyorum ve çok seviyorum! Kompakt, alanıma mükemmel uyuyor ve antrenmanlar harika. Yıllarca serbest ağırlıkla evde çalıştım ama hareket kısıtları beni sıkmaya başlamıştı; eşim de ağırlık plakalarının sesinden rahatsız oluyordu. Tonal’a bakıyordum; ama Speediance’in ücretsiz ömür boyu üyelik sunması benim için büyük bir artıydı. Bir de Gym Monster’ı duvara monte etmek gerekmiyor.\n\nÇok yönlülük inanılmaz: artık tüm kas gruplarını çalıştırabiliyorum ve programlar gerçekten iyi.",
@@ -1930,7 +1997,9 @@
         "tags": [],
         "priority": 0,
         "isPlaceholder": false,
-        "isTruncated": true
+        "isTruncated": true,
+        "mediaUploadedAt": "2024-11-16",
+        "dateSource": "loox-media-url"
       }
     ],
     "amazon": {
