@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "3.4-amazon-all-media-hq",
+    "version": "3.5-global-loox-updated",
     "generatedAt": "2026-08-05",
     "notes": [
       "Amazon bölümünde yalnızca fotoğraf veya video içeren yorumlar bulunur.",
@@ -9,11 +9,16 @@
       "Birden fazla fotoğrafı olan yorumlarda tüm görseller media.images alanında korunur.",
       "Video yorumlarında doğrudan MP4 varsa media.url ve media.mp4 alanlarında tutulur; HLS bağlantısı media.stream alanında korunur.",
       "Amazon pazarı, her yorumun değerlendirme ülkesine göre Amazon.com, Amazon.de, Amazon.ca ve benzeri biçimde belirlendi.",
-      "Frontend Amazon pazar gruplarını Object.values(sections.amazon).flat() ile birleştirmelidir."
+      "Frontend Amazon pazar gruplarını Object.values(sections.amazon).flat() ile birleştirmelidir.",
+      "Yeni Loox carousel HTML'inden 20 benzersiz Global yorum eklendi.",
+      "Yeni Loox kaynağı yalnızca kısaltılmış carousel metinlerini içerdiği için bu kayıtların textOriginal ve previewOriginal alanları kaynakta görünen kısaltılmış metindir.",
+      "Yeni Loox metinlerinin Türkçe karşılıkları da aynı kısaltılmış kapsam korunarak textTr ve previewTr alanlarına eklendi.",
+      "Loox görsel URL'leri kaynakta sunulan orijinal images.loox.io bağlantılarıyla kaydedildi.",
+      "Christopher L. kaydı video yorumu olarak işaretlenmiş olsa da kaynak HTML gerçek video URL'sini içermediğinden kırık oynatıcı oluşturmamak için video kapağı image olarak tutuldu ve reviewMediaKind=video olarak işaretlendi."
     ],
     "counts": {
       "turkey": 1,
-      "global": 21,
+      "global": 41,
       "amazon_us": 55,
       "amazon_de": 8,
       "amazon_jp": 2,
@@ -29,6 +34,13 @@
       "imageAndVideoReviews": 3,
       "totalReviewImages": 105,
       "imageQuality": "SL1600"
+    },
+    "looxGlobal": {
+      "newReviewsAdded": 20,
+      "totalGlobalReviews": 41,
+      "newImageReviews": 19,
+      "newVideoThumbnails": 1,
+      "sourceTextCoverage": "carousel-preview-only"
     }
   },
   "sections": {
@@ -79,6 +91,986 @@
       }
     ],
     "global": [
+      {
+        "id": "loox-global-zpBlqi7rM",
+        "looxPostId": "zpBlqi7rM",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Marcos N.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-07-17",
+        "headline": "",
+        "textOriginal": "It’s compact yet extremely versatile and...",
+        "textTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
+        "previewOriginal": "It’s compact yet extremely versatile and...",
+        "previewTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7.jpg",
+          "url": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19999,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-jDCBUet03",
+        "looxPostId": "jDCBUet03",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Shannon M.",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-05-22",
+        "headline": "",
+        "textOriginal": "I hope I can type a lot here. I’ll try...",
+        "textTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
+        "previewOriginal": "I hope I can type a lot here. I’ll try...",
+        "previewTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6.jpg",
+          "url": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19998,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-FgIWESKDX",
+        "looxPostId": "FgIWESKDX",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Arnaud D.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-04-30",
+        "headline": "",
+        "textOriginal": "This Gym Monster 2 is amazing! Exactly...",
+        "textTr": "Bu Gym Monster 2 harika! Tam olarak...",
+        "previewOriginal": "This Gym Monster 2 is amazing! Exactly...",
+        "previewTr": "Bu Gym Monster 2 harika! Tam olarak...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19997,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-ZHH3G_dIQ",
+        "looxPostId": "ZHH3G_dIQ",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Dwayn H.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-04-19",
+        "headline": "",
+        "textOriginal": "I really like my Speediance gym. It was...",
+        "textTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
+        "previewOriginal": "I really like my Speediance gym. It was...",
+        "previewTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19996,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-uB1eGvcR6",
+        "looxPostId": "uB1eGvcR6",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Flavio O.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-04-15",
+        "headline": "",
+        "textOriginal": "Absolutely love this gym. Its made my...",
+        "textTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
+        "previewOriginal": "Absolutely love this gym. Its made my...",
+        "previewTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/4/15/F1jcffydK.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/15/F1jcffydK.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19995,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-UvhnzTS2e",
+        "looxPostId": "UvhnzTS2e",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Zachary L.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-04-16",
+        "headline": "",
+        "textOriginal": "Shipping took longer than expected, but...",
+        "textTr": "Kargo beklediğimden uzun sürdü, ancak...",
+        "previewOriginal": "Shipping took longer than expected, but...",
+        "previewTr": "Kargo beklediğimden uzun sürdü, ancak...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19994,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-RVwEQNQrp",
+        "looxPostId": "RVwEQNQrp",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Jarnail S.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-04-10",
+        "headline": "",
+        "textOriginal": "I’ve had the Speediance Gym Monster 2...",
+        "textTr": "Speediance Gym Monster 2’yi...",
+        "previewOriginal": "I’ve had the Speediance Gym Monster 2...",
+        "previewTr": "Speediance Gym Monster 2’yi...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19993,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-KEyJA9lOX",
+        "looxPostId": "KEyJA9lOX",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Karl G.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-04-02",
+        "headline": "",
+        "textOriginal": "Haven't had the chance to fully dive...",
+        "textTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
+        "previewOriginal": "Haven't had the chance to fully dive...",
+        "previewTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL.jpg",
+          "url": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19992,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-JLzOqJLGL",
+        "looxPostId": "JLzOqJLGL",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Ankur G.",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-03-28",
+        "headline": "",
+        "textOriginal": "As someone who has always hated going to...",
+        "textTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
+        "previewOriginal": "As someone who has always hated going to...",
+        "previewTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19991,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-E3p2VTc8i",
+        "looxPostId": "E3p2VTc8i",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Christopher L.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-03-28",
+        "headline": "",
+        "textOriginal": "This is great, from custom workouts, to...",
+        "textTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
+        "previewOriginal": "This is great, from custom workouts, to...",
+        "previewTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig.jpg"
+        },
+        "reviewMediaKind": "video",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "video-review-thumbnail"
+        ],
+        "priority": 19990,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-04Atu_m0o",
+        "looxPostId": "04Atu_m0o",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Jose S.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-03-15",
+        "headline": "",
+        "textOriginal": "I was only able to test it out for two...",
+        "textTr": "Yalnızca iki...",
+        "previewOriginal": "I was only able to test it out for two...",
+        "previewTr": "Yalnızca iki...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19989,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-fWcchD8J3",
+        "looxPostId": "fWcchD8J3",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Peter M.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-03-06",
+        "headline": "",
+        "textOriginal": "This was a great purchase!  Prior to the...",
+        "textTr": "Harika bir satın alma oldu! Öncesinde...",
+        "previewOriginal": "This was a great purchase!  Prior to the...",
+        "previewTr": "Harika bir satın alma oldu! Öncesinde...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19988,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-xPDanpndR",
+        "looxPostId": "xPDanpndR",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Michael",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-03-04",
+        "headline": "",
+        "textOriginal": "This machine is a game changer. It has...",
+        "textTr": "Bu cihaz ezber bozuyor. ...",
+        "previewOriginal": "This machine is a game changer. It has...",
+        "previewTr": "Bu cihaz ezber bozuyor. ...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR.jpg",
+          "url": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19987,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-lSrXEr7qS",
+        "looxPostId": "lSrXEr7qS",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Phillip K.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-02-24",
+        "headline": "",
+        "textOriginal": "Awesome",
+        "textTr": "Harika",
+        "previewOriginal": "Awesome",
+        "previewTr": "Harika",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/2/24/LRw11AKC4X.jpg",
+          "url": "https://images.loox.io/uploads/2026/2/24/LRw11AKC4X.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19986,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-peWtvhaW1",
+        "looxPostId": "peWtvhaW1",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Chris J.",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-01-16",
+        "headline": "",
+        "textOriginal": "I cannot say enough good things about my...",
+        "textTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
+        "previewOriginal": "I cannot say enough good things about my...",
+        "previewTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19985,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-r5i1Gq6Nd",
+        "looxPostId": "r5i1Gq6Nd",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Bill B.",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-01-13",
+        "headline": "",
+        "textOriginal": "I got my machine last week and I'm...",
+        "textTr": "Cihazım geçen hafta geldi ve...",
+        "previewOriginal": "I got my machine last week and I'm...",
+        "previewTr": "Cihazım geçen hafta geldi ve...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19984,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-k-EeAlQix",
+        "looxPostId": "k-EeAlQix",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Zachary G.",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-01-07",
+        "headline": "",
+        "textOriginal": "I’ve really enjoyed the Speediance Gym...",
+        "textTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
+        "previewOriginal": "I’ve really enjoyed the Speediance Gym...",
+        "previewTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19983,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-CW-hjvfc6",
+        "looxPostId": "CW-hjvfc6",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Audra F.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2026-01-03",
+        "headline": "",
+        "textOriginal": "So far so good!  Still learning...",
+        "textTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
+        "previewOriginal": "So far so good!  Still learning...",
+        "previewTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb.jpg",
+          "url": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19982,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-eF-957fM7",
+        "looxPostId": "eF-957fM7",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Nakul P.",
+          "isVerifiedBuyer": false,
+          "badgeText": ""
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2025-12-29",
+        "headline": "",
+        "textOriginal": "I'd never thought gym could be so...",
+        "textTr": "Spor salonunun bu kadar...",
+        "previewOriginal": "I'd never thought gym could be so...",
+        "previewTr": "Spor salonunun bu kadar...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19981,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
+      {
+        "id": "loox-global-OTItQw5xw",
+        "looxPostId": "OTItQw5xw",
+        "source": {
+          "type": "loox",
+          "market": "GLOBAL",
+          "name": "Speediance Global (Loox)",
+          "url": "https://www.speediance.com/"
+        },
+        "country": {
+          "code": "GL",
+          "name": "Global",
+          "flagEmoji": "🌍"
+        },
+        "customer": {
+          "name": "Steven E.",
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
+        },
+        "rating": 5,
+        "date": "",
+        "mediaUploadedAt": "2025-12-24",
+        "headline": "",
+        "textOriginal": "The Gym Monster 2 is a complete game...",
+        "textTr": "Gym Monster 2 tam anlamıyla...",
+        "previewOriginal": "The Gym Monster 2 is a complete game...",
+        "previewTr": "Gym Monster 2 tam anlamıyla...",
+        "media": {
+          "type": "image",
+          "thumb": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv.jpg",
+          "url": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv.jpg"
+        },
+        "reviewMediaKind": "image",
+        "product": {
+          "name": "Speediance Gym Monster 2",
+          "variant": "",
+          "url": "https://speedianceturkiye.com/gym-monster-2",
+          "image": ""
+        },
+        "tags": [
+          "loox",
+          "global",
+          "media",
+          "image"
+        ],
+        "priority": 19980,
+        "isPlaceholder": false,
+        "isTruncated": true
+      },
       {
         "id": "loox-global-000",
         "source": {
