@@ -2537,66 +2537,6 @@
           "isTruncated": false
         },
         {
-          "id": "amazon-us-r24c5ccdfjk1x5",
-          "amazonReviewId": "R24C5CCDFJK1X5",
-          "source": {
-            "type": "amazon",
-            "market": "US",
-            "name": "Amazon.com",
-            "url": "https://www.amazon.com/gp/customer-reviews/R24C5CCDFJK1X5"
-          },
-          "country": {
-            "code": "US",
-            "name": "Amerika Birleşik Devletleri",
-            "flagEmoji": "🇺🇸"
-          },
-          "customer": {
-            "name": "Rachel",
-            "isVerifiedBuyer": true,
-            "badgeText": "Verified buyer"
-          },
-          "rating": 5,
-          "date": "2025-09-01",
-          "dateOriginal": "ABD’de 1 Eylül 2025 tarihinde değerlendirildi",
-          "headline": "Flimsy and unreliable",
-          "headlineTr": "Dayanıksız ve güvenilmez",
-          "textOriginal": "The finger is very important but it dies after using it for a few times. Amazon refused to replace it because it past one month window for exchanging / replacing. It's deverstating.\nThe poly system also start to have issues pretty quickly.\nSome of the programs caused bruises because the product doesn't come with extension straps; you can get extension straps on Amazon either.\nThere are many videos online promoting this product because the company gave crazy amount of incentives for referrals. Someone can do that almost like a full-time job.\nThink carefully before buying it!!",
-          "textTr": "Parmak çok önemlidir ancak birkaç kez kullanıldıktan sonra ölür. Amazon, değiştirme/değiştirme için bir aylık süreyi geçtiği için değiştirmeyi reddetti. Durum belirtiyor.\nPoli sistemi de oldukça hızlı bir şekilde sorun yaşamaya başlar.\nÜrünün uzatma kayışlarıyla gelmediği için programlardan bazıları çürüklere neden oldu; uzatma kayışlarını Amazon'dan da alabilirsiniz.\nBu ürünü çevrimiçi olarak tanıtan birçok video var çünkü şirket yönlendirmeler için çılgınca miktarda teşvik verdi. Birisi bunu neredeyse tam zamanlı bir iş gibi yapabilir.\nSatın almadan önce dikkatlice düşünün!",
-          "previewOriginal": "The finger is very important but it dies after using it for a few times. Amazon refused to replace it because it past one month window for exchanging / replacing. It's deverstating. The pol…",
-          "previewTr": "Parmak çok önemlidir ancak birkaç kez kullanıldıktan sonra ölür. Amazon, değiştirme/değiştirme için bir aylık süreyi geçtiği için değiştirmeyi reddetti. Durum belirtiyor. Poli sistemi de ol…",
-          "media": {
-            "type": "video",
-            "thumb": "https://m.media-amazon.com/images/I/51fobYgyhlL._SL1600_.jpg",
-            "url": "https://m.media-amazon.com/images/I/D1P0pKANUmL.mp4",
-            "poster": "https://m.media-amazon.com/images/I/51fobYgyhlL._SL1600_.jpg",
-            "mp4": "https://m.media-amazon.com/images/I/D1P0pKANUmL.mp4",
-            "stream": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7f99897f-1b30-49e4-981c-6b9febcc45fd/embedded.cc.default.vertical.jobtemplate.hls.m3u8",
-            "images": [
-              {
-                "thumb": "https://m.media-amazon.com/images/I/51novI0AqmL._SL1600_.jpg",
-                "url": "https://m.media-amazon.com/images/I/51novI0AqmL._SL1600_.jpg",
-                "alt": "Rachel Amazon yorum görseli 1"
-              }
-            ]
-          },
-          "product": {
-            "name": "Speediance Gym Monster",
-            "variant": "",
-            "url": "https://speedianceturkiye.com/gym-monster-2",
-            "image": ""
-          },
-          "tags": [
-            "amazon",
-            "us",
-            "media",
-            "image",
-            "video"
-          ],
-          "priority": 9987,
-          "isPlaceholder": false,
-          "isTruncated": false
-        },
-        {
           "id": "amazon-us-r661i1dotwpdn",
           "amazonReviewId": "R661I1DOTWPDN",
           "source": {
