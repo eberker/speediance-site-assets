@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "3.6-loox-dates-mid-images",
-    "generatedAt": "2026-08-05",
+    "version": "3.7-loox-quickview-auto",
+    "generatedAt": "2026-08-06T07:15:43.453Z",
     "notes": [
       "Amazon bölümünde yalnızca fotoğraf veya video içeren yorumlar bulunur.",
       "Son paylaşılan Amazon medya filtreli HTML içindeki tüm benzersiz yorumlar işlendi.",
@@ -48,6 +48,15 @@
       "reviewsWithDate": 41,
       "imageVariant": "_mid",
       "dateSource": "Loox media URL path (/uploads/YYYY/M/D/)"
+    },
+    "looxQuickviewExtraction": {
+      "startedAt": "2026-08-06T07:15:03.408Z",
+      "sourceJson": "https://cdn.jsdelivr.net/gh/eberker/speediance-site-assets@7e77422036afa24e9e5d497e86e9baea347784f8/reviews.json",
+      "totalTargets": 20,
+      "updated": 20,
+      "failed": 0,
+      "errors": [],
+      "completedAt": "2026-08-06T07:15:43.453Z"
     }
   },
   "sections": {
@@ -105,7 +114,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/zpBlqi7rM"
         },
         "country": {
           "code": "GL",
@@ -118,12 +127,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "mediaUploadedAt": "2026-07-17",
         "headline": "",
-        "textOriginal": "It’s compact yet extremely versatile and...",
+        "textOriginal": "It’s compact yet extremely versatile and completed my Garage Gym. There’s so much you can do and the technology is great!",
         "textTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
-        "previewOriginal": "It’s compact yet extremely versatile and...",
+        "previewOriginal": "It’s compact yet extremely versatile and completed my Garage Gym. There’s so much you can do and the technology is great!",
         "previewTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
         "media": {
           "type": "image",
@@ -145,8 +154,11 @@
         ],
         "priority": 19999,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-07-18",
+        "dateOriginal": "7/18/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-jDCBUet03",
@@ -155,7 +167,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/jDCBUet03"
         },
         "country": {
           "code": "GL",
@@ -164,16 +176,16 @@
         },
         "customer": {
           "name": "Shannon M.",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
         "date": "2026-05-22",
         "mediaUploadedAt": "2026-05-22",
         "headline": "",
-        "textOriginal": "I hope I can type a lot here. I’ll try...",
+        "textOriginal": "I hope I can type a lot here. I’ll try to keep it short. I’ve never been able to consistently exercise in my 31 years of life. I’m anti exercise. I didn’t want to be. I tried every single thing you can imagine to bio hack my insane brain. Nothing ever worked. Until now. I am shook. I just got done with my 3rd workout using this machine. I’ve used it everyday since purchase. I know it hasn’t been long, but I know for a fact I will use it every single day. It has taken away all obstacles that the ADHD OCD alphabet minds could ever cook up!!!!! Wow. I actually feel like I’m doing it “right” - I am not rushed - I can take as much of a rest as needed - if I can’t do something I can easily adjust to something else - it counts my reps - no more feeling like what I did “didn’t even matter or do anything” because it’s all on the screen in real time showing me what I did!!! It feels so good…. Even on days I don’t feel good it won’t matter because this machine makes it so simple and easy to get movement in - could be 5 mins or 60!!!! I give this 1,000 stars and for the first time in my whole life I’m finally going to be consistent with moving my body!!!! THANK YOU!!!!",
         "textTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
-        "previewOriginal": "I hope I can type a lot here. I’ll try...",
+        "previewOriginal": "I hope I can type a lot here. I’ll try to keep it short. I’ve never been able to consistently exercise in my 31 years of life. I’m anti exercise. I didn’t want to be. I tried every single t…",
         "previewTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
         "media": {
           "type": "image",
@@ -195,8 +207,11 @@
         ],
         "priority": 19998,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-05-22",
+        "dateOriginal": "5/22/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-FgIWESKDX",
@@ -205,7 +220,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/FgIWESKDX"
         },
         "country": {
           "code": "GL",
@@ -221,9 +236,9 @@
         "date": "2026-04-30",
         "mediaUploadedAt": "2026-04-30",
         "headline": "",
-        "textOriginal": "This Gym Monster 2 is amazing! Exactly...",
+        "textOriginal": "This Gym Monster 2 is amazing! Exactly what I needed to stay consistent with my workouts. You can do everything you do in a gym but within the comfort of your home.",
         "textTr": "Bu Gym Monster 2 harika! Tam olarak...",
-        "previewOriginal": "This Gym Monster 2 is amazing! Exactly...",
+        "previewOriginal": "This Gym Monster 2 is amazing! Exactly what I needed to stay consistent with my workouts. You can do everything you do in a gym but within the comfort of your home.",
         "previewTr": "Bu Gym Monster 2 harika! Tam olarak...",
         "media": {
           "type": "image",
@@ -245,8 +260,11 @@
         ],
         "priority": 19997,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-04-30",
+        "dateOriginal": "4/30/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-ZHH3G_dIQ",
@@ -255,7 +273,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/ZHH3G_dIQ"
         },
         "country": {
           "code": "GL",
@@ -268,12 +286,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-04-19",
+        "date": "2026-04-20",
         "mediaUploadedAt": "2026-04-19",
         "headline": "",
-        "textOriginal": "I really like my Speediance gym. It was...",
+        "textOriginal": "I really like my Speediance gym. It was easy to set up and figure out how to use. I joined the subscription program and it is great for learning and accountability. The free lift option is also a great option. I look forward to using the machine more so than going to the crowded gym.",
         "textTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
-        "previewOriginal": "I really like my Speediance gym. It was...",
+        "previewOriginal": "I really like my Speediance gym. It was easy to set up and figure out how to use. I joined the subscription program and it is great for learning and accountability. The free lift option is…",
         "previewTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
         "media": {
           "type": "image",
@@ -295,8 +313,11 @@
         ],
         "priority": 19996,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-04-20",
+        "dateOriginal": "4/20/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-uB1eGvcR6",
@@ -305,7 +326,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/uB1eGvcR6"
         },
         "country": {
           "code": "GL",
@@ -318,12 +339,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-04-15",
+        "date": "2026-04-16",
         "mediaUploadedAt": "2026-04-15",
         "headline": "",
-        "textOriginal": "Absolutely love this gym. Its made my...",
+        "textOriginal": "Absolutely love this gym. Its made my life so much easier. I work about an hour away from my home thats 2 hours spent driving. Being able to get a full workout in my garage without having to commute to the gym after working a full day is a game changer. I've been able to get a solid workout in everyday since I've got this gym without feeling like I dont have freetime.",
         "textTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
-        "previewOriginal": "Absolutely love this gym. Its made my...",
+        "previewOriginal": "Absolutely love this gym. Its made my life so much easier. I work about an hour away from my home thats 2 hours spent driving. Being able to get a full workout in my garage without having t…",
         "previewTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
         "media": {
           "type": "image",
@@ -345,8 +366,11 @@
         ],
         "priority": 19995,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-04-16",
+        "dateOriginal": "4/16/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-UvhnzTS2e",
@@ -355,7 +379,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/UvhnzTS2e"
         },
         "country": {
           "code": "GL",
@@ -368,12 +392,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-04-16",
+        "date": "2026-04-13",
         "mediaUploadedAt": "2026-04-16",
         "headline": "",
-        "textOriginal": "Shipping took longer than expected, but...",
+        "textOriginal": "Shipping took longer than expected, but it was packaged wonderfully. I would recommend paying for the white glove service if you want it in a basement or upstairs. It is heavy and a little awkward. Only done a few workouts so far, but I love it!",
         "textTr": "Kargo beklediğimden uzun sürdü, ancak...",
-        "previewOriginal": "Shipping took longer than expected, but...",
+        "previewOriginal": "Shipping took longer than expected, but it was packaged wonderfully. I would recommend paying for the white glove service if you want it in a basement or upstairs. It is heavy and a little…",
         "previewTr": "Kargo beklediğimden uzun sürdü, ancak...",
         "media": {
           "type": "image",
@@ -395,8 +419,11 @@
         ],
         "priority": 19994,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-04-13",
+        "dateOriginal": "4/13/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-RVwEQNQrp",
@@ -405,7 +432,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/RVwEQNQrp"
         },
         "country": {
           "code": "GL",
@@ -421,9 +448,9 @@
         "date": "2026-04-10",
         "mediaUploadedAt": "2026-04-10",
         "headline": "",
-        "textOriginal": "I’ve had the Speediance Gym Monster 2...",
+        "textOriginal": "I’ve had the Speediance Gym Monster 2 for the last 3 weeks and between my wife and I we have 30 workouts with it. A bit about why we bought it: I’m an ultra marathoner who wants to get stronger to prevent injury, and my wife wants get lift heavy to promote bone health. We have/had a Concept2 Rower and SkiErg that we were going to sell if the Gym Monster 2 is a suitable replacement. Our thoughts so far: This machine is exceptionally useful and exceptionally convenient. Previously, weightlifting with my wife required me to provide a lot of instruction for her. It also required constantly adjusting weights, constantly guessing, and reevaluating what’s appropriate, and determining what workouts make the most sense. Even when I would weight lift alone there is such a significant time delay, and a bit of a mental load to do these things. With traditional weights if I want to do a 45 minute workout, it would take just over an hour with my adjustable dumbbells, kettlebells and barbell. With the Gym Monster, a 45 minute workout tends to be 45 minutes right on the dot. there’s no prep, there’s no adjusting weights, there’s no writing down my sets, reps, or weights. You tap the screen, select that day’s workout from your program, and you go. All the accessories are easy to swap, and there’s very little time wasted in between sets. If I only have 20 minutes to get a workout in, this machine can build a solid 20 minute workout. If two days ago was leg day, yesterday was arm day, the machine builds the workout for back, chest, or hips. It monitors what is fatigued, and builds the best workout with the appropriate weight to hit my goals. The Gym Monster’s accessories and plentiful, priced inexpensively, and it comes with spare hardware so that you can use your own non-Speediance accessories. More on rowing and skierging later, but I much prefer the handles and grips from Concept2. I ordered them, and used the extra hardware Speediance provided to connect them to my Gym Monster. It’s really refreshing to not be nickel and dimed. It seems Speediance just wants to sell more Gym Monsters and not lock people into expensive accessories. My wife went from weight lifting a handful of times in her life, to doing comprehensive workouts that in a gym she would feel so awkward that she’s doing it wrong. This is a close step below having your own personal trainer. That’s so impressive that a device this small can be that useful and effective. The workout content is spectacular. You can select a program you want, and follow it with weights that are preselected from an assessment you take when you set up the Gym Monster. The library is huge, comprehensive, and I don’t see a single case where they wouldn’t have something that works for everyone. The included warms and stretches are thoughtful. The yoga is great. I am using a standard program, and my wife is using a program built by their subscription Wellness+. It seems helpful, but isn’t needed. I have Apple Fitness+, but find the overwhelmingly positive, and smiley trainers to be distracting and a turn off. The trainers on Speediance don’t try and make you feel any particular way. They just guide you through the workouts, mention helpful form tips throughout, and that’s it. It’s maximally helpful, without any of the fake feeling encouragement. The negatives: Rowing feels weird compared to a Concept2 RowErg. With the Concept2’s flywheel there is a feeling momentum. With the Gym Monster the resistance is constant. There is not that feeling of working up to speed. I prefer the Concept2’s feeling, but the Gym Monster is the same workout. I do appreciate how quiet the Gym Monster is when rowing. I don’t need to wear noise cancelling headphones. The SkiErg functionality is not nearly as nice as a Concept2 SkiErg. The posts aren’t as high, and you don’t get that full body expansion. Even though I’m 6’1” I can deal with that. Any taller, and that would be especially annoying. The big issue with Skiing is the cables don’t retract quickly enough. When you are using a Concept2 SkiErg, you generate the most power with your legs/core, and then your arms finish the movement. Your arms quickly raise, and your hips and legs follow. The Gym Monster does not retract the cables fast enough. I find that I need to raise my hips and legs first, and then my arms. It takes some getting used to, and doesn’t feel as enjoyable. Like rowing, the workout is just as good, but it’s just not as nice. Rowing on the Gym Monster is definitely better than SkiErg on the Gym Monster. We are selling the SkiErg and RowErg, but it will miss the SkiErg. The weight limit is 220 pounds, and that’s fine. I might hit that deadlift in 9 months, and that squat in a year, and I’m ok with that. The Gym Monster has great modifications to those workouts to make them more challenging. Alternatively, I can just go with higher reps/sets. I doubt I will have to worry about bench pressing more than that. I have this machine to enhance my running and for the health benefits that come from weight lifting. I don’t need more than 220. Every time I finish a workout on the Gym Monster I’m just left thinking “Man this is a cool device. I can’t believe how much I just did with it.” I highly recommend it.",
         "textTr": "Speediance Gym Monster 2’yi...",
-        "previewOriginal": "I’ve had the Speediance Gym Monster 2...",
+        "previewOriginal": "I’ve had the Speediance Gym Monster 2 for the last 3 weeks and between my wife and I we have 30 workouts with it. A bit about why we bought it: I’m an ultra marathoner who wants to get stro…",
         "previewTr": "Speediance Gym Monster 2’yi...",
         "media": {
           "type": "image",
@@ -445,8 +472,11 @@
         ],
         "priority": 19993,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-04-10",
+        "dateOriginal": "4/10/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-KEyJA9lOX",
@@ -455,7 +485,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/KEyJA9lOX"
         },
         "country": {
           "code": "GL",
@@ -471,9 +501,9 @@
         "date": "2026-04-02",
         "mediaUploadedAt": "2026-04-02",
         "headline": "",
-        "textOriginal": "Haven't had the chance to fully dive...",
+        "textOriginal": "Haven't had the chance to fully dive into it yet, but early impressions are that this is a great machine!",
         "textTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
-        "previewOriginal": "Haven't had the chance to fully dive...",
+        "previewOriginal": "Haven't had the chance to fully dive into it yet, but early impressions are that this is a great machine!",
         "previewTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
         "media": {
           "type": "image",
@@ -495,8 +525,11 @@
         ],
         "priority": 19992,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-04-02",
+        "dateOriginal": "4/2/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-JLzOqJLGL",
@@ -505,7 +538,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/JLzOqJLGL"
         },
         "country": {
           "code": "GL",
@@ -514,16 +547,16 @@
         },
         "customer": {
           "name": "Ankur G.",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
         "date": "2026-03-28",
         "mediaUploadedAt": "2026-03-28",
         "headline": "",
-        "textOriginal": "As someone who has always hated going to...",
+        "textOriginal": "As someone who has always hated going to gyms, and also as someone who hates subscription based models for anything and everything, the Speediance Gym Monster is a godsend. I am very happy being an owner of this machine. Let me share some of the things that I really liked since this was delivered to me roughly 3 months back. I was able to take out and setup the machine all alone without any help. The machine and all accessories look to be made of high quality materials. I feel confident that this will last for a long time provided I take good care. The interface is fairly easy to operate. I really like the large size of the display. The best part of the machine is the ton of inbuilt programs that are available to choose from. And I also love how easy it is to swap the various accessories to be able to perform different exercises.",
         "textTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
-        "previewOriginal": "As someone who has always hated going to...",
+        "previewOriginal": "As someone who has always hated going to gyms, and also as someone who hates subscription based models for anything and everything, the Speediance Gym Monster is a godsend. I am very happy…",
         "previewTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
         "media": {
           "type": "image",
@@ -545,8 +578,11 @@
         ],
         "priority": 19991,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-03-28",
+        "dateOriginal": "3/28/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-E3p2VTc8i",
@@ -555,7 +591,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/E3p2VTc8i"
         },
         "country": {
           "code": "GL",
@@ -568,12 +604,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-03-28",
+        "date": "2026-03-25",
         "mediaUploadedAt": "2026-03-28",
         "headline": "",
-        "textOriginal": "This is great, from custom workouts, to...",
+        "textOriginal": "This is great, from custom workouts, to AI help, all exercises have videos and so many available workout plans. Do all of your exercises to any bluetooth music you like. Takes up minimal space and customer service is always there to help you. I can get home and start exercising within seconds not minutes and no more hassle taking time off to change weights, do it at a finger tip, literally it is that easy. Last the app is great customize what you want whenever you want and when you go home it is automatically synced to your machine.",
         "textTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
-        "previewOriginal": "This is great, from custom workouts, to...",
+        "previewOriginal": "This is great, from custom workouts, to AI help, all exercises have videos and so many available workout plans. Do all of your exercises to any bluetooth music you like. Takes up minimal sp…",
         "previewTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
         "media": {
           "type": "image",
@@ -595,8 +631,11 @@
         ],
         "priority": 19990,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-03-25",
+        "dateOriginal": "3/25/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-04Atu_m0o",
@@ -605,7 +644,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/04Atu_m0o"
         },
         "country": {
           "code": "GL",
@@ -618,12 +657,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-03-15",
+        "date": "2026-03-16",
         "mediaUploadedAt": "2026-03-15",
         "headline": "",
-        "textOriginal": "I was only able to test it out for two...",
+        "textOriginal": "I was only able to test it out for two days but it worked great. The only workout that was not registering with the machine was the bench press. I had to make a small sit up in order for the machine to register or move around the seat, constantly. Worth the investment especially if you like to workout without other people interrupting mid workout.",
         "textTr": "Yalnızca iki...",
-        "previewOriginal": "I was only able to test it out for two...",
+        "previewOriginal": "I was only able to test it out for two days but it worked great. The only workout that was not registering with the machine was the bench press. I had to make a small sit up in order for th…",
         "previewTr": "Yalnızca iki...",
         "media": {
           "type": "image",
@@ -645,8 +684,11 @@
         ],
         "priority": 19989,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-03-16",
+        "dateOriginal": "3/16/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-fWcchD8J3",
@@ -655,7 +697,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/fWcchD8J3"
         },
         "country": {
           "code": "GL",
@@ -671,9 +713,9 @@
         "date": "2026-03-06",
         "mediaUploadedAt": "2026-03-06",
         "headline": "",
-        "textOriginal": "This was a great purchase!  Prior to the...",
+        "textOriginal": "This was a great purchase! Prior to the gym monster I was only using free weights and felt limited to some of the exercises I wanted to do, specially leg exercises. With the GM2 I have tons of variation in my workouts. After a workout I go though the list of exercises and target the specific muscles that have a little more energy left. Being able to searching exercises by the muscles is key for me because I dont alway know what exercises I need to do. I also signed up for the Wellness+, it does a great job of keeping track of my workouts so I know what muscle groups I need to hit next. I'm still excited to use it every morning.",
         "textTr": "Harika bir satın alma oldu! Öncesinde...",
-        "previewOriginal": "This was a great purchase!  Prior to the...",
+        "previewOriginal": "This was a great purchase! Prior to the gym monster I was only using free weights and felt limited to some of the exercises I wanted to do, specially leg exercises. With the GM2 I have tons…",
         "previewTr": "Harika bir satın alma oldu! Öncesinde...",
         "media": {
           "type": "image",
@@ -695,8 +737,11 @@
         ],
         "priority": 19988,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-03-06",
+        "dateOriginal": "3/6/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-xPDanpndR",
@@ -705,7 +750,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/xPDanpndR"
         },
         "country": {
           "code": "GL",
@@ -714,16 +759,16 @@
         },
         "customer": {
           "name": "Michael",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
         "date": "2026-03-04",
         "mediaUploadedAt": "2026-03-04",
         "headline": "",
-        "textOriginal": "This machine is a game changer. It has...",
+        "textOriginal": "This machine is a game changer. It has made working out simpler than ever. There are so many pre loaded workouts to choose from, each with a video demonstration on how to do them properly. The gym monster 2 has completely elevated my workouts and I wish I had gotten it sooner.",
         "textTr": "Bu cihaz ezber bozuyor. ...",
-        "previewOriginal": "This machine is a game changer. It has...",
+        "previewOriginal": "This machine is a game changer. It has made working out simpler than ever. There are so many pre loaded workouts to choose from, each with a video demonstration on how to do them properly.…",
         "previewTr": "Bu cihaz ezber bozuyor. ...",
         "media": {
           "type": "image",
@@ -745,8 +790,11 @@
         ],
         "priority": 19987,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-03-04",
+        "dateOriginal": "3/4/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-lSrXEr7qS",
@@ -755,7 +803,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/lSrXEr7qS"
         },
         "country": {
           "code": "GL",
@@ -768,7 +816,7 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-02-24",
+        "date": "2026-02-21",
         "mediaUploadedAt": "2026-02-24",
         "headline": "",
         "textOriginal": "Awesome",
@@ -795,8 +843,11 @@
         ],
         "priority": 19986,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-02-21",
+        "dateOriginal": "2/21/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-peWtvhaW1",
@@ -805,7 +856,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/peWtvhaW1"
         },
         "country": {
           "code": "GL",
@@ -814,16 +865,16 @@
         },
         "customer": {
           "name": "Chris J.",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
         "date": "2026-01-16",
         "mediaUploadedAt": "2026-01-16",
         "headline": "",
-        "textOriginal": "I cannot say enough good things about my...",
+        "textOriginal": "I cannot say enough good things about my Gym Monster. I was looking for an alternative to more expensive machines that have to be bolted to your wall/professionally installed. The fact that the machine requires no assembly or installation was a huge plus for me. The extensive free workout content and library of exercises are truly phenomenal. I am able to perform 95% of the exercises I would want to do at a gym. In short, the Gym Monster has surpassed all my expectations and has been instrumental in helping me achieve the best shape of my life. I’ve lost 60 pounds and my body fat percentage has dropped from 29% to 15%. If you’re looking for a comprehensive solution for strength training at home, I highly recommend the Gym Monster.",
         "textTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
-        "previewOriginal": "I cannot say enough good things about my...",
+        "previewOriginal": "I cannot say enough good things about my Gym Monster. I was looking for an alternative to more expensive machines that have to be bolted to your wall/professionally installed. The fact that…",
         "previewTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
         "media": {
           "type": "image",
@@ -845,8 +896,11 @@
         ],
         "priority": 19985,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-01-16",
+        "dateOriginal": "1/16/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-r5i1Gq6Nd",
@@ -855,7 +909,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/r5i1Gq6Nd"
         },
         "country": {
           "code": "GL",
@@ -864,16 +918,16 @@
         },
         "customer": {
           "name": "Bill B.",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-01-13",
+        "date": "2026-01-14",
         "mediaUploadedAt": "2026-01-13",
         "headline": "",
-        "textOriginal": "I got my machine last week and I'm...",
+        "textOriginal": "I got my machine last week and I'm extremely happy with this purchase. I am so glad I can do my morning workouts now before my day starts. Ever since I moved a year ago I had to leave the gym I used to go to and haven't found one around me I liked. Now I can work out from home anytime! The guided workouts are actually really good and hit all the muscle groups. Customer Support has been top notch, they helped with my questions responding within a day to my emails and actually answered my questions. Overall I couldn't be happier with the Gym Monster and the service they offer. Going to look into the row machine attachment and VeloNix bike for my cardio.",
         "textTr": "Cihazım geçen hafta geldi ve...",
-        "previewOriginal": "I got my machine last week and I'm...",
+        "previewOriginal": "I got my machine last week and I'm extremely happy with this purchase. I am so glad I can do my morning workouts now before my day starts. Ever since I moved a year ago I had to leave the g…",
         "previewTr": "Cihazım geçen hafta geldi ve...",
         "media": {
           "type": "image",
@@ -895,8 +949,11 @@
         ],
         "priority": 19984,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-01-14",
+        "dateOriginal": "1/14/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-k-EeAlQix",
@@ -905,7 +962,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/k-EeAlQix"
         },
         "country": {
           "code": "GL",
@@ -914,16 +971,16 @@
         },
         "customer": {
           "name": "Zachary G.",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
         "date": "2026-01-07",
         "mediaUploadedAt": "2026-01-07",
         "headline": "",
-        "textOriginal": "I’ve really enjoyed the Speediance Gym...",
+        "textOriginal": "I’ve really enjoyed the Speediance Gym Monster 2 as a home workout machine, especially because it was easy to set up and makes quick workouts convenient, leaving me with no excuse to skip training. The machine excels at push and pull movements like rows, lat pulldowns, bench press, and flys, which cover the core of my strength routine. After owning it for just over a year, it has become a vital part of my strength training and overall consistency.",
         "textTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
-        "previewOriginal": "I’ve really enjoyed the Speediance Gym...",
+        "previewOriginal": "I’ve really enjoyed the Speediance Gym Monster 2 as a home workout machine, especially because it was easy to set up and makes quick workouts convenient, leaving me with no excuse to skip t…",
         "previewTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
         "media": {
           "type": "image",
@@ -945,8 +1002,11 @@
         ],
         "priority": 19983,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2026-01-07",
+        "dateOriginal": "1/7/2026",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-CW-hjvfc6",
@@ -955,7 +1015,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/CW-hjvfc6"
         },
         "country": {
           "code": "GL",
@@ -968,12 +1028,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2026-01-03",
+        "date": "2025-12-29",
         "mediaUploadedAt": "2026-01-03",
         "headline": "",
-        "textOriginal": "So far so good!  Still learning...",
+        "textOriginal": "So far so good! Still learning something new everyday! But I can tell it's already elevating my leg workouts! Time to grow!!",
         "textTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
-        "previewOriginal": "So far so good!  Still learning...",
+        "previewOriginal": "So far so good! Still learning something new everyday! But I can tell it's already elevating my leg workouts! Time to grow!!",
         "previewTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
         "media": {
           "type": "image",
@@ -995,8 +1055,11 @@
         ],
         "priority": 19982,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2025-12-29",
+        "dateOriginal": "12/29/2025",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-eF-957fM7",
@@ -1005,7 +1068,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/eF-957fM7"
         },
         "country": {
           "code": "GL",
@@ -1014,16 +1077,16 @@
         },
         "customer": {
           "name": "Nakul P.",
-          "isVerifiedBuyer": false,
-          "badgeText": ""
+          "isVerifiedBuyer": true,
+          "badgeText": "Verified buyer"
         },
         "rating": 5,
         "date": "2025-12-29",
         "mediaUploadedAt": "2025-12-29",
         "headline": "",
-        "textOriginal": "I'd never thought gym could be so...",
+        "textOriginal": "I'd never thought gym could be so accessible. Got it for the rower which is on backorder and now I am addicted to the gym for the first time in 15yrs. Love the mix of technology and functionality, and the workout library for all abilities. Plus the tracking on which muscles are fatigued vs. fresh gives a great perspective on what to workout. Going to get the additional accessories as well.",
         "textTr": "Spor salonunun bu kadar...",
-        "previewOriginal": "I'd never thought gym could be so...",
+        "previewOriginal": "I'd never thought gym could be so accessible. Got it for the rower which is on backorder and now I am addicted to the gym for the first time in 15yrs. Love the mix of technology and functio…",
         "previewTr": "Spor salonunun bu kadar...",
         "media": {
           "type": "image",
@@ -1045,8 +1108,11 @@
         ],
         "priority": 19981,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2025-12-29",
+        "dateOriginal": "12/29/2025",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-OTItQw5xw",
@@ -1055,7 +1121,7 @@
           "type": "loox",
           "market": "GLOBAL",
           "name": "Speediance Global (Loox)",
-          "url": "https://www.speediance.com/"
+          "url": "https://loox.io/post/quickview/OTItQw5xw"
         },
         "country": {
           "code": "GL",
@@ -1068,12 +1134,12 @@
           "badgeText": "Verified buyer"
         },
         "rating": 5,
-        "date": "2025-12-24",
+        "date": "2025-12-22",
         "mediaUploadedAt": "2025-12-24",
         "headline": "",
-        "textOriginal": "The Gym Monster 2 is a complete game...",
+        "textOriginal": "The Gym Monster 2 is a complete game changer for me. Everything has been simple and straight forward from the unboxing. The ease of use and design will keep me active for sure, that and I'm from for the wellness+ subscription.",
         "textTr": "Gym Monster 2 tam anlamıyla...",
-        "previewOriginal": "The Gym Monster 2 is a complete game...",
+        "previewOriginal": "The Gym Monster 2 is a complete game changer for me. Everything has been simple and straight forward from the unboxing. The ease of use and design will keep me active for sure, that and I'm…",
         "previewTr": "Gym Monster 2 tam anlamıyla...",
         "media": {
           "type": "image",
@@ -1095,8 +1161,11 @@
         ],
         "priority": 19980,
         "isPlaceholder": false,
-        "isTruncated": true,
-        "dateSource": "loox-media-url"
+        "isTruncated": false,
+        "dateSource": "loox-quickview",
+        "reviewDate": "2025-12-22",
+        "dateOriginal": "12/22/2025",
+        "translationNeedsUpdate": true
       },
       {
         "id": "loox-global-000",
