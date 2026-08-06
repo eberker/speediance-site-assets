@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "3.7-loox-quickview-auto",
-    "generatedAt": "2026-08-06T07:15:43.453Z",
+    "version": "3.8-loox-full-tr-translations",
+    "generatedAt": "2026-08-06",
     "notes": [
       "Amazon bölümünde yalnızca fotoğraf veya video içeren yorumlar bulunur.",
       "Son paylaşılan Amazon medya filtreli HTML içindeki tüm benzersiz yorumlar işlendi.",
@@ -18,7 +18,8 @@
       "Global Loox yorumlarının tarih alanları, Loox medya URL'sindeki /uploads/YYYY/M/D/ yolundan üretildi.",
       "Global Loox görsel URL'lerinde dosya uzantısından hemen önce _mid eklendi; zaten _mid içeren URL'ler değiştirilmedi.",
       "HTML, tarih alanı boş olsa bile mediaUploadedAt veya Loox medya URL'sinden tarihi bulacak şekilde güncellendi.",
-      "HTML, ileride JSON'a düşük çözünürlüklü bir Loox görseli eklense bile _mid varyantını otomatik kullanacak şekilde güncellendi."
+      "HTML, ileride JSON'a düşük çözünürlüklü bir Loox görseli eklense bile _mid varyantını otomatik kullanacak şekilde güncellendi.",
+      "Quick View ile tam metni alınan 20 yeni Loox yorumunun textTr alanları tam Türkçe çeviriyle güncellendi; previewTr alanları bu tam çevirilerden yeniden üretildi."
     ],
     "counts": {
       "turkey": 1,
@@ -57,6 +58,16 @@
       "failed": 0,
       "errors": [],
       "completedAt": "2026-08-06T07:15:43.453Z"
+    },
+    "looxTranslations": {
+      "fullTranslationsUpdated": 20,
+      "target": "new Loox Quick View reviews",
+      "fieldsUpdated": [
+        "textTr",
+        "previewTr"
+      ],
+      "oldGlobalReviewsPreserved": 21,
+      "amazonPreserved": true
     }
   },
   "sections": {
@@ -131,9 +142,9 @@
         "mediaUploadedAt": "2026-07-17",
         "headline": "",
         "textOriginal": "It’s compact yet extremely versatile and completed my Garage Gym. There’s so much you can do and the technology is great!",
-        "textTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
+        "textTr": "Kompakt olmasına rağmen son derece çok yönlü; garaj spor salonumu tamamladı. Yapabileceğiniz o kadar çok şey var ki, teknolojisi de harika!",
         "previewOriginal": "It’s compact yet extremely versatile and completed my Garage Gym. There’s so much you can do and the technology is great!",
-        "previewTr": "Kompakt olmasına rağmen son derece çok yönlü ve...",
+        "previewTr": "Kompakt olmasına rağmen son derece çok yönlü; garaj spor salonumu tamamladı. Yapabileceğiniz o kadar çok şey var ki, teknolojisi de harika!",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/7/17/TBTjP_uo7_mid.jpg",
@@ -158,7 +169,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-07-18",
         "dateOriginal": "7/18/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-jDCBUet03",
@@ -184,9 +197,9 @@
         "mediaUploadedAt": "2026-05-22",
         "headline": "",
         "textOriginal": "I hope I can type a lot here. I’ll try to keep it short. I’ve never been able to consistently exercise in my 31 years of life. I’m anti exercise. I didn’t want to be. I tried every single thing you can imagine to bio hack my insane brain. Nothing ever worked. Until now. I am shook. I just got done with my 3rd workout using this machine. I’ve used it everyday since purchase. I know it hasn’t been long, but I know for a fact I will use it every single day. It has taken away all obstacles that the ADHD OCD alphabet minds could ever cook up!!!!! Wow. I actually feel like I’m doing it “right” - I am not rushed - I can take as much of a rest as needed - if I can’t do something I can easily adjust to something else - it counts my reps - no more feeling like what I did “didn’t even matter or do anything” because it’s all on the screen in real time showing me what I did!!! It feels so good…. Even on days I don’t feel good it won’t matter because this machine makes it so simple and easy to get movement in - could be 5 mins or 60!!!! I give this 1,000 stars and for the first time in my whole life I’m finally going to be consistent with moving my body!!!! THANK YOU!!!!",
-        "textTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
+        "textTr": "Buraya çok şey yazabileceğimi umuyorum. Kısa tutmaya çalışacağım. Hayatımın 31 yılında düzenli olarak egzersiz yapmayı hiç başaramadım. Egzersiz karşıtıydım; böyle olmak istemiyordum. Çılgın beynimi biyohack’lemek için aklınıza gelebilecek her şeyi denedim. Hiçbiri işe yaramadı. Ta ki şimdiye kadar. Gerçekten şaşkınım. Bu cihazla üçüncü antrenmanımı az önce tamamladım. Satın aldığımdan beri her gün kullandım. Çok uzun zaman geçmediğini biliyorum ama bundan sonra her gün kullanacağımdan kesinlikle eminim. DEHB ve OKB gibi sürekli mazeret üretebilen bir zihnin önüne koyabileceği bütün engelleri ortadan kaldırdı!!!!! Vay canına. İlk kez gerçekten “doğru” yaptığımı hissediyorum: acele etmiyorum, ihtiyacım kadar dinlenebiliyorum, bir hareketi yapamazsam kolayca başka bir harekete geçebiliyorum ve tekrarlarımı sayıyor. Artık yaptığım şeyin “hiçbir anlamı ya da etkisi olmadığını” düşünmüyorum; çünkü yaptığım her şeyi ekranda gerçek zamanlı olarak görebiliyorum!!! Bu çok iyi hissettiriyor… Kendimi iyi hissetmediğim günlerde bile sorun olmayacak; çünkü bu cihaz hareket etmeyi son derece basit ve kolay hâle getiriyor. İster 5 dakika, ister 60 dakika olsun!!!! Buna 1.000 yıldız veriyorum ve hayatımda ilk kez bedenimi hareket ettirme konusunda sonunda istikrarlı olacağıma inanıyorum!!!! TEŞEKKÜR EDERİM!!!!",
         "previewOriginal": "I hope I can type a lot here. I’ll try to keep it short. I’ve never been able to consistently exercise in my 31 years of life. I’m anti exercise. I didn’t want to be. I tried every single t…",
-        "previewTr": "Buraya çok şey yazabileceğimi umuyorum. Deneyeceğim...",
+        "previewTr": "Buraya çok şey yazabileceğimi umuyorum. Kısa tutmaya çalışacağım. Hayatımın 31 yılında düzenli olarak egzersiz yapmayı hiç başaramadım. Egzersiz karşıtıydım; böyle olmak istemiyordum. Çılgı…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/5/22/mMLtDflWf6_mid.jpg",
@@ -211,7 +224,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-05-22",
         "dateOriginal": "5/22/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-FgIWESKDX",
@@ -237,9 +252,9 @@
         "mediaUploadedAt": "2026-04-30",
         "headline": "",
         "textOriginal": "This Gym Monster 2 is amazing! Exactly what I needed to stay consistent with my workouts. You can do everything you do in a gym but within the comfort of your home.",
-        "textTr": "Bu Gym Monster 2 harika! Tam olarak...",
+        "textTr": "Bu Gym Monster 2 harika! Antrenmanlarımı düzenli sürdürebilmek için tam olarak ihtiyacım olan şeydi. Spor salonunda yapabildiğiniz her şeyi evinizin rahatlığında yapabiliyorsunuz.",
         "previewOriginal": "This Gym Monster 2 is amazing! Exactly what I needed to stay consistent with my workouts. You can do everything you do in a gym but within the comfort of your home.",
-        "previewTr": "Bu Gym Monster 2 harika! Tam olarak...",
+        "previewTr": "Bu Gym Monster 2 harika! Antrenmanlarımı düzenli sürdürebilmek için tam olarak ihtiyacım olan şeydi. Spor salonunda yapabildiğiniz her şeyi evinizin rahatlığında yapabiliyorsunuz.",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/4/30/Dl_KiHn2z_mid.jpg",
@@ -264,7 +279,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-04-30",
         "dateOriginal": "4/30/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-ZHH3G_dIQ",
@@ -290,9 +307,9 @@
         "mediaUploadedAt": "2026-04-19",
         "headline": "",
         "textOriginal": "I really like my Speediance gym. It was easy to set up and figure out how to use. I joined the subscription program and it is great for learning and accountability. The free lift option is also a great option. I look forward to using the machine more so than going to the crowded gym.",
-        "textTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
+        "textTr": "Speediance spor salonumu gerçekten çok beğeniyorum. Kurulumu kolaydı ve nasıl kullanılacağını anlamak da zor olmadı. Abonelik programına katıldım; öğrenme ve düzenli kalma açısından çok faydalı. Serbest ağırlık seçeneği de harika. Kalabalık spor salonuna gitmek yerine bu cihazı daha fazla kullanmayı dört gözle bekliyorum.",
         "previewOriginal": "I really like my Speediance gym. It was easy to set up and figure out how to use. I joined the subscription program and it is great for learning and accountability. The free lift option is…",
-        "previewTr": "Speediance spor salonumu gerçekten çok beğeniyorum. ...",
+        "previewTr": "Speediance spor salonumu gerçekten çok beğeniyorum. Kurulumu kolaydı ve nasıl kullanılacağını anlamak da zor olmadı. Abonelik programına katıldım; öğrenme ve düzenli kalma açısından çok fay…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/4/19/23qWfk1LBc_mid.jpg",
@@ -317,7 +334,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-04-20",
         "dateOriginal": "4/20/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-uB1eGvcR6",
@@ -343,9 +362,9 @@
         "mediaUploadedAt": "2026-04-15",
         "headline": "",
         "textOriginal": "Absolutely love this gym. Its made my life so much easier. I work about an hour away from my home thats 2 hours spent driving. Being able to get a full workout in my garage without having to commute to the gym after working a full day is a game changer. I've been able to get a solid workout in everyday since I've got this gym without feeling like I dont have freetime.",
-        "textTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
+        "textTr": "Bu spor salonuna kesinlikle bayılıyorum. Hayatımı çok daha kolay hâle getirdi. Evimden yaklaşık bir saat uzakta çalışıyorum; bu da her gün iki saatimi yolda geçirmem demek. Tam gün çalıştıktan sonra ayrıca spor salonuna gitmek zorunda kalmadan garajımda eksiksiz bir antrenman yapabilmek gerçekten ezber bozuyor. Bu cihazı aldığımdan beri, boş zamanım kalmıyormuş gibi hissetmeden her gün sağlam bir antrenman yapabildim.",
         "previewOriginal": "Absolutely love this gym. Its made my life so much easier. I work about an hour away from my home thats 2 hours spent driving. Being able to get a full workout in my garage without having t…",
-        "previewTr": "Bu spor salonuna kesinlikle bayılıyorum. Benim...",
+        "previewTr": "Bu spor salonuna kesinlikle bayılıyorum. Hayatımı çok daha kolay hâle getirdi. Evimden yaklaşık bir saat uzakta çalışıyorum; bu da her gün iki saatimi yolda geçirmem demek. Tam gün çalıştık…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/4/15/F1jcffydK_mid.jpg",
@@ -370,7 +389,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-04-16",
         "dateOriginal": "4/16/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-UvhnzTS2e",
@@ -396,9 +417,9 @@
         "mediaUploadedAt": "2026-04-16",
         "headline": "",
         "textOriginal": "Shipping took longer than expected, but it was packaged wonderfully. I would recommend paying for the white glove service if you want it in a basement or upstairs. It is heavy and a little awkward. Only done a few workouts so far, but I love it!",
-        "textTr": "Kargo beklediğimden uzun sürdü, ancak...",
+        "textTr": "Teslimat beklediğimden uzun sürdü ancak paketleme mükemmeldi. Cihazı bodruma ya da üst kata çıkarmayı düşünüyorsanız beyaz eldiven teslimat hizmeti için ödeme yapmanızı öneririm. Ağır ve taşıması biraz zahmetli. Şimdiye kadar yalnızca birkaç antrenman yaptım ama çok sevdim!",
         "previewOriginal": "Shipping took longer than expected, but it was packaged wonderfully. I would recommend paying for the white glove service if you want it in a basement or upstairs. It is heavy and a little…",
-        "previewTr": "Kargo beklediğimden uzun sürdü, ancak...",
+        "previewTr": "Teslimat beklediğimden uzun sürdü ancak paketleme mükemmeldi. Cihazı bodruma ya da üst kata çıkarmayı düşünüyorsanız beyaz eldiven teslimat hizmeti için ödeme yapmanızı öneririm. Ağır ve ta…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/4/16/EqncBxfaM_mid.jpg",
@@ -423,7 +444,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-04-13",
         "dateOriginal": "4/13/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-RVwEQNQrp",
@@ -449,9 +472,9 @@
         "mediaUploadedAt": "2026-04-10",
         "headline": "",
         "textOriginal": "I’ve had the Speediance Gym Monster 2 for the last 3 weeks and between my wife and I we have 30 workouts with it. A bit about why we bought it: I’m an ultra marathoner who wants to get stronger to prevent injury, and my wife wants get lift heavy to promote bone health. We have/had a Concept2 Rower and SkiErg that we were going to sell if the Gym Monster 2 is a suitable replacement. Our thoughts so far: This machine is exceptionally useful and exceptionally convenient. Previously, weightlifting with my wife required me to provide a lot of instruction for her. It also required constantly adjusting weights, constantly guessing, and reevaluating what’s appropriate, and determining what workouts make the most sense. Even when I would weight lift alone there is such a significant time delay, and a bit of a mental load to do these things. With traditional weights if I want to do a 45 minute workout, it would take just over an hour with my adjustable dumbbells, kettlebells and barbell. With the Gym Monster, a 45 minute workout tends to be 45 minutes right on the dot. there’s no prep, there’s no adjusting weights, there’s no writing down my sets, reps, or weights. You tap the screen, select that day’s workout from your program, and you go. All the accessories are easy to swap, and there’s very little time wasted in between sets. If I only have 20 minutes to get a workout in, this machine can build a solid 20 minute workout. If two days ago was leg day, yesterday was arm day, the machine builds the workout for back, chest, or hips. It monitors what is fatigued, and builds the best workout with the appropriate weight to hit my goals. The Gym Monster’s accessories and plentiful, priced inexpensively, and it comes with spare hardware so that you can use your own non-Speediance accessories. More on rowing and skierging later, but I much prefer the handles and grips from Concept2. I ordered them, and used the extra hardware Speediance provided to connect them to my Gym Monster. It’s really refreshing to not be nickel and dimed. It seems Speediance just wants to sell more Gym Monsters and not lock people into expensive accessories. My wife went from weight lifting a handful of times in her life, to doing comprehensive workouts that in a gym she would feel so awkward that she’s doing it wrong. This is a close step below having your own personal trainer. That’s so impressive that a device this small can be that useful and effective. The workout content is spectacular. You can select a program you want, and follow it with weights that are preselected from an assessment you take when you set up the Gym Monster. The library is huge, comprehensive, and I don’t see a single case where they wouldn’t have something that works for everyone. The included warms and stretches are thoughtful. The yoga is great. I am using a standard program, and my wife is using a program built by their subscription Wellness+. It seems helpful, but isn’t needed. I have Apple Fitness+, but find the overwhelmingly positive, and smiley trainers to be distracting and a turn off. The trainers on Speediance don’t try and make you feel any particular way. They just guide you through the workouts, mention helpful form tips throughout, and that’s it. It’s maximally helpful, without any of the fake feeling encouragement. The negatives: Rowing feels weird compared to a Concept2 RowErg. With the Concept2’s flywheel there is a feeling momentum. With the Gym Monster the resistance is constant. There is not that feeling of working up to speed. I prefer the Concept2’s feeling, but the Gym Monster is the same workout. I do appreciate how quiet the Gym Monster is when rowing. I don’t need to wear noise cancelling headphones. The SkiErg functionality is not nearly as nice as a Concept2 SkiErg. The posts aren’t as high, and you don’t get that full body expansion. Even though I’m 6’1” I can deal with that. Any taller, and that would be especially annoying. The big issue with Skiing is the cables don’t retract quickly enough. When you are using a Concept2 SkiErg, you generate the most power with your legs/core, and then your arms finish the movement. Your arms quickly raise, and your hips and legs follow. The Gym Monster does not retract the cables fast enough. I find that I need to raise my hips and legs first, and then my arms. It takes some getting used to, and doesn’t feel as enjoyable. Like rowing, the workout is just as good, but it’s just not as nice. Rowing on the Gym Monster is definitely better than SkiErg on the Gym Monster. We are selling the SkiErg and RowErg, but it will miss the SkiErg. The weight limit is 220 pounds, and that’s fine. I might hit that deadlift in 9 months, and that squat in a year, and I’m ok with that. The Gym Monster has great modifications to those workouts to make them more challenging. Alternatively, I can just go with higher reps/sets. I doubt I will have to worry about bench pressing more than that. I have this machine to enhance my running and for the health benefits that come from weight lifting. I don’t need more than 220. Every time I finish a workout on the Gym Monster I’m just left thinking “Man this is a cool device. I can’t believe how much I just did with it.” I highly recommend it.",
-        "textTr": "Speediance Gym Monster 2’yi...",
+        "textTr": "Speediance Gym Monster 2’yi yaklaşık üç haftadır kullanıyoruz ve eşimle birlikte toplam 30 antrenman yaptık. Neden satın aldığımızdan biraz bahsedeyim: Ben, sakatlanmaları önlemek için güçlenmek isteyen bir ultra maraton koşucusuyum; eşim ise kemik sağlığını desteklemek için ağır çalışmak istiyor. Gym Monster 2 uygun bir alternatif olursa satmayı düşündüğümüz bir Concept2 Rower ve SkiErg cihazımız vardı.\n\nŞimdiye kadarki düşüncelerimiz şöyle: Bu cihaz olağanüstü kullanışlı ve son derece pratik. Önceden eşimle ağırlık çalışırken ona çok fazla yönlendirme yapmam gerekiyordu. Ayrıca ağırlıkları sürekli değiştirmek, uygun seviyeyi tahmin edip yeniden değerlendirmek ve hangi antrenmanların en mantıklı olduğuna karar vermek gerekiyordu. Tek başıma çalışırken bile bütün bunlar ciddi zaman kaybı ve zihinsel yük oluşturuyordu. Geleneksel ağırlıklarla 45 dakikalık bir antrenman yapmak istediğimde, ayarlanabilir dambıllar, kettlebell’ler ve halterle toplam süre bir saati biraz geçiyordu. Gym Monster’da ise 45 dakikalık antrenman gerçekten tam 45 dakika sürüyor. Hazırlık yok, ağırlık değiştirmek yok, setleri, tekrarları veya ağırlıkları not etmek yok. Ekrana dokunuyor, programınızdan o günkü antrenmanı seçiyor ve başlıyorsunuz. Tüm aksesuarlar kolayca değiştiriliyor ve setler arasında çok az zaman kaybediliyor.\n\nAntrenman için yalnızca 20 dakikam varsa cihaz güçlü bir 20 dakikalık program oluşturabiliyor. İki gün önce bacak, dün kol çalıştıysam sırt, göğüs veya kalça için bir antrenman hazırlıyor. Hangi bölgelerin yorgun olduğunu izliyor ve hedeflerime ulaşmak için uygun ağırlıkla en iyi programı oluşturuyor. Gym Monster’ın aksesuarları bol ve uygun fiyatlı. Ayrıca Speediance dışı aksesuarlarınızı kullanabilmeniz için yedek bağlantı parçalarıyla geliyor. Kürek ve SkiErg deneyimine daha sonra değineceğim ancak ben Concept2’nin saplarını ve tutma parçalarını çok daha fazla seviyorum. Bunları sipariş ettim ve Speediance’ın verdiği ek bağlantı parçalarıyla Gym Monster’a bağladım. Her küçük parça için ayrıca ücret alınmaması gerçekten ferahlatıcı. Speediance insanları pahalı aksesuarlara kilitlemekten çok daha fazla Gym Monster satmak istiyor gibi görünüyor.\n\nEşim hayatında yalnızca birkaç kez ağırlık çalışmışken artık spor salonunda yanlış yapıyorum diye çekineceği kapsamlı antrenmanları yapabiliyor. Bu, kişisel antrenöre sahip olmanın yalnızca bir adım altında. Bu kadar küçük bir cihazın bu derece kullanışlı ve etkili olması gerçekten etkileyici. Antrenman içerikleri olağanüstü. İstediğiniz programı seçebiliyor ve Gym Monster’ı kurarken yaptığınız değerlendirme sonucuna göre önceden belirlenen ağırlıklarla takip edebiliyorsunuz. Kütüphane çok büyük ve kapsamlı; herkes için uygun bir seçenek bulunmayacağı hiçbir durum göremiyorum. Isınma ve esneme bölümleri özenli, yoga içerikleri de çok iyi. Ben standart bir program kullanıyorum; eşim ise Wellness+ aboneliğiyle hazırlanan bir programı uyguluyor. Yararlı görünüyor ancak şart değil. Apple Fitness+ kullanıyorum fakat aşırı pozitif ve sürekli gülümseyen antrenörleri dikkat dağıtıcı ve itici buluyorum. Speediance antrenörleri size belirli bir duygu hissettirmeye çalışmıyor. Sadece egzersiz boyunca rehberlik ediyor, faydalı form ipuçları veriyor ve hepsi bu. Yapay hissettiren teşvikler olmadan mümkün olan en faydalı yaklaşımı sunuyorlar.\n\nOlumsuz yönleri: Kürek çekme hissi Concept2 RowErg’e kıyasla garip. Concept2’nin volanında bir ivme hissi var; Gym Monster’da ise direnç sabit. Hıza kademeli olarak ulaşma hissi oluşmuyor. Concept2’nin hissini tercih ediyorum ancak Gym Monster’da yapılan antrenmanın etkisi aynı. Kürek çekerken Gym Monster’ın ne kadar sessiz olduğunu ise takdir ediyorum; gürültü önleyici kulaklık takmam gerekmiyor. SkiErg işlevi Concept2 SkiErg kadar iyi değil. Direkler yeterince yüksek olmadığından vücudu tam açma hareketini yapamıyorsunuz. Boyum 1,85 metre ve bununla başa çıkabiliyorum; daha uzun biri için özellikle rahatsız edici olabilir.\n\nSkiErg kullanımındaki asıl sorun kabloların yeterince hızlı geri çekilmemesi. Concept2 SkiErg kullanırken gücün büyük bölümünü bacaklarınız ve merkez bölgenizle üretir, hareketi kollarınızla tamamlarsınız. Kollar hızla yukarı kalkar, ardından kalça ve bacaklar gelir. Gym Monster kabloları yeterince hızlı geri çekmiyor. Bu nedenle önce kalça ve bacaklarımı, ardından kollarımı kaldırmam gerekiyor. Alışmak biraz zaman alıyor ve aynı derecede keyifli hissettirmiyor. Kürekte olduğu gibi antrenman etkisi aynı, yalnızca kullanım hissi o kadar iyi değil. Gym Monster’da kürek çekmek, SkiErg yapmaktan kesinlikle daha iyi. SkiErg ve RowErg’i satıyoruz ancak SkiErg’i özleyeceğim.\n\nAğırlık sınırı 220 lb ve bu benim için yeterli. Deadliftte bu seviyeye dokuz ay, squatta ise bir yıl içinde ulaşabilirim; bunda sorun görmüyorum. Gym Monster bu egzersizleri daha zor hâle getirmek için çok iyi varyasyonlar sunuyor. Alternatif olarak tekrar veya set sayısını artırabilirim. Bench presste bu ağırlığın üzerine çıkma konusunda endişelenmem gerekeceğini sanmıyorum. Bu cihazı koşu performansımı geliştirmek ve ağırlık çalışmasının sağlık faydalarından yararlanmak için aldım; 220 lb’den fazlasına ihtiyacım yok.\n\nGym Monster’da her antrenmanı bitirdiğimde aklımdan şu geçiyor: “Bu cihaz gerçekten çok iyi. Bununla ne kadar çok şey yaptığıma inanamıyorum.” Kesinlikle tavsiye ediyorum.",
         "previewOriginal": "I’ve had the Speediance Gym Monster 2 for the last 3 weeks and between my wife and I we have 30 workouts with it. A bit about why we bought it: I’m an ultra marathoner who wants to get stro…",
-        "previewTr": "Speediance Gym Monster 2’yi...",
+        "previewTr": "Speediance Gym Monster 2’yi yaklaşık üç haftadır kullanıyoruz ve eşimle birlikte toplam 30 antrenman yaptık. Neden satın aldığımızdan biraz bahsedeyim: Ben, sakatlanmaları önlemek için güçl…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/4/10/T4MMM2ftI_mid.jpg",
@@ -476,7 +499,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-04-10",
         "dateOriginal": "4/10/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-KEyJA9lOX",
@@ -502,9 +527,9 @@
         "mediaUploadedAt": "2026-04-02",
         "headline": "",
         "textOriginal": "Haven't had the chance to fully dive into it yet, but early impressions are that this is a great machine!",
-        "textTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
+        "textTr": "Henüz tüm özelliklerini ayrıntılı biçimde deneme fırsatı bulamadım ancak ilk izlenimim bunun harika bir cihaz olduğu yönünde!",
         "previewOriginal": "Haven't had the chance to fully dive into it yet, but early impressions are that this is a great machine!",
-        "previewTr": "Henüz tüm ayrıntılarıyla deneme fırsatım olmadı...",
+        "previewTr": "Henüz tüm özelliklerini ayrıntılı biçimde deneme fırsatı bulamadım ancak ilk izlenimim bunun harika bir cihaz olduğu yönünde!",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/4/2/ekUP9UnkL_mid.jpg",
@@ -529,7 +554,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-04-02",
         "dateOriginal": "4/2/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-JLzOqJLGL",
@@ -555,9 +582,9 @@
         "mediaUploadedAt": "2026-03-28",
         "headline": "",
         "textOriginal": "As someone who has always hated going to gyms, and also as someone who hates subscription based models for anything and everything, the Speediance Gym Monster is a godsend. I am very happy being an owner of this machine. Let me share some of the things that I really liked since this was delivered to me roughly 3 months back. I was able to take out and setup the machine all alone without any help. The machine and all accessories look to be made of high quality materials. I feel confident that this will last for a long time provided I take good care. The interface is fairly easy to operate. I really like the large size of the display. The best part of the machine is the ton of inbuilt programs that are available to choose from. And I also love how easy it is to swap the various accessories to be able to perform different exercises.",
-        "textTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
+        "textTr": "Spor salonuna gitmekten her zaman nefret etmiş ve her türlü abonelik modelinden hoşlanmayan biri olarak Speediance Gym Monster benim için adeta bulunmaz nimet. Bu cihazın sahibi olduğum için çok mutluyum. Yaklaşık üç ay önce teslim edildiğinden beri en çok beğendiğim özelliklerden bazılarını paylaşayım. Cihazı herhangi bir yardım almadan tek başıma kutudan çıkarıp kurabildim. Makine ve tüm aksesuarlar yüksek kaliteli malzemelerden üretilmiş görünüyor. İyi baktığım sürece uzun yıllar dayanacağına güveniyorum. Arayüzün kullanımı oldukça kolay ve büyük ekranı gerçekten beğeniyorum. Cihazın en iyi tarafı, arasından seçim yapabileceğiniz çok sayıdaki yerleşik program. Farklı egzersizleri yapabilmek için aksesuarları değiştirmenin ne kadar kolay olmasını da çok seviyorum.",
         "previewOriginal": "As someone who has always hated going to gyms, and also as someone who hates subscription based models for anything and everything, the Speediance Gym Monster is a godsend. I am very happy…",
-        "previewTr": "Spor salonuna gitmekten her zaman nefret etmiş biri olarak...",
+        "previewTr": "Spor salonuna gitmekten her zaman nefret etmiş ve her türlü abonelik modelinden hoşlanmayan biri olarak Speediance Gym Monster benim için adeta bulunmaz nimet. Bu cihazın sahibi olduğum içi…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/3/28/8SGSeC21H_mid.jpg",
@@ -582,7 +609,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-03-28",
         "dateOriginal": "3/28/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-E3p2VTc8i",
@@ -608,9 +637,9 @@
         "mediaUploadedAt": "2026-03-28",
         "headline": "",
         "textOriginal": "This is great, from custom workouts, to AI help, all exercises have videos and so many available workout plans. Do all of your exercises to any bluetooth music you like. Takes up minimal space and customer service is always there to help you. I can get home and start exercising within seconds not minutes and no more hassle taking time off to change weights, do it at a finger tip, literally it is that easy. Last the app is great customize what you want whenever you want and when you go home it is automatically synced to your machine.",
-        "textTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
+        "textTr": "Bu cihaz harika. Kişiselleştirilmiş antrenmanlardan yapay zekâ desteğine kadar her egzersizin videosu var ve çok sayıda antrenman planı sunuluyor. İstediğiniz Bluetooth müziğini dinlerken bütün egzersizlerinizi yapabiliyorsunuz. Çok az yer kaplıyor ve müşteri hizmetleri her zaman yardımcı olmaya hazır. Eve gelir gelmez dakikalar içinde değil, saniyeler içinde antrenmana başlayabiliyorum. Ağırlık değiştirmek için vakit kaybetme zahmeti de yok; bunu kelimenin tam anlamıyla parmağınızın ucuyla yapıyorsunuz. Son olarak uygulama da harika: İstediğiniz şeyi istediğiniz zaman özelleştiriyorsunuz ve eve geldiğinizde otomatik olarak cihazınızla eşitleniyor.",
         "previewOriginal": "This is great, from custom workouts, to AI help, all exercises have videos and so many available workout plans. Do all of your exercises to any bluetooth music you like. Takes up minimal sp…",
-        "previewTr": "Bu harika; kişiselleştirilmiş antrenmanlardan...",
+        "previewTr": "Bu cihaz harika. Kişiselleştirilmiş antrenmanlardan yapay zekâ desteğine kadar her egzersizin videosu var ve çok sayıda antrenman planı sunuluyor. İstediğiniz Bluetooth müziğini dinlerken b…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/3/28/E3p2VTc8i_xsSz-f8TNc_orig_mid.jpg",
@@ -635,7 +664,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-03-25",
         "dateOriginal": "3/25/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-04Atu_m0o",
@@ -661,9 +692,9 @@
         "mediaUploadedAt": "2026-03-15",
         "headline": "",
         "textOriginal": "I was only able to test it out for two days but it worked great. The only workout that was not registering with the machine was the bench press. I had to make a small sit up in order for the machine to register or move around the seat, constantly. Worth the investment especially if you like to workout without other people interrupting mid workout.",
-        "textTr": "Yalnızca iki...",
+        "textTr": "Yalnızca iki gün deneme fırsatım oldu ancak çok iyi çalıştı. Cihazın algılamadığı tek egzersiz bench pressti. Hareketi kaydetmesi için hafifçe doğrulmam veya oturma pozisyonumu sürekli değiştirmem gerekti. Özellikle antrenman sırasında başkalarının sizi bölmesinden hoşlanmıyorsanız yatırıma kesinlikle değer.",
         "previewOriginal": "I was only able to test it out for two days but it worked great. The only workout that was not registering with the machine was the bench press. I had to make a small sit up in order for th…",
-        "previewTr": "Yalnızca iki...",
+        "previewTr": "Yalnızca iki gün deneme fırsatım oldu ancak çok iyi çalıştı. Cihazın algılamadığı tek egzersiz bench pressti. Hareketi kaydetmesi için hafifçe doğrulmam veya oturma pozisyonumu sürekli deği…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/3/15/OFrVJ5jsQM_mid.jpg",
@@ -688,7 +719,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-03-16",
         "dateOriginal": "3/16/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-fWcchD8J3",
@@ -714,9 +747,9 @@
         "mediaUploadedAt": "2026-03-06",
         "headline": "",
         "textOriginal": "This was a great purchase! Prior to the gym monster I was only using free weights and felt limited to some of the exercises I wanted to do, specially leg exercises. With the GM2 I have tons of variation in my workouts. After a workout I go though the list of exercises and target the specific muscles that have a little more energy left. Being able to searching exercises by the muscles is key for me because I dont alway know what exercises I need to do. I also signed up for the Wellness+, it does a great job of keeping track of my workouts so I know what muscle groups I need to hit next. I'm still excited to use it every morning.",
-        "textTr": "Harika bir satın alma oldu! Öncesinde...",
+        "textTr": "Harika bir satın alma oldu! Gym Monster’dan önce yalnızca serbest ağırlık kullanıyordum ve özellikle bacak egzersizleri olmak üzere yapmak istediğim bazı hareketlerde kendimi kısıtlanmış hissediyordum. GM2 sayesinde antrenmanlarımda çok fazla çeşitlilik var. Antrenmandan sonra egzersiz listesini inceliyor ve enerjisi biraz daha fazla kalan belirli kasları hedefliyorum. Egzersizleri kas grubuna göre arayabilmek benim için çok önemli; çünkü hangi hareketleri yapmam gerektiğini her zaman bilmiyorum. Wellness+ hizmetine de abone oldum. Antrenmanlarımı takip etme konusunda çok iyi çalışıyor ve sırada hangi kas gruplarına odaklanmam gerektiğini gösteriyor. Her sabah kullanmak için hâlâ heyecan duyuyorum.",
         "previewOriginal": "This was a great purchase! Prior to the gym monster I was only using free weights and felt limited to some of the exercises I wanted to do, specially leg exercises. With the GM2 I have tons…",
-        "previewTr": "Harika bir satın alma oldu! Öncesinde...",
+        "previewTr": "Harika bir satın alma oldu! Gym Monster’dan önce yalnızca serbest ağırlık kullanıyordum ve özellikle bacak egzersizleri olmak üzere yapmak istediğim bazı hareketlerde kendimi kısıtlanmış hi…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/3/6/3v7ioFLaZ_mid.jpg",
@@ -741,7 +774,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-03-06",
         "dateOriginal": "3/6/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-xPDanpndR",
@@ -767,9 +802,9 @@
         "mediaUploadedAt": "2026-03-04",
         "headline": "",
         "textOriginal": "This machine is a game changer. It has made working out simpler than ever. There are so many pre loaded workouts to choose from, each with a video demonstration on how to do them properly. The gym monster 2 has completely elevated my workouts and I wish I had gotten it sooner.",
-        "textTr": "Bu cihaz ezber bozuyor. ...",
+        "textTr": "Bu cihaz gerçekten ezber bozuyor. Antrenman yapmayı her zamankinden daha kolay hâle getirdi. Aralarından seçim yapabileceğiniz çok sayıda hazır antrenman var ve her birinde hareketin doğru şekilde nasıl yapılacağını gösteren bir video bulunuyor. Gym Monster 2 antrenmanlarımı tamamen başka bir seviyeye taşıdı; keşke daha önce alsaydım.",
         "previewOriginal": "This machine is a game changer. It has made working out simpler than ever. There are so many pre loaded workouts to choose from, each with a video demonstration on how to do them properly.…",
-        "previewTr": "Bu cihaz ezber bozuyor. ...",
+        "previewTr": "Bu cihaz gerçekten ezber bozuyor. Antrenman yapmayı her zamankinden daha kolay hâle getirdi. Aralarından seçim yapabileceğiniz çok sayıda hazır antrenman var ve her birinde hareketin doğru…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/3/4/emQlIXEuR_mid.jpg",
@@ -794,7 +829,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-03-04",
         "dateOriginal": "3/4/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-lSrXEr7qS",
@@ -847,7 +884,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-02-21",
         "dateOriginal": "2/21/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-peWtvhaW1",
@@ -873,9 +912,9 @@
         "mediaUploadedAt": "2026-01-16",
         "headline": "",
         "textOriginal": "I cannot say enough good things about my Gym Monster. I was looking for an alternative to more expensive machines that have to be bolted to your wall/professionally installed. The fact that the machine requires no assembly or installation was a huge plus for me. The extensive free workout content and library of exercises are truly phenomenal. I am able to perform 95% of the exercises I would want to do at a gym. In short, the Gym Monster has surpassed all my expectations and has been instrumental in helping me achieve the best shape of my life. I’ve lost 60 pounds and my body fat percentage has dropped from 29% to 15%. If you’re looking for a comprehensive solution for strength training at home, I highly recommend the Gym Monster.",
-        "textTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
+        "textTr": "Gym Monster’ım hakkında ne kadar iyi şey söylesem az. Duvara sabitlenmesi veya profesyonel kurulum gerektiren daha pahalı cihazlara alternatif arıyordum. Cihazın hiçbir montaj ya da kurulum gerektirmemesi benim için büyük bir artıydı. Kapsamlı ücretsiz antrenman içerikleri ve egzersiz kütüphanesi gerçekten olağanüstü. Spor salonunda yapmak isteyeceğim egzersizlerin yaklaşık %95’ini gerçekleştirebiliyorum. Kısacası Gym Monster tüm beklentilerimi aştı ve hayatımın en iyi formuna ulaşmamda çok önemli bir rol oynadı. 60 pound verdim ve vücut yağ oranım %29’dan %15’e düştü. Evde kuvvet antrenmanı için kapsamlı bir çözüm arıyorsanız Gym Monster’ı kesinlikle tavsiye ederim.",
         "previewOriginal": "I cannot say enough good things about my Gym Monster. I was looking for an alternative to more expensive machines that have to be bolted to your wall/professionally installed. The fact that…",
-        "previewTr": "Cihazımla ilgili ne kadar iyi şey söylesem az...",
+        "previewTr": "Gym Monster’ım hakkında ne kadar iyi şey söylesem az. Duvara sabitlenmesi veya profesyonel kurulum gerektiren daha pahalı cihazlara alternatif arıyordum. Cihazın hiçbir montaj ya da kurulum…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/1/16/_4FQRxbIc_mid.jpg",
@@ -900,7 +939,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-01-16",
         "dateOriginal": "1/16/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-r5i1Gq6Nd",
@@ -926,9 +967,9 @@
         "mediaUploadedAt": "2026-01-13",
         "headline": "",
         "textOriginal": "I got my machine last week and I'm extremely happy with this purchase. I am so glad I can do my morning workouts now before my day starts. Ever since I moved a year ago I had to leave the gym I used to go to and haven't found one around me I liked. Now I can work out from home anytime! The guided workouts are actually really good and hit all the muscle groups. Customer Support has been top notch, they helped with my questions responding within a day to my emails and actually answered my questions. Overall I couldn't be happier with the Gym Monster and the service they offer. Going to look into the row machine attachment and VeloNix bike for my cardio.",
-        "textTr": "Cihazım geçen hafta geldi ve...",
+        "textTr": "Cihazım geçen hafta geldi ve bu satın alma işleminden son derece memnunum. Artık güne başlamadan önce sabah antrenmanlarımı yapabildiğim için çok mutluyum. Bir yıl önce taşındığımda gittiğim spor salonunu bırakmak zorunda kaldım ve çevremde beğendiğim başka bir yer bulamadım. Şimdi evde istediğim zaman antrenman yapabiliyorum! Rehberli antrenmanlar gerçekten çok iyi ve bütün kas gruplarını çalıştırıyor. Müşteri desteği de birinci sınıf; sorularım için yardımcı oldular, e-postalarıma bir gün içinde döndüler ve gerçekten sorduğum şeylere yanıt verdiler. Genel olarak Gym Monster’dan ve sundukları hizmetten daha memnun olamazdım. Kardiyo için kürek aparatı ve VeloNix bisikleti de inceleyeceğim.",
         "previewOriginal": "I got my machine last week and I'm extremely happy with this purchase. I am so glad I can do my morning workouts now before my day starts. Ever since I moved a year ago I had to leave the g…",
-        "previewTr": "Cihazım geçen hafta geldi ve...",
+        "previewTr": "Cihazım geçen hafta geldi ve bu satın alma işleminden son derece memnunum. Artık güne başlamadan önce sabah antrenmanlarımı yapabildiğim için çok mutluyum. Bir yıl önce taşındığımda gittiği…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/1/13/HbPTJi-r3_mid.jpg",
@@ -953,7 +994,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-01-14",
         "dateOriginal": "1/14/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-k-EeAlQix",
@@ -979,9 +1022,9 @@
         "mediaUploadedAt": "2026-01-07",
         "headline": "",
         "textOriginal": "I’ve really enjoyed the Speediance Gym Monster 2 as a home workout machine, especially because it was easy to set up and makes quick workouts convenient, leaving me with no excuse to skip training. The machine excels at push and pull movements like rows, lat pulldowns, bench press, and flys, which cover the core of my strength routine. After owning it for just over a year, it has become a vital part of my strength training and overall consistency.",
-        "textTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
+        "textTr": "Speediance Gym Monster 2’yi evde antrenman cihazı olarak kullanmaktan gerçekten çok keyif aldım. Özellikle kurulumunun kolay olması ve kısa antrenmanları son derece pratik hâle getirmesi sayesinde antrenmanı atlamak için bahanem kalmıyor. Cihaz; row, lat pulldown, bench press ve fly gibi itme ve çekme hareketlerinde çok başarılı. Bunlar kuvvet programımın temelini oluşturuyor. Bir yılı biraz aşkın süredir kullanıyorum ve kuvvet antrenmanımın ve genel düzenliliğimin vazgeçilmez bir parçası hâline geldi.",
         "previewOriginal": "I’ve really enjoyed the Speediance Gym Monster 2 as a home workout machine, especially because it was easy to set up and makes quick workouts convenient, leaving me with no excuse to skip t…",
-        "previewTr": "Speediance Gym’i kullanmaktan gerçekten çok keyif aldım...",
+        "previewTr": "Speediance Gym Monster 2’yi evde antrenman cihazı olarak kullanmaktan gerçekten çok keyif aldım. Özellikle kurulumunun kolay olması ve kısa antrenmanları son derece pratik hâle getirmesi sa…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/1/7/3tgTmHp3p_mid.jpg",
@@ -1006,7 +1049,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2026-01-07",
         "dateOriginal": "1/7/2026",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-CW-hjvfc6",
@@ -1032,9 +1077,9 @@
         "mediaUploadedAt": "2026-01-03",
         "headline": "",
         "textOriginal": "So far so good! Still learning something new everyday! But I can tell it's already elevating my leg workouts! Time to grow!!",
-        "textTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
+        "textTr": "Şimdilik her şey çok iyi! Her gün hâlâ yeni bir şey öğreniyorum. Ancak bacak antrenmanlarımı şimdiden başka bir seviyeye taşıdığını söyleyebilirim. Gelişme zamanı!!",
         "previewOriginal": "So far so good! Still learning something new everyday! But I can tell it's already elevating my leg workouts! Time to grow!!",
-        "previewTr": "Şimdilik her şey iyi! Hâlâ öğreniyorum...",
+        "previewTr": "Şimdilik her şey çok iyi! Her gün hâlâ yeni bir şey öğreniyorum. Ancak bacak antrenmanlarımı şimdiden başka bir seviyeye taşıdığını söyleyebilirim. Gelişme zamanı!!",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2026/1/3/HCgM_zzRb_mid.jpg",
@@ -1059,7 +1104,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2025-12-29",
         "dateOriginal": "12/29/2025",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-eF-957fM7",
@@ -1085,9 +1132,9 @@
         "mediaUploadedAt": "2025-12-29",
         "headline": "",
         "textOriginal": "I'd never thought gym could be so accessible. Got it for the rower which is on backorder and now I am addicted to the gym for the first time in 15yrs. Love the mix of technology and functionality, and the workout library for all abilities. Plus the tracking on which muscles are fatigued vs. fresh gives a great perspective on what to workout. Going to get the additional accessories as well.",
-        "textTr": "Spor salonunun bu kadar...",
+        "textTr": "Spor salonunun bu kadar erişilebilir olabileceğini hiç düşünmemiştim. Aslında stok bekleyen kürek aparatı için aldım ama şimdi 15 yıl sonra ilk kez antrenmana bağımlı hâle geldim. Teknoloji ile işlevselliğin birleşimini ve her seviyeye uygun antrenman kütüphanesini çok seviyorum. Ayrıca hangi kasların yorgun, hangilerinin dinç olduğunu takip etmesi, ne çalışmanız gerektiğine dair harika bir bakış açısı sağlıyor. Ek aksesuarları da alacağım.",
         "previewOriginal": "I'd never thought gym could be so accessible. Got it for the rower which is on backorder and now I am addicted to the gym for the first time in 15yrs. Love the mix of technology and functio…",
-        "previewTr": "Spor salonunun bu kadar...",
+        "previewTr": "Spor salonunun bu kadar erişilebilir olabileceğini hiç düşünmemiştim. Aslında stok bekleyen kürek aparatı için aldım ama şimdi 15 yıl sonra ilk kez antrenmana bağımlı hâle geldim. Teknoloji…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/12/29/tTnv2LMCl_mid.jpg",
@@ -1112,7 +1159,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2025-12-29",
         "dateOriginal": "12/29/2025",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-OTItQw5xw",
@@ -1138,9 +1187,9 @@
         "mediaUploadedAt": "2025-12-24",
         "headline": "",
         "textOriginal": "The Gym Monster 2 is a complete game changer for me. Everything has been simple and straight forward from the unboxing. The ease of use and design will keep me active for sure, that and I'm from for the wellness+ subscription.",
-        "textTr": "Gym Monster 2 tam anlamıyla...",
+        "textTr": "Gym Monster 2 benim için tamamen ezber bozan bir cihaz. Kutudan çıkardığım andan itibaren her şey basit ve anlaşılırdı. Kullanım kolaylığı ve tasarımı kesinlikle aktif kalmamı sağlayacak. Ayrıca Wellness+ aboneliğini de kullanıyorum.",
         "previewOriginal": "The Gym Monster 2 is a complete game changer for me. Everything has been simple and straight forward from the unboxing. The ease of use and design will keep me active for sure, that and I'm…",
-        "previewTr": "Gym Monster 2 tam anlamıyla...",
+        "previewTr": "Gym Monster 2 benim için tamamen ezber bozan bir cihaz. Kutudan çıkardığım andan itibaren her şey basit ve anlaşılırdı. Kullanım kolaylığı ve tasarımı kesinlikle aktif kalmamı sağlayacak. A…",
         "media": {
           "type": "image",
           "thumb": "https://images.loox.io/uploads/2025/12/24/kbYHZwyKv_mid.jpg",
@@ -1165,7 +1214,9 @@
         "dateSource": "loox-quickview",
         "reviewDate": "2025-12-22",
         "dateOriginal": "12/22/2025",
-        "translationNeedsUpdate": true
+        "translationNeedsUpdate": false,
+        "translationStatus": "complete",
+        "translationSource": "full-text-manual-tr"
       },
       {
         "id": "loox-global-000",
